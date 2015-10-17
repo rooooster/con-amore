@@ -1,4 +1,4 @@
-# Cona More Festum
+# Con Amore Festum
 
 Web development of Con Amore Festum site
 
