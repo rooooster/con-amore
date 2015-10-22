@@ -1,10 +1,22 @@
-<div>{{ site.data.l10n.t[page.lang].index.Language }}</div>
-<nav class="lang">
-    <a class="ua" href="{{ site.baseurl }}/">ua</a>
-    <a class="en" href="{{ site.baseurl }}/en/">en</a>
-    <a class="ru" href="{{ site.baseurl }}/ru/">ru</a>
-</nav>
+{% include 00-header.html %}
 <hr>
-<main>
-    <div>{{ page.title }}</div>
-</main>
+{% include 01-about.html %}
+<hr>
+{% include 02-conditions.html %}
+<hr>
+{% include 03-programm.html %}
+<hr>
+{% include 04-prizes.html %}
+<hr>
+{% include 05-registration.html %}
+<hr>
+{% include 06-jury.html %}
+<hr>
+{% include 07-contacts.html %}
+<hr>
+{% include 08-press.html %}
+<hr>
+{% include 09-partners.html %}
+<hr>
+{% include 10-gallery.html %}
+

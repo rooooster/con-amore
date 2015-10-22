@@ -1,8 +1,10 @@
-$('.slick').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    vertical: true,
-    dots: true,
-    infinite: true,
+/**
+* single-page-nav
+* https://github.com/ChrisWojcik/single-page-nav
+*/
+$('#anhors').singlePageNav({
+	easing: 'easeInOutExpo',
+	speed: 1250,
+	currentClass: 'active',
+	offset: 10,
 });
