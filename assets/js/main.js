@@ -10,18 +10,27 @@ $('#anhors').singlePageNav({
 });
 
 
+/**
+* angular
+* firebase
+*/
 function participantCtrl($scope) {
-    $scope.participantLastName = "";
-    $scope.participantFirstName = "";
-    $scope.participantFatherName = "";
-    $scope.participantPhoto = "";
+    $scope.participantName = "";
+    $scope.participantAge = "";
+    $scope.participants = {};
 
-    $scope.myData = new Firebase("https://sizzling-torch-6523.firebaseio.com/");
+    $scope.myData = new Firebase("https://sizzling-torch-6523.firebaseio.com/Participants");
+
     $scope.saveParticipant = function() {
-        $scope.myData.push({participantLastName:$scope.participantLastName});
-        $scope.myData.push({participantFirstName:$scope.participantFirstName});
-        $scope.myData.push({participantFatherName:$scope.participantFatherName});
-        $scope.myData.push({participantPhoto:$scope.participantPhoto});
+        $scope.myData.push({
+            participantName:$scope.participantName,
+            participantAge:$scope.participantAge,
+        });
     };
+
+    $scope.myData.on('value', function(snapshot) {
+        $scope.participants = snapshot.val();
+        $scope.$apply();
+    });
 };
 

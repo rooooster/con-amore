@@ -1,9 +1,16 @@
 <section class="admin">
     <h4>Admin</h4>
-    <article>
-        <p>{{participantLastName}}</p>
-        <p>{{participantFirstName}}</p>
-        <p>{{participantFatherName}}</p>
-    </article>
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Age</th>
+        </thead>
+        <tbody ng-repeat="participant in participants">
+            <tr>
+                <td>{{participant.participantLName}}</td>
+                <td>{{participant.participantAge}}</td>
+            </tr>
+        </tbody>
+    </table>
 </section>
 
