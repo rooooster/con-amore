@@ -1,5 +1,5 @@
 # build settings
-baseurl: /con-amore
+baseurl: /skoryk-competition
 markdown: kramdown
 permalink: pretty
 
