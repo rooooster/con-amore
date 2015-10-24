@@ -9,28 +9,16 @@ $('#anhors').singlePageNav({
     offset: 10,
 });
 
-
-/**
-* angular
-* firebase
-*/
-function participantCtrl($scope) {
-    $scope.participantName = "";
-    $scope.participantAge = "";
-    $scope.participants = {};
-
-    $scope.myData = new Firebase("https://sizzling-torch-6523.firebaseio.com/Participants");
-
-    $scope.saveParticipant = function() {
-        $scope.myData.push({
-            participantName:$scope.participantName,
-            participantAge:$scope.participantAge,
-        });
-    };
-
-    $scope.myData.on('value', function(snapshot) {
-        $scope.participants = snapshot.val();
-        $scope.$apply();
-    });
-};
+// fotorama
+// http://fotorama.io
+fotoramaDefaults = {
+    width: 1200,
+    maxwidth: '100%',
+    ratio: 3/2,
+    allowfullscreen: true,
+    nav: 'thumbs',
+    trackpad: true,
+    keyboard: true,
+    loop: true
+}
 
