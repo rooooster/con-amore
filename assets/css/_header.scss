@@ -7,7 +7,9 @@ header {
         top: 0;
         left: 0;
         width: 100%;
-        background: #eee;
+        background: url(../img/bg.png);
+        border-bottom: 1px solid #000;
+        box-sizing: border-box;
 
         a {
             color: #000;
