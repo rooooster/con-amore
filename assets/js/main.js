@@ -6,7 +6,7 @@ $('#anhors').singlePageNav({
     easing: 'easeInOutExpo',
     speed: 1250,
     currentClass: 'active',
-    offset: 10,
+    offset: 42,
 });
 
 // fotorama

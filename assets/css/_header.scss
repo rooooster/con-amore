@@ -1,0 +1,40 @@
+header {
+    text-align: center;
+
+    nav.main {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #eee;
+
+        a {
+            display: inline-block;
+            padding: 12px 6px;
+
+            &.active {
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+    }
+    nav.lang {
+        display: none;
+
+        a {
+            &.en,
+            &.ru {
+                display: none;
+            }
+            &.ua:lang(ua),
+            &.ru:lang(ru),
+            &.en:lang(en) {
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+
