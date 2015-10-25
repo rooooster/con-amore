@@ -1,0 +1,20 @@
+.to-top {
+    width: 38px;
+    background: #E6322F;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+
+    svg {
+        width: 100%;
+
+        polygon {
+            fill: #fff;
+        }
+    }
+}
