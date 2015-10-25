@@ -1,17 +1,21 @@
 .to-top {
-    width: 38px;
+    width: 50px;
+    height: 50px;
     background: #E6322F;
-    text-align: center;
-    padding: 10px;
-    box-sizing: border-box;
     position: fixed;
+    z-index: 1;
     bottom: 10px;
     right: 10px;
     cursor: pointer;
     display: none;
 
     svg {
-        width: 100%;
+        width: 18px;
+        margin: auto;
+        display: block;
+        position: relative;
+        top: 50%;
+        @include transform(translate3d(0,-50%,0));
 
         polygon {
             fill: #fff;

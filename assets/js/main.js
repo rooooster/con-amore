@@ -104,7 +104,7 @@ scroller.init();
 * single-page-nav
 * https://github.com/ChrisWojcik/single-page-nav
 */
-$('#main').singlePageNav({
+$('.js-anhor-nav').singlePageNav({
     easing: 'easeInOutExpo',
     speed: 1250,
     currentClass: 'active',

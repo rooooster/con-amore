@@ -3,7 +3,7 @@ header {
     height: 100%;
     padding-bottom: 9%;
     overflow: hidden;
-    background: linear-gradient(to bottom, #fff 0%,#eee 100%);
+    @include linear-gradient(#fff, #eee);
 
     svg.triangle {
         position: absolute;
