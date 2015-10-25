@@ -1,25 +1,89 @@
-nav.main {
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    left: 0;
+nav.nav-main {
+    z-index: 200;
+    float: left;
+    opacity: 1;
     width: 100%;
     text-align: center;
-    padding: 35px 0;
+    // padding: 35px 0;
+    // @include transform(translate3d(0,0,0));
+    @include transition(background .2s ease-in-out);
+    @include transform(translate3d(0,0,0));
 
     a {
+        position: relative;
         color: #000;
         display: inline-block;
-        padding: 0 22px;
+        padding: 35px 22px 25px;
+        margin: 0 -2px;
         text-transform: uppercase;
         // font-weight: 300;
         font-size: 12px;
         line-height: 30px;
-        @include transition(color .2s ease-in-out);
+        border-bottom: 10px solid transparent;
+        box-sizing: border-box;
+        @include transition(color .2s ease-in-out, border .2s ease-in-out);
 
         &:hover,
         &.active {
             color: #e6322f;
         }
+
+        &:first-child {
+            position: absolute;
+            // top: 0;
+            // left: 31px;
+            border: 0;
+            padding-bottom: 35px;
+            width: 172px;
+            background: url(../img/skoryk-competition-logo.svg) center -22px no-repeat;
+            background-size: cover;
+            @include transform(translate3d(-100%,0,0));
+        }
+        // svg.logo {
+        //     width: 172px;
+        //     height: auto;
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        // }
+    }
+    &-normal {
+        position: relative;
+        // @include animation(fade-out 1.2s ease-in-out);
+
+        a {
+            &:first-child {
+                display: none;
+            }
+        }
+    }
+    &-stick {
+        position: fixed;
+        background: #fff;
+        // @include animation(slide-down 1.2s ease-in-out);
+
+        a {
+            &:hover {
+                border-color: #e6322f;
+            }
+        }
     }
 }
+
+// @include keyframes(slide-down) {
+//     0% {
+//         @include transform(translate3d(0,-100%,0));
+//     }
+//     50% {
+//         @include transform(translate3d(0,0,0));
+//     }
+// }
+
+// @include keyframes(fade-out) {
+//     0% {
+//         opacity: 1;
+//     }
+//     50% {
+//         opacity: 0;
+//     }
+// }

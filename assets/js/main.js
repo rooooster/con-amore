@@ -1,9 +1,8 @@
 /**
  * Cache
  */
-var $content = $('.parallax-codepen .content')
-    , $blur    = $('.parallax-codepen .overlay')
-    , $normal    = $('.parallax-codepen .normal')
+var $content = $('.parallax .content')
+    , $normal    = $('.parallax .normal')
     , wHeight  = $(window).height();
 
 $(window).on('resize', function(){
@@ -108,7 +107,7 @@ $('.js-anhor-nav').singlePageNav({
     easing: 'easeInOutExpo',
     speed: 1250,
     currentClass: 'active',
-    offset: 100,
+    offset: 110,
 });
 
 // fotorama
@@ -127,25 +126,33 @@ fotoramaDefaults = {
 
 // toTop
 $(function() {
- 
-$(window).scroll(function() {
- 
-if($(this).scrollTop() != 0) {
- 
-$('.to-top').fadeIn();
- 
-} else {
- 
-$('.to-top').fadeOut();
- 
-}
- 
+    $(window).scroll(function() {
+        if($(this).scrollTop() != 0) {
+            $('.to-top').fadeIn();
+        } else {
+            $('.to-top').fadeOut();
+        }
+    });
+    $('.to-top').click(function() {
+        $('body,html').animate({scrollTop:0},800);
+    });
 });
- 
-$('.to-top').click(function() {
- 
-$('body,html').animate({scrollTop:0},800);
- 
-});
- 
+
+/**
+* waypoint
+* https://github.com/imakewebthings/waypoints
+*/
+var $head = $( '.nav-main' );
+$('.waypoint').each( function(i) {
+    var $el = $( this ),
+        animClassDown = $el.data( 'animateDown' ),
+        animClassUp = $el.data( 'animateUp' );
+    $el.waypoint( function( direction ) {
+        if( direction === 'down' && animClassDown ) {
+            $head.attr('class', 'nav-main js-anhor-nav ' + animClassDown);
+        }
+        else if( direction === 'up' && animClassUp ){
+            $head.attr('class', 'nav-main js-anhor-nav ' + animClassUp);
+        }
+    }, { offset: '-95%' } );
 });
