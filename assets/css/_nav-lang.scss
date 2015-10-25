@@ -1,0 +1,16 @@
+nav.lang {
+    // display: none;
+
+    a {
+        &.en,
+        &.ru {
+            display: none;
+        }
+        &.ua:lang(ua),
+        &.ru:lang(ru),
+        &.en:lang(en) {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,20 +1,5 @@
-<header>
-    <nav id="anhors" class="main">
-        <a class="page-scroll" href="#about">Про конкурс</a>
-        <a class="page-scroll" href="#conditions">Умови конкурсу</a>
-        <a class="page-scroll" href="#programm">Програма</a>
-        <a class="page-scroll" href="#prizes">Премії та нагороди</a>
-        <a class="page-scroll" href="#registration">Реєстрація</a>
-        <a class="page-scroll" href="#jury">Журі</a>
-        <a class="page-scroll" href="#contacts">Контакти</a>
-        <a class="page-scroll" href="#press">Преса</a>
-        <a class="page-scroll" href="#gallery">Галерея</a>
-        <a class="page-scroll" href="#partners">Партнери</a>
-    </nav>
-    <nav class="lang">
-        <span>{{ site.data.l10n.t[page.lang].index.Language }}</span>
-        <a class="ua" href="{{ site.baseurl }}/">ua</a>
-        <a class="en" href="{{ site.baseurl }}/en/">en</a>
-        <a class="ru" href="{{ site.baseurl }}/ru/">ru</a>
-    </nav>
+<header id="top">
+    {% include nav-main.html %}
+    {% include parallax.html %}
+    {% include svg/triangle.svg %}
 </header>
