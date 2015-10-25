@@ -108,7 +108,7 @@ $('#main').singlePageNav({
     easing: 'easeInOutExpo',
     speed: 1250,
     currentClass: 'active',
-    offset: 42,
+    offset: 100,
 });
 
 // fotorama
@@ -121,6 +121,7 @@ fotoramaDefaults = {
     nav: 'thumbs',
     trackpad: true,
     keyboard: true,
-    loop: true
+    loop: true,
+    autoplay: 3500
 }
 

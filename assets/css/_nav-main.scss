@@ -1,10 +1,11 @@
 nav.main {
     position: fixed;
     z-index: 100;
-    top: 35px;
+    top: 0;
     left: 0;
     width: 100%;
     text-align: center;
+    padding: 35px 0;
 
     a {
         color: #000;
