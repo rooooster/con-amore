@@ -1,0 +1,55 @@
+section.jury {
+    position: relative;
+    z-index: 1;
+    // margin-top: -9%;
+    max-width: 1020px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 95px;
+
+    .description {
+        text-align: left;
+        @include clearfix;
+
+        article {
+            @include clearfix;
+
+            img {
+                max-width: 258px;
+                float: left;
+            }
+            h4 {
+
+            }
+            h5 {
+                
+            }
+            p {
+
+            }
+
+            &.skoryk {
+                img {
+                    max-width: 520px;
+                }
+            }
+            &.dorfman {
+                
+            }
+            &.kot {
+                
+            }
+            &.olyinyk {
+                
+            }
+            &.suhovienko {
+                
+            }
+            &.fedorov {
+                
+            }
+        }
+    }
+}
+
+

@@ -7,27 +7,6 @@ section.about {
     text-align: center;
     padding-bottom: 95px;
 
-    .caption {
-        border: 10px solid #E6322F;
-        display: inline-block;
-        padding: 45px 65px 35px;
-        margin: 0 auto 95px;
-
-        h3 {
-            letter-spacing: 2.73px;
-            text-transform: uppercase;
-            font-weight: 200;
-            font-size: 30px;
-            line-height: 1;
-            margin: 0 0 35px;
-        }
-        hr {
-            border: 0;
-            height: 1px;
-            background: #d4d4d4;
-            margin: 0 0 3px;
-        }
-    }
     .description {
         text-align: left;
         font-family: $oranienbaum;
