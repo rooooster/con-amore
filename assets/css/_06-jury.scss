@@ -1,0 +1,63 @@
+$jury-width: 100%;
+
+section.jury {
+    position: relative;
+    z-index: 1;
+    // margin-top: -9%;
+    max-width: 1220px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 95px;
+
+    .description {
+        text-align: left;
+        font-family: $oranienbaum;
+        @include clearfix;
+
+        article {
+            float: left;
+            padding: 0 30px;
+            box-sizing: border-box;
+            @include clearfix;
+
+            img {
+                max-width: 256px;
+                margin: 0 0 30px;
+            }
+            h4 {
+                font-size: 36px;
+                margin: 0 0 10px;
+            }
+            h5 {
+                color: #9E9E9E;
+                font-size: 24px;
+                margin: 0 0 30px;
+            }
+            p {
+                font-size: 18px;
+            }
+
+            &.skoryk {
+                width: $jury-width;
+
+                img {
+                    max-width: 500px;
+                    width: 100%;
+                    float: left;
+                    margin-right: 80px;
+                }
+            }
+            &.dorfman,
+            &.kot {
+                width: $jury-width / 2;
+            }
+            &.olyinyk,
+            &.suhovienko,
+            &.fedorov {
+                width: $jury-width / 3;
+            }
+        }
+    }
+}
+
+

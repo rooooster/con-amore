@@ -1,6 +1,6 @@
-# Cona More Festum
+# Skoryk Competition (Con Amore Festum)
 
-Web development of Con Amore Festum site
+Web development of Skoryk Competition (Con Amore Festum) site
 
 Used [jekyll](http://jekyllrb.com), [sass](http://sass-lang.com) with [bourbon](http://bourbon.io)
 

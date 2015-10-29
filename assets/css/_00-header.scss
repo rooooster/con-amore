@@ -1,0 +1,18 @@
+header {
+    position: relative;
+    height: 100%;
+    padding-bottom: 9%;
+    overflow: hidden;
+    @include linear-gradient(#fff, #eee);
+
+    svg.triangle {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+
+        path {
+            fill: #fff;
+        }
+    }
+}

@@ -1,7 +1,3 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
@@ -9,19 +5,27 @@ layout: compress
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Con Amore Festum</title>
+    <title>Skoryk Competition</title>
 
+    <link href='https://fonts.googleapis.com/css?family=Oranienbaum' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-144.png">
 </head>
-<body>
+<body class="waypoint" data-animate-down="nav-main-stick" data-animate-up="nav-main-normal">
 
     {{ content }}
 
     <script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/jquery.easing.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/jquery.singlePageNav.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/fotorama.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/parallax.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/jquery.waypoints.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

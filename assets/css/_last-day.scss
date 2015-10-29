@@ -1,0 +1,46 @@
+.last-day {
+    background: #D02C29;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    width: 140px;
+    height: 140px;
+    // display: table-cell;
+    // vertical-align: middle;
+    border-radius: 70px;
+    padding: 10px 0;
+    box-sizing: border-box;
+
+    .text {
+        opacity: .5;
+        font-weight: 300;
+        margin-bottom: 8px;
+    }
+    .date {
+        font-size: 50px;
+        font-weight: 100;
+        line-height: 1;
+    }
+    .month {
+        font-size: 26px;
+        font-weight: 200;
+        line-height: 1;
+    }
+
+    .nav-main & {
+        position: absolute;
+        z-index: 300;
+        top: 21px;
+        right: 31px;
+        @include transition(opacity .2s ease-in-out);
+    }
+
+    .nav-main-normal & {
+        opacity: 0;
+    }
+
+    .nav-main-stick & {
+        opacity: 1;
+    }
+}
