@@ -1,4 +1,6 @@
 .speeches {
+    @include outer-container;
+
     article {
         float: left;
         width: 66%;

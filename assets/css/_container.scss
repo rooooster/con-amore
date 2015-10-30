@@ -1,0 +1,14 @@
+main {
+    padding: 0 60px 60px;
+    box-sizing: border-box;
+
+    &>section {
+        // max-width: 1240px;
+        margin: 0 auto;
+        padding-bottom: 95px;
+    }
+}
+
+.container {
+    // @include outer-container;
+}
