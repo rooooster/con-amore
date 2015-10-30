@@ -22,13 +22,6 @@ section.about {
             padding-right: 40px;
             box-sizing: border-box;
         }
-        article {
-            float: left;
-            width: 66%;
-            font-size: 18px;
-            color: #9E9E9E;
-            @include columns(3);
-        }
     }
 }
 
