@@ -3,7 +3,7 @@ main {
     section {
         @include outer-container;
         margin: 0 auto;
-        padding-bottom: 95px;
+        padding: 20px 0 95px;
 
         &.about {
             position: relative;
