@@ -17,7 +17,7 @@ main {
             position: relative;
             z-index: 1;
             margin: 0 auto;
-            @include linear-gradient(#eee, #fff);
+            // @include linear-gradient(#eee, #fff);
 
             article {
             font-family: $oranienbaum;
@@ -127,6 +127,16 @@ main {
                         @include shift(3);
                     }
                 }
+            }
+        }
+        &.press {
+            display: none;
+        }
+        &.rooster {
+            display: none;
+            h6 {
+                font-size: 30px;
+                text-align: center;
             }
         }
     }
