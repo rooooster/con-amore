@@ -1,7 +1,7 @@
 main {
-    @include outer-container;
 
     section {
+        @include outer-container;
         margin: 0 auto;
         padding-bottom: 95px;
 
@@ -16,11 +16,11 @@ main {
             @include outer-container;
             position: relative;
             z-index: 1;
-            max-width: 1220px;
             margin: 0 auto;
-            font-family: $oranienbaum;
+            @include linear-gradient(#eee, #fff);
 
             article {
+            font-family: $oranienbaum;
             text-align: left;
 
                 &.skoryk {
@@ -28,7 +28,7 @@ main {
                     @include omega();
 
                     img {
-                        max-width: 500px;
+                        max-width: 494px;
                         width: 100%;
                         float: left;
                         margin-right: 80px;
@@ -53,7 +53,7 @@ main {
                 }
 
                 img {
-                    max-width: 256px;
+                    max-width: 250px;
                     width: 100%;
                     margin: 0 0 30px;
                 }
