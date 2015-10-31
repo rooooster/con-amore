@@ -2,15 +2,56 @@
     @include outer-container;
     font-family: $oranienbaum;
     margin-bottom: 95px;
+    // @include linear-gradient(#eee, #fff);
+    background: #fff;
 
     article {
-        @include span-columns(4);
         text-align: left;
         font-size: 18px;
         color: #9E9E9E;
+        position: relative;
+        padding: 0 5%;
 
         img {
+            max-width: 424px;
             margin-bottom: 40px;
+            margin-left: 0;
+            margin-right: 40px;
+        }
+        h4 {
+            margin: 0 0 20px;
+            color: #585858;
+            font-size: 36px;
+        }
+        p {
+            font-size: 18px;
+        }
+        h5 {
+            margin: 0;
+            color: #585858;
+            font-size: 24px;
+        }
+
+        &.poroshenko {
+            @include span-columns(12);
+            @include omega();
+            background: #f3f3f3;
+            padding-bottom: 160px;
+
+            img {
+                float: left;
+            }
+        }
+        &.skoryk {
+            @include span-columns(6);
+            padding-right: 2.5%;
+            margin-top: -120px;
+        }
+        &.tomasyshyn {
+            @include span-columns(6);
+            @include omega();
+            padding-left: 2.5%;
+            margin-top: -120px;
         }
     }
 }

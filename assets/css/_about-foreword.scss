@@ -1,21 +1,30 @@
 .foreword {
     @include outer-container;
     font-family: $oranienbaum;
-    margin-bottom: 95px;
+    // margin-bottom: 95px;
+    position: relative;
+    padding-bottom: 180px;
 
-    h4 {
-        margin: 0;
-        @include span-columns(4);
-        text-align: right;
-        font-size: 24px;
-        font-weight: 700;
-    }
+    &_wrap {
+        max-width: 1000px;
+        margin: auto;
+        @include clearfix;
 
-    article {
-        @include span-columns(8);
-        text-align: left;
-        font-size: 18px;
-        color: #9E9E9E;
+        h4 {
+            margin: 0;
+            @include span-columns(4);
+            text-align: right;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        article {
+            @include span-columns(8);
+            text-align: left;
+            font-size: 18px;
+            color: #9E9E9E;
+            @include columns(2);
+        }
     }
 }
 

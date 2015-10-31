@@ -113,7 +113,7 @@ $('.js-anhor-nav').singlePageNav({
 // fotorama
 // http://fotorama.io
 fotoramaDefaults = {
-    width: 1200,
+    width: 800,
     maxwidth: '100%',
     ratio: 3/2,
     allowfullscreen: true,
@@ -154,5 +154,5 @@ $('.waypoint').each( function(i) {
         else if( direction === 'up' && animClassUp ){
             $head.attr('class', 'nav-main js-anhor-nav ' + animClassUp);
         }
-    }, { offset: '-95%' } );
+    }, { offset: '-80%' } );
 });
