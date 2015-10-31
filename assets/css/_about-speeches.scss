@@ -1,0 +1,18 @@
+.speeches {
+    @include outer-container;
+    font-family: $oranienbaum;
+    margin-bottom: 95px;
+
+    article {
+        @include span-columns(4);
+        text-align: left;
+        font-size: 18px;
+        color: #9E9E9E;
+
+        img {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+
