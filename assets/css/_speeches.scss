@@ -2,11 +2,12 @@
     @include outer-container;
 
     article {
-        float: left;
-        width: 66%;
+        // float: left;
+        // width: 66%;
         font-size: 18px;
         color: #9E9E9E;
-        @include columns(3);
+        // @include columns(3);
+        @include span-columns(4);
     }
 }
 
