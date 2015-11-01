@@ -1,0 +1,103 @@
+.conditions {
+    background: #eee;
+
+    .rule-container {
+        font-family: $oranienbaum;
+
+        .rule-item {
+            @include span-columns(12);
+            @include omega;
+            padding: 43px 1% 83px 5%;
+            border-style: solid;
+            border-color: rgba(#000, .1);
+            border-width: 1px 0 0;
+
+            &:last-child {
+                border-width: 1px 0;
+            }
+
+            .number {
+                @include span-columns(2);
+                text-align: center;
+
+                span {
+                    display: inline-block;
+                    background: $firmColor;
+                    color: #fff;
+                    line-height: 100px;
+                    width: 100px;
+                    font-size: 40px;
+                    border-radius: 50px;
+                    margin-top: -20px;
+                    margin-bottom: -20px;
+                }
+            }
+            .description {
+                @include span-columns(7);
+
+                h4 {
+                    margin: 0 0 10px;
+                    font-size: 26px;
+                    line-height: 1.2;
+                }
+                p {
+                    color: #9E9E9E;
+                    margin: 0;
+                }
+            }
+            .more {
+                @include span-columns(3);
+
+                a.drop-down {
+                    svg {
+                        margin-left: 6px;
+                        width: 9px;
+
+                        path {
+                            stroke: $firmColor;
+                            @include transition(stroke .1s ease-in-out);
+                        }
+                    }
+                    &:hover svg path {
+                        stroke: saturate(darken($firmColor, 15), 15);
+                    }
+                }
+                a.doc {
+                    position: relative;
+                    padding-left: 34px + 20px;
+
+                    svg {
+                        position: absolute;
+                        left: 0;
+                        top: 50%;
+                        width: 34px;
+                        @include transform(translate3d(0,-50%,0));
+                    }
+                }
+            }
+        }
+    }
+}
+
+.programm {
+    background: #eee;
+
+    .wrap {
+        padding: 0 5%;
+        font-family: $oranienbaum;
+        @include span-columns(8);
+        @include shift(2);
+
+        h4 {
+            font-size: 24px;
+            margin: 0 0 20px;
+        }
+        p {
+            color: #9E9E9E;
+            margin: 0;
+            margin: 0 0 10px;
+        }
+    }
+}
+
+

@@ -1,205 +1,211 @@
-main {
 
-    section {
-        @include outer-container;
+section {
+    @include outer-container;
+    margin: 0 auto;
+    padding: 0 0 95px;
+    overflow: hidden;
+
+    &.about {
+        position: relative;
+        z-index: 1;
         margin: 0 auto;
-        padding: 0 0 95px;
-        overflow: hidden;
+        padding-bottom: 200px;
 
-        &.about {
+        .foreword {
+             svg.triangle {
+                position: absolute;
+                z-index: 10;
+                bottom: -1px;
+                left: 0;
+                width: 101%;
+                // @include transform(rotate(-180deg));
+
+                path {
+                    fill: #f3f3f3;
+                }
+            }
+        }
+        .speeches {
+             svg.triangle {
+                position: absolute;
+                // z-index: 10;
+                bottom: -1px;
+                left: 0;
+                width: 101%;
+                // @include transform(rotate(-180deg));
+
+                path {
+                    fill: #fff;
+                }
+            }
+        }
+        .gallery {
             position: relative;
-            z-index: 1;
+            overflow: hidden;
+            max-width: 800px;
             margin: 0 auto;
-            padding-bottom: 200px;
-
-            .foreword {
-                 svg.triangle {
-                    position: absolute;
-                    z-index: 10;
-                    bottom: -1px;
-                    left: 0;
-                    width: 101%;
-                    // @include transform(rotate(-180deg));
-
-                    path {
-                        fill: #f3f3f3;
-                    }
-                }
-            }
-            .speeches {
-                 svg.triangle {
-                    position: absolute;
-                    // z-index: 10;
-                    bottom: -1px;
-                    left: 0;
-                    width: 101%;
-                    // @include transform(rotate(-180deg));
-
-                    path {
-                        fill: #fff;
-                    }
-                }
-            }
-            .gallery {
-                position: relative;
-                overflow: hidden;
-                max-width: 800px;
-                margin: 0 auto;
-
-                svg.triangle {
-                    position: absolute;
-                    z-index: 10;
-                    top: -1px;
-                    left: 0;
-                    bottom: auto;
-                    width: 101%;
-                    @include transform(rotate(-180deg));
-
-                    path {
-                        fill: #fff;
-                    }
-                }
-            }
 
             svg.triangle {
                 position: absolute;
-                bottom: -1px;
+                z-index: 10;
+                top: -1px;
                 left: 0;
-                width: 100%;
+                bottom: auto;
+                width: 101%;
+                @include transform(rotate(-180deg));
 
                 path {
-                    fill: #eee;
+                    fill: #fff;
                 }
             }
         }
 
-        &.jury {
-            @include outer-container;
-            position: relative;
-            z-index: 1;
-            margin: 0 auto;
-            // @include linear-gradient(#eee, #fff);
+        svg.triangle {
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
 
-            article {
-            font-family: $oranienbaum;
-            text-align: left;
-
-                &.skoryk {
-                    @include span-columns(12);
-                    @include omega();
-
-                    img {
-                        max-width: 494px;
-                        width: 100%;
-                        float: left;
-                        margin-right: 80px;
-                    }
-                }
-                &.dorfman {
-                    @include span-columns(6);
-                }
-                &.kot {
-                    @include span-columns(6);
-                    @include omega();
-                }
-                &.olyinyk {
-                    @include span-columns(4);
-                }
-                &.suhovienko {
-                    @include span-columns(4);
-                }
-                &.fedorov {
-                    @include span-columns(4);
-                    @include omega();
-                }
-
-                img {
-                    max-width: 250px;
-                    width: 100%;
-                    margin: 0 0 30px;
-                }
-                h4 {
-                    font-size: 36px;
-                    margin: 0 0 10px;
-                }
-                h5 {
-                    color: #9E9E9E;
-                    font-size: 24px;
-                    margin: 0 0 30px;
-                }
-                p {
-                    font-size: 18px;
-                }
-            }
-        }
-
-        &.partners {
-            text-align: center;
-            .partner {
-                h4 {
-                    @include span-columns(12);
-                    @include omega();
-                }
-                article {
-                    h5 {
-
-                    }
-                }
-
-                &-with {
-                    @include span-columns(6);
-                    article {
-                        @include span-columns(6);
-                    }
-                }
-                &-org {
-                    @include span-columns(6);
-                    @include omega();
-                    article {
-                        @include span-columns(12);
-                    }
-                }
-                &__co-orgs {
-                    @include span-columns(12);
-                    @include omega();
-                    article {
-                        @include span-columns(4);
-                    }
-                }
-                &-general {
-                    @include span-columns(12);
-                    @include omega();
-                    article {
-                        @include span-columns(4);
-                    }
-                }
-                &-sponsors {
-                    @include span-columns(12);
-                    @include omega();
-                    article {
-                        @include span-columns(4);
-                    }
-                }
-                &-info {
-                    @include span-columns(12);
-                    @include omega();
-                    article {
-                        @include span-columns(6);
-                        @include shift(3);
-                    }
-                }
-            }
-        }
-        &.press {
-            display: none;
-        }
-        &.rooster {
-            display: none;
-            h6 {
-                font-size: 30px;
-                text-align: center;
+            path {
+                fill: #eee;
             }
         }
     }
+
+
+
+
+
+
+
+
+    &.jury {
+        @include outer-container;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        // @include linear-gradient(#eee, #fff);
+
+        article {
+        font-family: $oranienbaum;
+        text-align: left;
+
+            &.skoryk {
+                @include span-columns(12);
+                @include omega();
+
+                img {
+                    max-width: 494px;
+                    width: 100%;
+                    float: left;
+                    margin-right: 80px;
+                }
+            }
+            &.dorfman {
+                @include span-columns(6);
+            }
+            &.kot {
+                @include span-columns(6);
+                @include omega();
+            }
+            &.olyinyk {
+                @include span-columns(4);
+            }
+            &.suhovienko {
+                @include span-columns(4);
+            }
+            &.fedorov {
+                @include span-columns(4);
+                @include omega();
+            }
+
+            img {
+                max-width: 250px;
+                width: 100%;
+                margin: 0 0 30px;
+            }
+            h4 {
+                font-size: 36px;
+                margin: 0 0 10px;
+            }
+            h5 {
+                color: #9E9E9E;
+                font-size: 24px;
+                margin: 0 0 30px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    &.partners {
+        text-align: center;
+        .partner {
+            h4 {
+                @include span-columns(12);
+                @include omega();
+            }
+            article {
+                h5 {
+
+                }
+            }
+
+            &-with {
+                @include span-columns(6);
+                article {
+                    @include span-columns(6);
+                }
+            }
+            &-org {
+                @include span-columns(6);
+                @include omega();
+                article {
+                    @include span-columns(12);
+                }
+            }
+            &__co-orgs {
+                @include span-columns(12);
+                @include omega();
+                article {
+                    @include span-columns(4);
+                }
+            }
+            &-general {
+                @include span-columns(12);
+                @include omega();
+                article {
+                    @include span-columns(4);
+                }
+            }
+            &-sponsors {
+                @include span-columns(12);
+                @include omega();
+                article {
+                    @include span-columns(4);
+                }
+            }
+            &-info {
+                @include span-columns(12);
+                @include omega();
+                article {
+                    @include span-columns(6);
+                    @include shift(3);
+                }
+            }
+        }
+    }
+    &.press {
+        display: none;
+    }
+    &.rooster {
+        display: none;
+        h6 {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
 }
+
 

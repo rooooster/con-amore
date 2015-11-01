@@ -2,6 +2,8 @@ $helvetica: 'Helvetica Neue', sans-serif;
 $coresansa15thin: 'core_sans_a_15_thinregular', sans-serif;
 $oranienbaum: 'Oranienbaum', serif;
 
+$firmColor: #e6322f;
+
 @font-face {
     font-family: 'core_sans_a_15_thinregular';
     src: url('../fonts/coresansa15thin-webfont.eot');
@@ -24,7 +26,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.1;
 }
 
@@ -33,11 +35,18 @@ p {
 }
 
 a {
+    color: $firmColor;
     text-decoration: none;
+    @include transition(color .1s ease-in-out);
+
+    &:hover {
+        color: saturate(darken($firmColor, 15), 15);
+    }
 }
 
 img {
     max-width: 100%;
+    // width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;

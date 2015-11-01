@@ -6,13 +6,12 @@
     overflow: hidden;
     width: 140px;
     height: 140px;
-    // display: table-cell;
-    // vertical-align: middle;
     border-radius: 70px;
     padding: 10px 0;
     box-sizing: border-box;
 
     .text {
+        font-size: 14px;
         opacity: .5;
         font-weight: 300;
         margin-bottom: 8px;
