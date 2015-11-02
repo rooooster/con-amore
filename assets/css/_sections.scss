@@ -5,78 +5,6 @@ section {
     padding: 0 0 95px;
     overflow: hidden;
 
-    &.about {
-        position: relative;
-        z-index: 1;
-        margin: 0 auto;
-        padding-bottom: 200px;
-
-        .foreword {
-             svg.triangle {
-                position: absolute;
-                z-index: 10;
-                bottom: -1px;
-                left: 0;
-                width: 101%;
-                // @include transform(rotate(-180deg));
-
-                path {
-                    fill: #f3f3f3;
-                }
-            }
-        }
-        .speeches {
-             svg.triangle {
-                position: absolute;
-                // z-index: 10;
-                bottom: -1px;
-                left: 0;
-                width: 101%;
-                // @include transform(rotate(-180deg));
-
-                path {
-                    fill: #fff;
-                }
-            }
-        }
-        .gallery {
-            position: relative;
-            overflow: hidden;
-            max-width: 800px;
-            margin: 0 auto;
-
-            svg.triangle {
-                position: absolute;
-                z-index: 10;
-                top: -1px;
-                left: 0;
-                bottom: auto;
-                width: 101%;
-                @include transform(rotate(-180deg));
-
-                path {
-                    fill: #fff;
-                }
-            }
-        }
-
-        svg.triangle {
-            position: absolute;
-            bottom: -1px;
-            left: 0;
-            width: 100%;
-
-            path {
-                fill: #eee;
-            }
-        }
-    }
-
-
-
-
-
-
 
 
     &.jury {
@@ -84,11 +12,12 @@ section {
         position: relative;
         z-index: 1;
         margin: 0 auto;
+        padding: 0 5%;
+        font-family: $oranienbaum;
         // @include linear-gradient(#eee, #fff);
 
         article {
-        font-family: $oranienbaum;
-        text-align: left;
+            margin-bottom: 40px;
 
             &.skoryk {
                 @include span-columns(12);
@@ -147,6 +76,7 @@ section {
 
     &.contacts {
        font-family: $oranienbaum;
+       text-align: center;
     }
 
     &.rooster {

@@ -1,0 +1,85 @@
+section.about {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    padding-bottom: 200px;
+
+    .foreword {
+         svg.triangle {
+            position: absolute;
+            z-index: 10;
+            bottom: -1px;
+            left: 0;
+            width: 101%;
+            // @include transform(rotate(-180deg));
+
+            path {
+                fill: #f3f3f3;
+            }
+        }
+    }
+    .speeches {
+         svg.triangle {
+            position: absolute;
+            // z-index: 10;
+            bottom: -1px;
+            left: 0;
+            width: 101%;
+            // @include transform(rotate(-180deg));
+
+            path {
+                fill: #fff;
+            }
+        }
+    }
+
+    .gallery-title {
+        text-align: center;
+        font-family: $oranienbaum;
+        color: #585858;
+        font-size: 36px;
+        margin: 0 0 10px;
+    }
+    .gallery-description {
+        text-align: center;
+        font-family: $oranienbaum;
+        font-size: 18px;
+        color: #9E9E9E;
+        margin: 0 0 40px;
+    }
+
+    .gallery {
+        position: relative;
+        overflow: hidden;
+        max-width: 800px;
+        margin: 0 auto;
+
+
+        svg.triangle {
+            position: absolute;
+            z-index: 10;
+            top: -1px;
+            left: 0;
+            bottom: auto;
+            width: 101%;
+            @include transform(rotate(-180deg));
+
+            path {
+                fill: #fff;
+            }
+        }
+    }
+
+    svg.triangle {
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+
+        path {
+            fill: #eee;
+        }
+    }
+}
+
+

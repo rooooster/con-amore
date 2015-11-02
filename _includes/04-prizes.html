@@ -1,47 +1,45 @@
 <section id="prizes" class="prizes">
 
-    <img src="{{ site.baseurl }}/assets/img/prizes.png" alt="...">
-
-    <div style="display:none;">
     <div class="caption">
         <h3>Премії та нагороди</h3>
     </div>
 
-    <ol>
-        <li>
-            <span>Оргкомітет визначає нагороди та встановлює розміри премій для переможців Конкурсу у кожній із номінацій:</span>
-            <ul>
-                <li>Перша премія - 2000 у.о. і звання лауреата;</li>
-                <li>Друга премія – 1500 у.о. і звання лауреата;</li>
-                <li>Третя премія – 1000 у.о. і звання лауреата;</li>
-            </ul>
-        </li>
+    <div class="prize-wrap">
+        <div class="prize-item prize-item__first">
+            {% include svg/doc.svg %}
+            <h4>Перша премія</h4>
+            <h5>3000 у.о. і звання лауреата</h5>
+        </div>
 
-        <li>
-            <span>Фіналістам, не удостоєним звання лауреата (не більше двох за кожною із номінацій), присвоюється звання дипломанта Конкурсу та премія у розмірі 500 у.о.</span>
-        </li>
+        <div class="prize-item prize-item__second">
+            {% include svg/doc.svg %}
+            <h4>Друга премія</h4>
+            <h5>1500 у.о. і звання лауреата</h5>
+        </div>
 
-        <li>
-            <span>Журі має право:</span>
-            <ul>
-                <li>присудити не всі премії;</li>
-                <li>розподіляти премії між виконавцями (крім першої).</li>
-            </ul>
-        </li>
+        <div class="prize-item prize-item__third">
+            {% include svg/doc.svg %}
+            <h4>Третя премія</h4>
+            <h5>1000 у.о. і звання лауреата</h5>
+        </div>
+    </div>
 
-        <li>
-            <span>Всі премії виплачуються у гривнях за курсом, встановленим Національним банком України на момент проведення Конкурсу.</span>
-        </li>
-
-        <li>
-            <span>За рішенням Журі переможці Конкурсу нагороджується:</span>
-            <ul>
-                <li>спеціальним призом Мирослава Скорика – виступом із симфонічним оркестром під орудою маестро протягом 2016 року;</li>
-                <li>спеціальним призом - забезпеченням участі у майстер-класах: Académie Internationale d'Eté de Nice (Франція), International Summer Academy of Music (Німеччина) та ін.</li>
-            </ul>
-        </li>
-    </ol>
-
-    <p>Громадські, благодійні, музичні, міжнародні організації, спонсори Конкурсу, а також окремі діячі культури можуть за власний рахунок установлювати спеціальні призи та премії учасникам Конкурсу. Нагородження ними обов’язково погоджується з журі Конкурсу.</p>
+    <div class="award-wrap">
+        <h3>Нагороди:</h3>
+        <div class="award-item">
+            {% include svg/doc.svg %}
+            <h4>Участь у майстер-класі від Académie Internationale d'Eté de Nice (Франція)</h4>
+            <p><a href="https://www.academie-internationale-ete-nice.com/" target="_blank">www.academie-internationale-ete-nice.com</a></p>
+        </div>
+        <div class="award-item">
+            {% include svg/doc.svg %}
+            <h4>Участь у двох майстер-класах від International Summer Academy of Music (Німеччина)</h4>
+            <p><a href="http://www.isam-masterclasses.de/" target="_blank">www.sam-masterclasses.de</a></p>
+        </div>
+        <div class="award-item">
+            {% include svg/doc.svg %}
+            <h4>Спеціальний приз Мирослава Скорика</h4>
+            <p>виступо із симфонічним оркестром під орудою маестро протягом 2016 року</p>
+        </div>
     </div>
 </section>

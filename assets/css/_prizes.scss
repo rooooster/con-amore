@@ -1,0 +1,85 @@
+section.prizes {
+    background: #eee;
+    font-family: $oranienbaum;
+    padding: 0 0 95px;
+
+    .prize-wrap {
+        text-align: center;
+        border-top: 1px solid rgba(#000, .1);
+        border-bottom: 1px solid rgba(#000, .1);
+        @include span-columns(12);
+        @include omega;
+        margin-bottom: 60px;
+
+        .prize-item {
+            padding: 30px 0 50px;
+
+            &__first {
+                @include span-columns(12);
+                border-bottom: 1px solid rgba(#000, .1);
+            }
+            &__second {
+                @include span-columns(6);
+            }
+            &__third {
+                @include span-columns(6);
+                @include omega;
+            }
+
+            svg {
+                display: block;
+                max-width: 80px;
+                margin: 0 auto 30px;
+
+                path {
+                    fill: $firmColor;
+                }
+            }
+            h4 {
+                color: $firmColor;
+                font-size: 32px;
+                margin: 0 0 10px;
+            }
+            h5 {
+                font-size: 22px;
+                margin: 0;
+            }
+        }
+    }
+    .award-wrap {
+        max-width: 900px;
+        margin: 0 auto;
+
+        h3 {
+            color: #222;
+            font-size: 40px;
+            margin: 0 0 40px;
+        }
+
+        .award-item {
+            @include span-columns(12);
+            @include omega;
+            margin-bottom: 40px;
+
+            svg {
+                display: block;
+                float: left;
+                max-width: 50px;
+                margin: 0 40px 40px 0;
+
+                path {
+                    fill: rgba(#fff, .5);
+                }
+            }
+            h4 {
+                font-size: 22px;
+                color: #666;
+                margin: 0 0 10px;
+            }
+            p {
+                color: #666;
+                margin: 0;
+            }
+        }
+    }
+}
