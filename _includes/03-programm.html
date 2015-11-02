@@ -30,7 +30,7 @@
                                 <p>{{ one.title }}</p>
                             </div>
                             <div class="link">
-                                <a href="#">Скачати</a>
+                                <a href="{{ site.baseurl }}/assets/docs/one/{{ one.id }}.pdf" download>Скачати</a>
                             </div>
                         </div>
                     {% endfor %}
@@ -53,7 +53,7 @@
                                 <p>{{ two.title }}</p>
                             </div>
                             <div class="link">
-                                <a href="#">Скачати</a>
+                                <a href="{{ site.baseurl }}/assets/docs/two/{{ two.id }}.pdf" download>Скачати</a>
                             </div>
                         </div>
                     {% endfor %}
@@ -100,12 +100,6 @@
 
 
     <img src="{{ site.baseurl }}/assets/img/programm.png" alt="...">
-
-    </div>
-
-
-
-    <div style="display:none;">
 
     <p>Першого Всеукраїнського музичного конкурсу Мирослава Скорика</p>
 
