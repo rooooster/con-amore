@@ -1,4 +1,5 @@
 .caption {
+    font-family: $helvetica;
     @include span-columns(12);
     @include omega();
     margin: 0 auto 95px;
