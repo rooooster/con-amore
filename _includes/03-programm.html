@@ -22,6 +22,19 @@
             <div class="description">
                 <h4>1й Тур «Skoryk Competition»</h4>
                 <p>Скачайте та вивчіть один з запропонованих творів</p>
+
+                <div class="music-wrap">
+                    {% for one in site.categories.one %}
+                        <div class="music-item">
+                            <div class="title">
+                                <p>{{ one.title }}</p>
+                            </div>
+                            <div class="link">
+                                <a href="#">Скачати</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
 
@@ -32,12 +45,24 @@
             <div class="description">
                 <h4>1й Тур «Skoryk Competition»</h4>
                 <p>До другого туру допускаються 4 конкурсанти у кожній віковій категорії. Для фіналістів потрібно скачати та вивчити твір Мирослава Скорика</p>
+
+                <div class="music-wrap">
+                    {% for two in site.categories.two %}
+                        <div class="music-item">
+                            <div class="title">
+                                <p>{{ two.title }}</p>
+                            </div>
+                            <div class="link">
+                                <a href="#">Скачати</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
 
     <div class="more" style="display:none;">
-        <a href="#">Скачати</a>
 
 
 
@@ -74,11 +99,11 @@
 Мирослав Скорик. Концерт №1 для фортепіано з оркестром (C-dur). (Download)
 
 
-        
+    <img src="{{ site.baseurl }}/assets/img/programm.png" alt="...">
+
     </div>
 
 
-    <img src="{{ site.baseurl }}/assets/img/programm.png" alt="...">
 
     <div style="display:none;">
 

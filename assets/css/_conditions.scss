@@ -146,6 +146,23 @@
                     color: #9E9E9E;
                     margin: 0;
                 }
+
+                .music-wrap {
+                    padding-top: 50px;
+
+                    .music-item {
+                        @include span-columns(12);
+                        padding: 25px 0;
+
+                        .title {
+                            @include span-columns(9);
+                        }
+                        .url {
+                            @include span-columns(3);
+                            @include omega;
+                        }
+                    }
+                }
             }
         }
     }
