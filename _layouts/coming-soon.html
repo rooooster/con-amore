@@ -4,15 +4,22 @@ layout: default
 
 <style>
     .nav-main,
-    .scroll-down {
+    .scroll-down,
+    .drop-down {
         display: none;
     }
     .height-down {
-        height: 500px;
+        height: 100px;
+    }
+    section.conditions,
+    section.programm {
+        background: #fff;
     }
 </style>
 
 {% include 00-header.html %}
+{% include 02-conditions.html %}
+{% include 03-programm.html %}
 
 <div class="height-down">
     
