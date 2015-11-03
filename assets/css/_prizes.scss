@@ -30,8 +30,9 @@ section.prizes {
                 display: block;
                 max-width: 80px;
                 margin: 0 auto 30px;
+                @include transform(rotate(180deg));
 
-                path {
+                stroke {
                     fill: $firmColor;
                 }
             }
@@ -66,9 +67,10 @@ section.prizes {
                 float: left;
                 max-width: 50px;
                 margin: 0 40px 40px 0;
+                @include transform(rotate(180deg));
 
                 path {
-                    fill: rgba(#fff, .5);
+                    stroke: rgba(#000, .1);
                 }
             }
             h4 {

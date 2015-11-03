@@ -1,9 +1,9 @@
 <svg viewBox="0 0 34 46" xmlns="http://www.w3.org/2000/svg">
-  <g fill="none" fill-rule="evenodd">
-    <path d="M.684 43.716V2.534c0-1.054.855-1.91 1.908-1.91H19.28l14.286 14.29v28.802c0 1.054-.855 1.91-1.91 1.91H2.596c-1.055 0-1.91-.856-1.91-1.91z" fill="#E6322F"/>
-    <text transform="translate(.25 24.353)" font-family="Oranienbaum" font-size="14" fill="#FFF">
-      <tspan x="4.75" y="15.448">doc.</tspan>
-    </text>
-    <path d="M19.28.625l14.286 14.287h-12.38c-1.052 0-1.907-.855-1.907-1.908V.624z" fill="#FC8482"/>
-  </g>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M.684 43.716V2.534c0-1.054.855-1.91 1.908-1.91H19.28l14.286 14.29v28.802c0 1.054-.855 1.91-1.91 1.91H2.596c-1.055 0-1.91-.856-1.91-1.91z" fill="#E6322F"/>
+        <text transform="translate(.25 24.353)" font-family="Oranienbaum" font-size="14" fill="#FFF">
+            <tspan x="4.75" y="15.448">doc.</tspan>
+        </text>
+        <path d="M19.28.625l14.286 14.287h-12.38c-1.052 0-1.907-.855-1.907-1.908V.624z" fill="#FC8482"/>
+    </g>
 </svg>
