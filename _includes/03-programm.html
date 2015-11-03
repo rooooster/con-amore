@@ -29,7 +29,13 @@
                                 <p>{{ one.title }}</p>
                             </div>
                             <div class="link">
-                                <a href="{{ site.baseurl }}/assets/docs/one{{ one.id }}.pdf" download>Скачати</a>
+                                <p>
+                                    {% if one.file == false %}
+                                        (ноти будуть розміщені на сайті конкурсу за два місяці до початку його проведення)
+                                    {% else %}
+                                        <a href="{{ site.baseurl }}/assets/docs/one{{ one.id }}.pdf" download>Скачати</a>
+                                    {% endif %}
+                                </p>
                             </div>
                         </div>
                     {% endfor %}
@@ -52,7 +58,7 @@
                                 <p>{{ two.title }}</p>
                             </div>
                             <div class="link">
-                                <a href="{{ site.baseurl }}/assets/docs/two{{ two.id }}.pdf" download>Скачати</a>
+                                <p><a href="{{ site.baseurl }}/assets/docs/two{{ two.id }}.pdf" download>Скачати</a></p>
                             </div>
                         </div>
                     {% endfor %}
