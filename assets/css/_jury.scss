@@ -1,0 +1,90 @@
+section {
+    @include outer-container;
+    margin: 0 auto;
+    padding: 0 0 95px;
+    overflow: hidden;
+
+    &.press {
+        display: none;
+    }
+
+    &.contacts {
+       font-family: $oranienbaum;
+       text-align: center;
+    }
+
+    &.rooster {
+        display: none;
+
+        h6 {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+}
+
+
+section.jury {
+    @include outer-container;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0 5%;
+    font-family: $oranienbaum;
+    // @include linear-gradient(#eee, #fff);
+
+    article {
+        margin-bottom: 40px;
+
+        &.skoryk {
+            @include span-columns(12);
+            @include omega();
+
+            img {
+                max-width: 494px;
+                width: 100%;
+                float: left;
+                margin-right: 80px;
+            }
+        }
+        &.dorfman {
+            @include span-columns(6);
+        }
+        &.kot {
+            @include span-columns(6);
+            @include omega();
+        }
+        &.olyinyk {
+            @include span-columns(4);
+        }
+        &.suhovienko {
+            @include span-columns(4);
+        }
+        &.fedorov {
+            @include span-columns(4);
+            @include omega();
+        }
+
+        img {
+            max-width: 250px;
+            width: 100%;
+            margin: 0 0 30px;
+        }
+        h4 {
+            font-size: 36px;
+            margin: 0 0 10px;
+        }
+        h5 {
+            color: #9E9E9E;
+            font-size: 24px;
+            margin: 0 0 30px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+
+
+
