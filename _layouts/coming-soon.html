@@ -3,24 +3,29 @@ layout: default
 ---
 
 <style>
-    .nav-main,
-    .scroll-down,
-    .drop-down {
+    .drop-down,
+    .gallery,
+    .gallery-title,
+    .gallery-description,
+    .speeches {
         display: none;
     }
-    .height-down {
-        height: 100px;
-    }
-    section.conditions,
-    section.programm {
-        background: #fff;
+    section.about {
+        padding-bottom: 0;
     }
 </style>
 
 {% include 00-header.html %}
+
+{% include 01-about.html %}
 {% include 02-conditions.html %}
 {% include 03-programm.html %}
+{% include 04-prizes.html %}
+{% include 05-registration.html %}
+{% include 06-jury.html %}
+{% include 08-press.html %}
+{% include 10-partners.html %}
+{% include 07-contacts.html %}
+{% include rooster.html %}
 
-<div class="height-down">
-    
-</div>
+{% include to-top.html %}
