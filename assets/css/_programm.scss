@@ -59,13 +59,13 @@
                 @include span-columns(10);
 
                 h4 {
-                    margin: 0 0 10px;
+                    margin: 0 0 40px;
                     font-size: 26px;
                     line-height: 1.2;
                 }
                 p {
                     color: #9E9E9E;
-                    margin: 0;
+                    margin: 0 0 25px;
                 }
 
                 .music-wrap {
@@ -73,7 +73,7 @@
 
                     .music-item {
                         @include span-columns(12);
-                        padding: 25px 0;
+                        padding: 25px 0 0;
 
                         .title {
                             @include span-columns(7);
