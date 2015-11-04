@@ -156,3 +156,17 @@ $('.waypoint').each( function(i) {
         }
     }, { offset: '-80%' } );
 });
+
+
+// Toggle
+$(".js-official-rules-toggle").click(function () {
+    $(".js-official-rules-content").slideToggle("slow");
+});
+$(".js-bank-account-toggle").click(function () {
+    $(".js-bank-account-content").slideToggle("slow");
+});
+
+
+
+
+

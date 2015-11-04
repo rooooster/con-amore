@@ -1,20 +1,24 @@
 .conditions {
     background: #eee;
+    font-family: $oranienbaum;
+    @include outer-container;
 
-    .rule-container {
-        font-family: $oranienbaum;
+    .rule-wrap {
+        @include span-columns(12);
+        border-bottom: 1px solid rgba(#000, .1);
+
+        .official-rules-content,
+        .bank-account-content {
+            @include span-columns(12);
+            background: #F5F5F5;
+            padding: 20px 5%;
+        }
 
         .rule-item {
             @include span-columns(12);
             @include omega;
             padding: 43px 5% 83px;
-            border-style: solid;
-            border-color: rgba(#000, .1);
-            border-width: 1px 0 0;
-
-            &:last-child {
-                border-width: 1px 0;
-            }
+            border-top: 1px solid rgba(#000, .1);
 
             .number {
                 @include span-columns(2);
@@ -36,7 +40,7 @@
                 @include span-columns(7);
 
                 h4 {
-                    margin: 0 0 10px;
+                    margin: 0 0 60px;
                     font-size: 26px;
                     line-height: 1.2;
                 }
@@ -47,8 +51,11 @@
             }
             .more {
                 @include span-columns(3);
+                @include omega;
 
                 a.drop-down {
+                    cursor: pointer;
+
                     svg {
                         margin-left: 6px;
                         width: 9px;

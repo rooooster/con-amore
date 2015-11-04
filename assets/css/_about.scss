@@ -25,9 +25,13 @@ section.about {
             }
 
             article {
-                @include span-columns(8);
+                @include span-columns(4);
                 text-align: left;
                 color: #9E9E9E;
+
+                &:last-child {
+                    @include omega;
+                }
             }
         }
          svg.triangle {
