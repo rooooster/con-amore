@@ -27,9 +27,7 @@ section.about {
             article {
                 @include span-columns(8);
                 text-align: left;
-                font-size: 18px;
                 color: #9E9E9E;
-                @include columns(2);
             }
         }
          svg.triangle {
@@ -106,6 +104,15 @@ section.about {
                 @include span-columns(4);
                 // padding-right: 2.5%;
                 // margin-top: -120px;
+                h4 {
+                    font-size: 38px;
+                }
+                p {
+                    font-size: 20px;
+                }
+                h5 {
+                    font-size: 26px;
+                }
             }
             &.tomasyshyn {
                 @include span-columns(4);
