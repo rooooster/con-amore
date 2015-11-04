@@ -18,7 +18,6 @@ $firmColor: #e6322f;
 }
 
 body {
-    // padding-top: 42px;
     margin: 0;
     font-family: $helvetica;
     color: #000;
@@ -28,6 +27,15 @@ body {
     height: 100%;
     font-size: 18px;
     line-height: 1.1;
+    @include outer-container;
+}
+
+section {
+   font-family: $oranienbaum;
+    margin: 0 auto;
+    padding: 0 0 80px;
+    overflow: hidden;
+    @include span-columns(12);
 }
 
 p {

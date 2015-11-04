@@ -1,146 +1,101 @@
-section.about {
+.about {
     position: relative;
     z-index: 1;
     margin: 0 auto;
-    padding: 20px 0 200px;
+    padding: 40px 0 0;
 
-    .foreword {
-        @include outer-container;
-        font-family: $oranienbaum;
-        // margin-bottom: 95px;
+    .foreword-wrap {
+        @include span-columns(8);
+        @include shift(2);
         position: relative;
-        padding: 0 2.5% 180px;
+        padding: 0 2.5% 40px;
 
-        &_wrap {
-            max-width: 1000px;
-            margin: auto;
-            @include clearfix;
+            @include media($tablet) {
+                @include span-columns(12);
+                @include shift(0);
+            }
+
+        .foreword-item {
+            @include span-columns(4);
+
+            @include media($mobile) {
+                @include span-columns(12);
+            }
 
             h4 {
-                margin: 0;
-                @include span-columns(4);
+                margin: 0 0 15px;
                 text-align: right;
                 font-size: 24px;
                 font-weight: 700;
-            }
 
-            article {
-                @include span-columns(4);
-                text-align: left;
-                color: #9E9E9E;
-
-                &:last-child {
-                    @include omega;
+                @include media($tablet) {
+                    text-align: left;
                 }
             }
-        }
-         svg.triangle {
-            position: absolute;
-            z-index: 10;
-            bottom: -1px;
-            left: 0;
-            width: 101%;
-            // @include transform(rotate(-180deg));
-
-            path {
-                fill: #f3f3f3;
+            p {
+                text-align: left;
+                color: #9E9E9E;
             }
         }
     }
-    .speeches {
-        @include outer-container;
-        font-family: $oranienbaum;
-        padding: 20px 2.5% 0;
-        margin-bottom: 95px;
+    .speeches-wrap {
+        @include span-columns(12);
+        padding: 20px 2.5% 40px;
         @include linear-gradient(#f3f3f3, #fff);
-        // background: #fff;
 
-        article {
+        .speeches-item {
             text-align: left;
             font-size: 18px;
             color: #9E9E9E;
             position: relative;
-            padding: 0 2.5%;
+            padding: 0 2.5% 40px;
+            @include span-columns(4);
+
+            @include media($mobile) {
+                @include span-columns(12);
+            }
 
             img {
+                float: left;
                 width: 100%;
                 max-width: 424px;
                 margin-bottom: 40px;
-                margin-left: 0;
                 margin-right: 40px;
+
+                @include media($mobile) {
+                    max-width: 224px;
+                }
             }
             h4 {
                 margin: 0 0 20px;
                 color: #585858;
                 font-size: 36px;
 
-                @include media($tablet) {
-                    font-size: 18px;
-                }
+                // @include media($tablet) {
+                //     font-size: 18px;
+                // }
             }
             p {
                 font-size: 18px;
 
-                @include media($tablet) {
-                    font-size: 14px;
-                }
+                // @include media($tablet) {
+                //     font-size: 14px;
+                // }
             }
             h5 {
                 margin: 0;
                 color: #585858;
                 font-size: 24px;
 
-                @include media($tablet) {
-                    font-size: 16px;
-                }
-            }
-
-            &.poroshenko {
-                @include span-columns(4);
-                // background: #f3f3f3;
-                // padding-bottom: 160px;
-
-                img {
-                    // float: left;
-                }
-            }
-            &.skoryk {
-                @include span-columns(4);
-                // padding-right: 2.5%;
-                // margin-top: -120px;
-                h4 {
-                    font-size: 38px;
-                }
-                p {
-                    font-size: 20px;
-                }
-                h5 {
-                    font-size: 26px;
-                }
-            }
-            &.tomasyshyn {
-                @include span-columns(4);
-                @include omega();
-                // padding-left: 2.5%;
-                // margin-top: -120px;
-            }
-        }
-         svg.triangle {
-            display: none;
-            position: absolute;
-            // z-index: 10;
-            bottom: -1px;
-            left: 0;
-            width: 101%;
-            // @include transform(rotate(-180deg));
-
-            path {
-                fill: #fff;
+                // @include media($tablet) {
+                //     font-size: 16px;
+                // }
             }
         }
     }
 
     .gallery-title {
+        @include span-columns(12);
         text-align: center;
         font-family: $oranienbaum;
         color: #585858;
@@ -148,6 +103,7 @@ section.about {
         margin: 0 0 10px;
     }
     .gallery-description {
+        @include span-columns(12);
         text-align: center;
         font-family: $oranienbaum;
         font-size: 18px;
@@ -156,6 +112,7 @@ section.about {
     }
 
     .gallery {
+        width: 100%;
         position: relative;
         overflow: hidden;
         max-width: 800px;
@@ -178,15 +135,12 @@ section.about {
         }
     }
 
-    svg.triangle {
-        // display: none;
-        position: absolute;
-        bottom: -1px;
-        left: 0;
-        width: 100%;
+     svg.triangle {
+        @include span-columns(12);
+        margin-bottom: -1px;
 
         path {
-            fill: #eee;
+            fill: #f3f3f3;
         }
     }
 }

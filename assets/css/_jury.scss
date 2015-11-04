@@ -1,87 +1,90 @@
-section {
-    @include outer-container;
-    margin: 0 auto;
-    padding: 0 0 95px;
-    overflow: hidden;
-
-    &.press {
-        display: none;
-    }
-
-    &.contacts {
-       font-family: $oranienbaum;
-       text-align: center;
-    }
-
-    &.rooster {
-        padding: 60px 0 150px;
-        font-family: $oranienbaum;
-
-        h6 {
-            font-size: 12px;
-            text-align: center;
-        }
-    }
-}
-
-
-section.jury {
-    @include outer-container;
+.jury {
     position: relative;
     z-index: 1;
     margin: 0 auto;
     padding: 0 5%;
     font-family: $oranienbaum;
-    // @include linear-gradient(#eee, #fff);
 
-    article {
+    .jury-wrap {
+        @include span-columns(12);
         margin-bottom: 40px;
 
-        &.skoryk {
+        .jury-item {
             @include span-columns(12);
-            @include omega();
+            margin-bottom: 40px;
+
+            &.skoryk {
+                @include span-columns(12);
+
+                img {
+                    float: left;
+                    max-width: 494px;
+
+                    @include media($mobile) {
+                        max-width: 224px;
+                    }
+                }
+            }
+            &.dorfman {
+                @include span-columns(6);
+
+                @include media($mobile) {
+                    @include span-columns(12);
+                }
+            }
+            &.kot {
+                @include span-columns(6);
+                @include omega();
+
+                @include media($mobile) {
+                    @include span-columns(12);
+                }
+            }
+            &.olyinyk {
+                @include span-columns(4);
+
+                @include media($mobile) {
+                    @include span-columns(12);
+                }
+            }
+            &.suhovienko {
+                @include span-columns(4);
+
+                @include media($mobile) {
+                    @include span-columns(12);
+                }
+            }
+            &.fedorov {
+                @include span-columns(4);
+                @include omega();
+
+                @include media($mobile) {
+                    @include span-columns(12);
+                }
+            }
 
             img {
-                max-width: 494px;
-                width: 100%;
-                float: left;
-                margin-right: 80px;
-            }
-        }
-        &.dorfman {
-            @include span-columns(6);
-        }
-        &.kot {
-            @include span-columns(6);
-            @include omega();
-        }
-        &.olyinyk {
-            @include span-columns(4);
-        }
-        &.suhovienko {
-            @include span-columns(4);
-        }
-        &.fedorov {
-            @include span-columns(4);
-            @include omega();
-        }
+                max-width: 224px;
+                margin-right: 40px;
+                margin-left: 0;
+                margin-bottom: 40px;
 
-        img {
-            max-width: 250px;
-            width: 100%;
-            margin: 0 0 30px;
-        }
-        h4 {
-            font-size: 36px;
-            margin: 0 0 10px;
-        }
-        h5 {
-            color: #9E9E9E;
-            font-size: 24px;
-            margin: 0 0 30px;
-        }
-        p {
-            font-size: 18px;
+                @include media($mobile) {
+                    float: left;
+                }
+            }
+            h4 {
+                font-size: 36px;
+                margin: 0 0 10px;
+            }
+            h5 {
+                color: #9E9E9E;
+                font-size: 24px;
+                margin: 0 0 30px;
+            }
+            p {
+                font-size: 18px;
+            }
         }
     }
 }

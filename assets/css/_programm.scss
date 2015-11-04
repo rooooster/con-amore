@@ -1,6 +1,6 @@
 .programm {
     @include outer-container;
-    background: #eee;
+    background: #f3f3f3;
     position: relative;
 
     .wrap {
@@ -8,8 +8,6 @@
         font-family: $oranienbaum;
         text-align: center;
         @include span-columns(12);
-        @include omega;
-        // @include shift(2);
         margin-bottom: 50px;
 
         h4 {
@@ -26,18 +24,15 @@
 
     .rule-container {
         font-family: $oranienbaum;
+        @include span-columns(12);
+        padding-bottom: 80px;
 
         .rule-item {
             @include span-columns(12);
-            @include omega;
             padding: 43px 5% 83px;
             border-style: solid;
             border-color: rgba(#000, .1);
             border-width: 1px 0 0;
-
-            &:last-child {
-                // border-width: 1px 0;
-            }
 
             .number {
                 @include span-columns(2);
