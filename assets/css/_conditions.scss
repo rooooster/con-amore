@@ -3,6 +3,18 @@
     font-family: $oranienbaum;
     @include outer-container;
 
+    p.conditions-description {
+        font-size: 24px;
+        color: #999;
+        padding: 0 2.5%;
+        margin: 0 0 40px;
+        text-align: center;
+
+        b {
+            color: #666;
+        }
+    }
+
     .rule-wrap {
         @include span-columns(12);
         border-bottom: 1px solid rgba(#000, .1);
