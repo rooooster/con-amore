@@ -54,11 +54,13 @@
     }
 
     svg.logo {
-        position: fixed;
+        position: absolute;
         z-index: 1;
         bottom: -180px;
         right: 8%;
         width: 50%;
         fill: rgba(#D8D8D8, .05);
+
+        // display: none;
     }
 }
