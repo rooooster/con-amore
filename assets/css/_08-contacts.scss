@@ -2,18 +2,9 @@
     color: #fff;
     background: #5C5C5C;
 
-    svg.triangle {
-        fill: #fff;
-        display: block;
-        margin-top: -1px;
-        position: relative;
-        z-index: 2;
-        @include transform(rotate(180deg));
-    }
-
     .contarcts-wrap {
         @include span-columns(12);
-        padding: 10px 8%;
+        padding: 20px 8%;
 
         h3 {
             margin: 0;
@@ -23,31 +14,42 @@
         p {
             margin: 0;
 
-            span {
+            span.gray {
                 color: #999;
             }
 
             &.email,
             &.facebook {
-                // line-height: 50px;
-                display: table;
-
-                svg {
-                    margin-right: 20px;
-                    display: table-cell;
-                    vertical-align: middle;
-                }
 
                 a {
-                    display: table-cell;
-                    vertical-align: middle;
+                    color: #fff;
+                    display: table;
+
+                    &:hover {
+                        color: #999;
+
+                        svg {
+                            fill: #fff;
+                        }
+                    }
+
+                    svg {
+                        margin-right: 20px;
+                        display: table-cell;
+                        vertical-align: middle;
+                        @include transition(fill .1s ease-in-out);
+                    }
+                    span {
+                        display: table-cell;
+                        vertical-align: middle;
+                    }
                 }
             }
         }
 
         h6.rooster {
             margin: 0;
-            padding: 120px 0;
+            padding: 280px 0 100px;
             font-size: 12px;
             text-align: center;
         }
@@ -56,11 +58,9 @@
     svg.logo {
         position: absolute;
         z-index: 1;
-        bottom: -180px;
+        top: 100px;
         right: 8%;
-        width: 50%;
+        width: 60%;
         fill: rgba(#D8D8D8, .05);
-
-        // display: none;
     }
 }

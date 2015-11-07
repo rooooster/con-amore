@@ -64,4 +64,13 @@
             }
         }
     }
+
+    svg.triangle {
+        fill: #5C5C5C;
+        display: block;
+        margin-top: -1px;
+        position: relative;
+        z-index: 2;
+        // @include transform(rotate(180deg));
+    }
 }

@@ -1,34 +1,42 @@
 <section id="contacts" class="contacts">
 
-    {% include svg/triangle.svg %}
-
     <div class="caption">
         <h3>Контакти</h3>
     </div>
 
     <div class="contarcts-wrap">
-        <p><span>Контактна особа</span></p>
+        <p><span class="gray">Контактна особа</span></p>
         <h3>Аліна Хайкіна</h3>
 
         <br>
         <br>
 
         <p>
-            <span>+38</span>073 157 97 54
+            <span class="gray">+38</span>073 157 97 54
             <br>
-            <span>+38</span>098 482 86 38
+            <span class="gray">+38</span>098 482 86 38
         </p>
 
         <br>
         <br>
         <br>
 
-        <p class="email">{% include svg/email.svg %} <a href="mailto:mmskoryk@gmail.com?subject=Доброго дня">mmskoryk@gmail.com</a></p>
+        <p class="email">
+            <a href="mailto:mmskoryk@gmail.com?subject=Доброго дня">
+                {% include svg/email.svg %}
+                <span>mmskoryk@gmail.com</span>
+            </a>
+        </p>
 
         <br>
         <br>
 
-        <p class="facebook">{% include svg/facebook.svg %} <a href="https://www.facebook.com/skorykcompetition" target="_blank">Facebook<br>Skoryk Competition 2016</a></p>
+        <p class="facebook">
+            <a href="https://www.facebook.com/skorykcompetition" target="_blank">
+                {% include svg/facebook.svg %}
+                <span>Facebook<br>Skoryk Competition 2016</span>
+            </a>
+        </p>
 
         <h6 class="rooster">Розробка сайту:<br><a href="http://rooooster.com/" target="_blank">Rooster Studio</a></h6>
     </div>

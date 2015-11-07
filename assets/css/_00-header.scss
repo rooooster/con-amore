@@ -1,9 +1,8 @@
 header {
     position: relative;
-    z-index: 4;
+    z-index: 3;
     height: 100%;
     padding-bottom: 9%;
-    overflow: hidden;
     @include linear-gradient(#fff, #eee);
 
     svg.triangle {
