@@ -1,0 +1,67 @@
+.partners {
+    text-align: center;
+    padding: 20px 0 0;
+
+    .partners-wrap {
+        @include span-columns(12);
+        padding: 0 2.5%;
+
+        .partners-category {
+            @include span-columns(12);
+            margin-bottom: 40px;
+
+            &:first-child {
+                @include span-columns(6);
+            }
+            &:nth-child(2) {
+                @include span-columns(6);
+                @include omega;
+            }
+
+            h4 {
+                margin: 0;
+                font-size: 36px;
+                position: relative;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    width: 100%;
+                    height: 1px;
+                    background: #e4e4e4;
+                }
+                span {
+                    position: relative;
+                    z-index: 1;
+                    display: inline-block;
+                    padding: 10px 20px;
+                    background: #fff;
+                }
+            }
+            img {
+                display: inline-block;
+                width: 100%;
+                padding: 40px 0;
+                margin: 0 20px;
+
+                &.poroshenko { max-width: 612px; }
+                &.mincult { max-width: 128px; }
+                &.conamore { max-width: 236px; }
+                &.conservatory { max-width: 258px; }
+                &.union { max-width: 236px; }
+                &.kozlovskogo { max-width: 282px; }
+                &.orchestra { max-width: 242px; }
+                &.tarelka { max-width: 320px; }
+                &.metro { max-width: 158px; }
+            }
+            h5 {
+                font-size: 28px;
+                margin: 0;
+                padding: 80px 0;
+                color: #999;
+            }
+        }
+    }
+}

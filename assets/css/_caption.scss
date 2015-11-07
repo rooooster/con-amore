@@ -4,6 +4,8 @@
     @include omega();
     margin: 0 auto 80px;
     text-align: center;
+    position: relative;
+    z-index: 2;
 
     h3 {
         display: inline-block;
