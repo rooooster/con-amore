@@ -1,15 +1,13 @@
 t:
-  en:
-    index:
-      Language: "Language"
-  fr:
-    index:
-      Language: 'Langue'
   ua:
-    index:
-      Language: 'Мова'
+    Language: 'Мова'
+    Partners: 'Партнери'
+    Contacs: 'Контакти'
+  en:
+    Language: 'Language'
+    Partners: 'Partners'
+    Contacs: 'Contacs'
   ru:
-    index:
-      Language: 'Язык'
+    Language: 'Язык'
 
 
