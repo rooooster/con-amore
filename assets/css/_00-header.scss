@@ -5,6 +5,7 @@ header {
     padding-bottom: 9%;
     @include linear-gradient(#fff, #eee);
     overflow: hidden;
+    @include span-columns(12);
 
     svg.triangle {
         position: absolute;
