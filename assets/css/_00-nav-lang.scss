@@ -1,0 +1,21 @@
+nav.lang {
+    // display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+
+    a {
+        text-transform: uppercase;
+
+        // &.en,
+        &.ru {
+            display: none;
+        }
+        &.ua:lang(ua),
+        &.ru:lang(ru),
+        &.en:lang(en) {
+            color: #e6322f;
+        }
+    }
+}

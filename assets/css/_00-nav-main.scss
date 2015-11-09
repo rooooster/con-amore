@@ -29,7 +29,7 @@ nav.nav-main {
             color: #e6322f;
         }
 
-        &:first-child {
+        &.top {
             position: absolute;
             border: 0;
             padding-bottom: 35px;
@@ -43,7 +43,7 @@ nav.nav-main {
         position: absolute;
 
         a {
-            &:first-child {
+            &.top {
                 display: none;
             }
         }

@@ -1,15 +1,11 @@
 <nav class="js-anhor-nav nav-main nav-main-normal">
-    <a href="#top">&nbsp;</a>
-    <!-- <a href="#top">Хедер</a> -->
-    <a href="#about">Про конкурс</a>
-    <!-- <a href="#gallery">Галерея</a> -->
-    <a href="#conditions">Умови конкурсу</a>
-    <a href="#programm">Програма</a>
-    <a href="#prizes">Премії та нагороди</a>
-    <!-- <a href="#registration">Взяти участь</a> -->
-    <a href="#jury">Журі</a>
+    <a href="#top" class="top">&nbsp;</a>
+    <a href="#about">{{ site.data.l10n.t[page.lang].About }}</a>
+    <a href="#conditions">{{ site.data.l10n.t[page.lang].Conditions }}</a>
+    <a href="#programm">{{ site.data.l10n.t[page.lang].Programm }}</a>
+    <a href="#prizes">{{ site.data.l10n.t[page.lang].Prizes }}</a>
+    <a href="#jury">{{ site.data.l10n.t[page.lang].Jury }}</a>
     <a href="#partners">{{ site.data.l10n.t[page.lang].Partners }}</a>
     <a href="#contacts">{{ site.data.l10n.t[page.lang].Contacs }}</a>
-    <!-- <a href="#press">Преса</a> -->
     {% include last-day.html %}
 </nav>

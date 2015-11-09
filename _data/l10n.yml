@@ -1,13 +1,21 @@
 t:
   ua:
-    Language: 'Мова'
+    About: 'Про конкурс'
+    Conditions: 'Умови конкурсу'
+    Programm: 'Програма'
+    Prizes: 'Премії та нагороди'
+    Jury: 'Журі'
     Partners: 'Партнери'
     Contacs: 'Контакти'
   en:
-    Language: 'Language'
+    About: 'About'
+    Conditions: 'Conditions'
+    Programm: 'Programm'
+    Prizes: 'Prizes'
+    Jury: 'Jury'
     Partners: 'Partners'
     Contacs: 'Contacs'
-  ru:
-    Language: 'Язык'
+  # ru:
+    # Language: 'Язык'
 
 
