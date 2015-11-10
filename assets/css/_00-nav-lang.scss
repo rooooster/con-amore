@@ -1,12 +1,25 @@
 nav.lang {
     // display: inline-block;
     position: fixed;
-    top: 0;
+    top: 35px;
     left: 0;
     z-index: 300;
+    padding: 0 12px;
 
     a {
         text-transform: uppercase;
+        color: #000;
+        font-size: 12px;
+        width: 30px;
+        line-height: 28px;
+        box-sizing: border-box;
+        text-align: center;
+        display: inline-block;
+        @include transition(color .2s ease-in-out);
+
+        &:hover {
+            color: #e6322f;
+        }
 
         // &.en,
         &.ru {
@@ -16,6 +29,8 @@ nav.lang {
         &.ru:lang(ru),
         &.en:lang(en) {
             color: #e6322f;
+            border: 1px solid #e6322f;
+            border-radius: 20px;
         }
     }
 }

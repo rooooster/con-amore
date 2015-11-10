@@ -13,10 +13,17 @@
 
         svg.logo {
             position: absolute;
-            top: -2%;
+            top: 2%;
             left: 11.5%;
             width: 45%;
-            // fill: #e6322f;
+
+            @include media($tablet) {
+                top: 55%;
+                left: 2%;
+                width: 55%;
+                @include transform(translate3d(0,-50%,0));
+            }
+
         }
     }
 

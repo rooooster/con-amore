@@ -53,7 +53,8 @@ nav.nav-main {
         background: #fff;
 
         a {
-            &:hover {
+            &:hover,
+            &.active {
                 border-color: #e6322f;
             }
         }

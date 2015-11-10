@@ -7,6 +7,18 @@ t:
     Jury: 'Журі'
     Partners: 'Партнери'
     Contacs: 'Контакти'
+
+    Deadline: 'Прийом<br>заявок до:'
+    LastMonth: 'січня'
+    Slogan: 'Всеукраїнський відкритий музичний конкурс<br>Мирослава Скорика'
+
+    ForewordTitle: 'Всеукраїнський відкритий музичний конкурс Мирослава Скорика – це перший в Україні конкурс на виконання музики всесвітньо відомого композитора – Героя України, народного артиста України, лауреата Національної премії України імені Тараса Шевченка Мирослава Скорика.'
+    ForewordP1: 'Метою конкурсу є сприяння творчому та духовному зростанню обдарованих юних музикантів, створення умов для реалізації їх творчого потенціалу  і професійної підготовки за сучасними світовими стандартами.'
+    ForewordP2: 'Переможці конкурсу отримають можливість участі у майстер-класах відомих музикантів, а також виступати на концертних майданчиках України, в тому числі у супроводі оркестру під орудою Мирослава Скорика.'
+    ForewordP3: 'Засновник конкурсу – «Благодійний фонд Анни Томасишин», який реалізував низку успішних мистецьких проектів, у тому числі проведення фестивалю «CON AMORE».'
+    ForewordP4: 'Співорганізатори конкурсу – Національна музична академія України імені П. І. Чайковського та Національна спілка композиторів України.'
+    ForewordP5: 'Конкурс проводиться під патронатом Марини Порошенко та за сприяння Міністерства культури України.'
+
   en:
     About: 'About'
     Conditions: 'Conditions'
@@ -15,6 +27,18 @@ t:
     Jury: 'Jury'
     Partners: 'Partners'
     Contacs: 'Contacs'
+
+    Deadline: 'Deadline:'
+    LastMonth: 'january'
+    Slogan: 'The All Ukrainian open music competition<br>named after Myroslav Skoryk'
+
+    ForewordTitle: "The All Ukrainian open music competition, named after Myroslav Skoryk, in which only his music is performed, takes place in Ukraine for the first time.  Myroslav Skoryk is a world famous composer, the Hero of Ukraine, People's Artist of Ukraine, and winner of the Shevchenko National Prize."
+    ForewordP1: 'The aim  of the competition is to promote creative and spiritual growth of young gifted musicians, creating conditions for the realization of their creative potential, and training according to modern international standards.'
+    ForewordP2: ''
+    ForewordP3: 'Founder of the competition - «The Anna Tomasyshyn charity fund», implemented a number of successful art projects, including the festival «CON AMORE».'
+    ForewordP4: 'Co-organizers of the competition  are the National Music Academy of Ukraine P.I. Tchaikovsky, and National Union of Composers of Ukraine.'
+    ForewordP5: 'The competition is under the patronage of  Marina Poroshenko and the Ministry of Culture of Ukraine.'
+
   # ru:
     # Language: 'Язык'
 

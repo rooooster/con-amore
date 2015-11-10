@@ -8,6 +8,10 @@
     right: 10px;
     cursor: pointer;
     display: none;
+    border-radius: 25px;
+    border: 3px solid transparent;
+    box-sizing: border-box;
+    @include transition(border .2s ease-in-out, background .2s ease-in-out);
 
     svg {
         width: 18px;
@@ -19,6 +23,16 @@
 
         polygon {
             fill: #fff;
+            @include transition(fill .2s ease-in-out);
+        }
+    }
+
+    &:hover {
+        border-color: #E6322F;
+        background: transparent;
+
+        svg polygon {
+            fill: #E6322F;
         }
     }
 }
