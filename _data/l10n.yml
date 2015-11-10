@@ -6,7 +6,7 @@ t:
     Prizes: 'Премії та нагороди'
     Jury: 'Журі'
     Partners: 'Партнери'
-    Contacs: 'Контакти'
+    Contacts: 'Контакти'
 
     Deadline: 'Прийом<br>заявок до:'
     LastMonth: 'січня'
@@ -41,6 +41,18 @@ t:
     Gallery1: 'Гала концерт «Con Amore Festum» 2015'
     Gallery2: 'проект, що ініціював конкурс Мирослава Скорика 2016'
 
+    PrizeTitle1: 'Перша премія'
+    PrizeDescr1: '3000 у.о. і звання лауреата'
+    PrizeTitle2: 'Друга премія'
+    PrizeDescr2: '1500 у.о. і звання лауреата'
+    PrizeTitle3: 'Третя премія'
+    PrizeDescr3: '1000 у.о. і звання лауреата'
+    Awards: 'Нагороди:'
+    AwardTitle1: "Участь у майстер-класі від Académie Internationale d'Eté de Nice (Франція)"
+    AwardTitle2: 'Участь у двох майстер-класах від International Summer Academy of Music (Німеччина)'
+    AwardTitle3: 'Спеціальний приз Мирослава Скорика'
+    AwardDescr3: 'виступ із симфонічним оркестром під орудою маестро протягом 2016 року'
+
     SkorykName: 'Мирослав Скорик'
     SkorykAbout1: 'Голова журі, видатний український композитор, Герой України, повний кавалер орденів "За заслуги", народний артист України, лауреат Національної премії України імені Тараса Шевченка, художній керівник Національного академічного театру опери та балету України імені Т. Г. Шевченка, член-кореспондент Академії мистецтв України, професор, кандидат мистецтвознавства, завідувач кафедри історії української музики в Національній музичній академії України імені П. І. Чайковського, завідувач кафедри композиції Львівської національної музичної академії імені Миколи Лисенка, голова Львівського відділення Спілки композиторів України, почесний голова Національної спілки композиторів України, художній керівник фестивалю «Київ Музик Фест».'
     SkorykAbout2: 'Народився 1938 року у Львові. У 1955–1960 роках навчався у Львівській державній консерваторії імені М. В. Лисенка, закінчив аспірантуру при Московській консерваторії імені П. І. Чайковського під керівництвом Дмитра Кабалевського. З 1966 р. до кінця 1980-х рр. викладав композицію у Київській консерваторії: у його класі навчалися Євген Станкович, Іван Карабиць, Освальдас Балакаускас, Олег Ківа, Володимир Зубицький, Віктор Степурко, Ганна Гаврилець, Олександр Козаренко та багато інших знаних в Україні композиторів. Тривалий час працював у США та Австралії. Наприкінці 1990-х повернувся в Україну.'
@@ -70,6 +82,10 @@ t:
     Sponsors: 'Спонсори і партнери'
     InfoPartners: 'Інформаційні партнери'
 
+    ContactPerson: 'Контактна особа'
+    ContactName: 'Аліна Хайкіна'
+    Powered: 'Розробка сайту:'
+
   en:
     About: 'About'
     Conditions: 'Conditions'
@@ -77,7 +93,7 @@ t:
     Prizes: 'Prizes'
     Jury: 'Jury'
     Partners: 'Partners'
-    Contacs: 'Contacs'
+    Contacts: 'Contacts'
 
     Deadline: 'Deadline:'
     LastMonth: 'january'
@@ -112,6 +128,18 @@ t:
     Gallery1: 'Gala Concert «Con Amore Festum» 2015'
     Gallery2: 'project initiated Skoryk Competition 2016'
 
+    PrizeTitle1: 'First Prize'
+    PrizeDescr1: '$3000 and the title of the winner'
+    PrizeTitle2: 'Second Prize'
+    PrizeDescr2: '$1500 and the title of the winner'
+    PrizeTitle3: 'Third Prize'
+    PrizeDescr3: '$1000 and the title of the winner'
+    Awards: ''
+    AwardTitle1: "Participation in the workshop of the Académie Internationale d'Eté de Nice (France)"
+    AwardTitle2: 'Participation in two workshops on the International Summer Academy of Music (Germany)'
+    AwardTitle3: 'Special prize by Myroslav Skoryk'
+    AwardDescr3: 'Performances with symphony orchestra under the direction of maestro during 2016'
+
     SkorykName: 'Myroslav Skorik'
     SkorykAbout1: "Chairman of the adjudicators, The prominent Ukrainian composer, Hero of Ukraine, full knight «Order of Merit», People's Artist of Ukraine, winner of the Shevchenko National Prize, artistic director of the National Academic Opera and Ballet Theatre of Ukraine named after Taras Shevchenko, corresponding member of the Academy of Arts of Ukraine, Professor, Ph.D., Professor Of History of Ukrainian Music at the National Music Academy of Ukraine named after P. Tchaikovsky, Head of Composition Lviv Conservatory, Head of the Lviv branch of the Union of Composers of Ukraine, Honorary Chairman of the National Union of Composers of Ukraine, Artistic Director of the Festival «Kyiv Music Fest»."
     SkorykAbout2: 'Myroslav Skoryk was born in 1938 in Lviv. From 1955-1960 , he studied in Lviv State Lysenko Conservatory, completed postgraduate studies at the Moscow State Tchaikovsky Conservatory under the direction of Dmitry Kabalevsky. From 1966 to the end of the 1980s he taught composition at the Kiev Conservatory : amongst his student  were Eugene Stankovic, Ivan Karabyts, Osvaldas Balakauskas, Oleg Kiva, Vladimir Zubitsky, Victor Stepurko, Anna Gavrilets, Alexander Kozarenko and many others famous Ukrainian composers . For a long time he was working in the USA and Australia. In the late 1990s, he returned to Ukraine.'
@@ -140,6 +168,10 @@ t:
     Coorganizers: 'Co-organizers'
     Sponsors: 'Sponsors and Partners'
     InfoPartners: 'Information Partners'
+
+    ContactPerson: 'Contact person'
+    ContactName: 'Alina Khaikina'
+    Powered: 'Powered By'
 
   # ru:
     # Language: 'Язык'

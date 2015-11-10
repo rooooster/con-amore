@@ -121,7 +121,8 @@ fotoramaDefaults = {
     trackpad: true,
     keyboard: true,
     loop: true,
-    autoplay: 3500
+    autoplay: 3500,
+    thumbwidth: 100 
 }
 
 // toTop

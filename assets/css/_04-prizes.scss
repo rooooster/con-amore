@@ -22,10 +22,21 @@ section.prizes {
             }
             &__second {
                 @include span-columns(6);
+
+                @include media($mobile) {
+                    border-bottom: 1px solid rgba(#000, .1);
+                    @include span-columns(12);
+                }
+
             }
             &__third {
                 @include span-columns(6);
                 @include omega;
+
+                @include media($mobile) {
+                    @include span-columns(12);
+                }
+
             }
 
             svg {
