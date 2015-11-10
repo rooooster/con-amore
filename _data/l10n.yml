@@ -63,6 +63,13 @@ t:
     FedorovName: 'Борис Федоров'
     FedorovAbout: "Відомий піаніст, доцент Національної музичної академії імені П. І. Чайковського. Закінчив з відзнакою Московську державну консерваторію імені П. І. Чайковського та асистентуру-стажування під керівництвом професора Глеба Аксельрода. Лауреат і дипломант міжнародних конкурсів у Римі (1995), Сенігалії (1994, Італія), Порто (1993, Португалія); Gran Prix Всеукраїнського фестивалю пам'яті Регіни та Володимира Горовиця у Києві (1995). Концертує як в Україні, так і за кордоном - в Італії, США, Нідерландах (де двічі виступав у Amsterdam Concertgebouw). Має велику кількість записів у фонді національної телерадіокомпанії України.  Його учні понад 60 разів ставали переможцями міжнародних конкурсів, багато з них мають успішну концертну кар'єру. Борис Федоров автор наукових статей та член журі національних і міжнародних конкурсів. Художній керівник музичних проектів, серед яких - святковий концерт молодих українських і грузинських піаністів, присвячений Дню незалежності Грузії в Києві (2008); фестиваль «Світло музики в Полтаві» (2004); концерти молодих виконавців та майстер-класи в містах України."
 
+    Patronage: 'Під патронатом'
+    Assistance: 'За сприяння'
+    Organizer: 'Організатор'
+    Coorganizers: 'Співорганізатори'
+    Sponsors: 'Спонсори і партнери'
+    InfoPartners: 'Інформаційні партнери'
+
   en:
     About: 'About'
     Conditions: 'Conditions'
@@ -126,6 +133,13 @@ t:
 
     FedorovName: 'Boris Fedorov'
     FedorovAbout: 'Renowned pianist, associate professor of the National Music Academy named after P.I.Tchaikovsky. He graduated with honors from the Tchaikovsky Moscow State Conservatory and post-graduate studies under the direction of Professor Gleb Axelrod. Laureate and diploma winner of international competitions in Rome (1995), Senigallia (1994, Italy), Porto (1993, Portugal); Ukrainian Festival Gran Prix in memory of Regina and Vladimir Horowitz in Kyiv (1995). Gives a concert in Ukraine and abroad - in Italy, the USA, the Netherlands (twice performed in Amsterdam Concertgebouw). It has a large number of records in the National Television and Radio Fund of Ukraine. His students over 60 times became the winners of International competitions, many of them have a successful concert career. Boris Fedorov is an author of scientific articles and jury member of national and international competitions. Artistic director of musical projects, among them - the concert of young Ukrainian and Georgian pianists dedicated to the Independence Day of Georgia in Kiev (2008); Festival "Music in Poltava Light" (2004); young artists concerts and master classes in the cities of Ukraine.'
+
+    Patronage: 'Under The Patronage'
+    Assistance: 'With Assistance'
+    Organizer: 'Organizer'
+    Coorganizers: 'Co-organizers'
+    Sponsors: 'Sponsors and Partners'
+    InfoPartners: 'Information Partners'
 
   # ru:
     # Language: 'Язык'
