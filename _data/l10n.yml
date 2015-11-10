@@ -19,6 +19,28 @@ t:
     ForewordP4: 'Співорганізатори конкурсу – Національна музична академія України імені П. І. Чайковського та Національна спілка композиторів України.'
     ForewordP5: 'Конкурс проводиться під патронатом Марини Порошенко та за сприяння Міністерства культури України.'
 
+    PoroshenkoGritings: 'Шановні організатори Першого Всеукраїнського Конкурсу Мирослава Скорика,'
+    PoroshenkoP1: 'Сьогодні Україна переживає один із найскладніших історичних періодів свого існування. Ми змушені відстоювати свою незалежність, територіальну цілісність, цінності й культуру. І очевидно, що без високого рівня моральності й духовності громадян не можливо побудувати сильну демократичну державу, духовно багате й культурно розвинене суспільство.'
+    PoroshenkoP2: 'Щиро дякую організаторам Першого Всеукраїнського Конкурсу Мирослава Скорика за прекрасну ініціативу, яка покликана сприяти розвитку музичного мистецтва в Україні. Ви робите надважливу справу – шукаєте і підтримуєте юні таланти, а також – підвищуєте рівень культури всього українського народу.'
+    PoroshenkoP3: 'Переконана, що Конкурс пройде на високому рівні, а перемогу здобудуть найкращі та найталановитіші юні українці! Зі свого боку готова надати сприяння та допомогу у проведенні Всеукраїнського Конкурсу Мирослава Скорика.'
+    PoroshenkoEnd: 'Щиро, Марина Порошенко.'
+
+    SkorykGritings: 'Дорогі юні піаністи,'
+    SkorykP1: 'Фортепіанна музика - це основа музичної культури, і ви до неї належите. Вона є улюбленою для широкого кола музикантів і любителів музики. Такою вона є і для мене. І коли мені запропонували надати мої фортепіанні твори для конкурсу молодих піаністів, це стало для мене великою приємністю.'
+    SkorykP2: 'Тому я запрошую вас взяти участь в цьому конкурсі і надіюся, що він виявить нові  таланти і дасть їм шлях  у висоти фортепіанного виконавства.'
+    SkorykP3: 'Щиро бажаю вам успіху!'
+    SkorykEnd: 'З повагою, Мирослав Скорик.'
+
+    TomasyshynGritings: 'Дорогі друзі,'
+    TomasyshynP1: 'Народився ще один конкурс, несхожий на інші. Його «візитною карткою» і полем змагань стане музика видатного українського композитора, нашого сучасника Мирослава Скорика. Світлий, життєрадісний і креативний світ цієї музики кожному з конкурсантів відкриває унікальну можливість глибше пізнати нашу культуру і гармонійно виявити свій талант.'
+    TomasyshynP2: "Я впевнена, що цей новий конкурс стане справжнім святом, об'єднає визнаних у світі музикантів і молодих виконавців, їхніх педагогів, батьків і просто щирих шанувальників музики. Найяскравішим і найуспішнішим конкурсантам він допоможе розширити коло професійного спілкування. Крім призів вони отримають запрошення до участі у престижних і авторитетних міжнародних майстер-класах."
+    TomasyshynP3: 'Бажаю всім учасникам конкурсу віри в свої сили і натхнення. Нехай гармонія і краса музики Мирослава Скорика надихнуть вас до нових творчих злетів. Бажаю всім наснаги у роботі під час конкурсу й великого завзяття до перемоги!'
+    TomasyshynP4: 'Я щиро вдячна всім, хто підтримав ідею цього конкурсу.'
+    TomasyshynEnd: 'З повагою, Анна Томасишин.'
+
+    Gallary1: 'Гала концерт «Con Amore Festum» 2015'
+    Gallary2: 'проект, що ініціював конкурс Мирослава Скорика 2016'
+
   en:
     About: 'About'
     Conditions: 'Conditions'
@@ -38,6 +60,28 @@ t:
     ForewordP3: 'Founder of the competition - «The Anna Tomasyshyn charity fund», implemented a number of successful art projects, including the festival «CON AMORE».'
     ForewordP4: 'Co-organizers of the competition  are the National Music Academy of Ukraine P.I. Tchaikovsky, and National Union of Composers of Ukraine.'
     ForewordP5: 'The competition is under the patronage of  Marina Poroshenko and the Ministry of Culture of Ukraine.'
+
+    PoroshenkoGritings: 'Dear organizators of the The First Myroslav Skoryk Ukrainian Open Music Contest,'
+    PoroshenkoP1: 'Today, Ukraine is experiencing one of the most difficult historical periods of its existence. We have to defend our independence, territorial integrity, values and culture. Obviously, it is not possible to build a strong democratic state without a high moral and spiritual level of its citizens, together with a spiritually rich and culturally developed society.'
+    PoroshenkoP2: 'I would like to express my gratitude to the organizators of the The First Annual Myroslav Skoryk Ukrainian Open Music Competition for the excellent initiative, that helped to promote the development of music in Ukraine. You are all doing extremely important work - finding and supporting young talents, and also  raising the level of culture of Ukrainian people.'
+    PoroshenkoP3: 'I am convinced that the competition will be held at the highest level and the most talented young Ukrainian will get the victory! From my side, I am ready to assist and help in conducting the Competition.'
+    PoroshenkoEnd: 'Sincerely, Marina Poroshenko.'
+
+    SkorykGritings: 'Dear Young Pianists,'
+    SkorykP1: 'It is a common knowledge that piano music is the foundation of musical culture, and you all are part of it. It is favored kind of music for a wide range of musicians and music lovers. It is also my favorite kind. And when I was asked to give my piano compositions for the young pianists competition, it became a great pleasure for me.'
+    SkorykP2: 'So I invite you to take part in this competition and I hope that it will find new talents and give them a way into the height of piano performance.'
+    SkorykP3: 'I wish you success!'
+    SkorykEnd: 'Sincerely, Miroslav Skoryk.'
+
+    TomasyshynGritings: 'Dear friends,'
+    TomasyshynP1: 'One more competition has been born, that differs from the others. The music of our  contemporary, famous Ukrainian composer Myroslav Skoryk will be its "visiting card" and field of competition. That bright, cheerful and creative world of music opens a unique opportunity for each of the competitors to understand our culture more deeply and reveal his or her musical talent.'
+    TomasyshynP2: 'I am confident that this new competition will become a real celebration that will bring together internationally recognized musicians and young performers, their teachers, parents and true music lovers. It will help the brightest and most successful competitors to expand the range of their professional communication. Besides the  prizes, they will receive  invitations to participate in prestigious and authoritative international workshops.'
+    TomasyshynP3: "I want to wish all the participants to have faith in their strength and inspiration. Let the harmony and beauty of Myroslav Skoryk's music  inspire you all to new creative achievements. I wish everybody inspiration at work during the competition and strong diligence to win!"
+    TomasyshynP4: 'I am sincerely grateful to everyone who supported the idea of this competition.'
+    TomasyshynEnd: 'Sincerely, Anna Tomasyshyn.'
+
+    Gallary1: 'Gala Concert «Con Amore Festum» 2015'
+    Gallary2: 'project initiated Skoryk Competition 2016'
 
   # ru:
     # Language: 'Язык'
