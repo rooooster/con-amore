@@ -22,14 +22,21 @@
         .official-rules-content,
         .bank-account-content {
             @include span-columns(12);
-            background: #F5F5F5;
+            background: #ddd;
             padding: 20px 5%;
+            color: #444;
+
+            h4,
+            h5 {
+                text-transform: uppercase;
+                color: #000;
+            }
         }
 
         .rule-item {
             @include span-columns(12);
             @include omega;
-            padding: 43px 5% 83px;
+            padding: 40px 5% 60px;
             border-top: 1px solid rgba(#000, .1);
 
             .number {
@@ -52,13 +59,13 @@
                 @include span-columns(7);
 
                 h4 {
-                    margin: 0 0 60px;
+                    margin: 0;
                     font-size: 26px;
                     line-height: 1.2;
                 }
                 p {
                     color: #9E9E9E;
-                    margin: 0;
+                    margin: 15px 0;
                 }
             }
             .more {

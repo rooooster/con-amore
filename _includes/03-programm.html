@@ -5,11 +5,10 @@
     </div>
 
     <div class="wrap">
-        <h4>«Фортепіано»</h4>
-        <p>Усі твори виконуються напам'ять</p>
-        <p>Твір може бути виконаний лише один раз</p>
-        <p>Порядок виконання творів за бажанням конкурсанта</p>
-        <!-- <p>На сайті конкурсу розміщений нотний матеріал з творів Мирослава Скорика</p> -->
+        <h4>{{ site.data.l10n.t[page.lang].Pianoforte }}</h4>
+        <p>{{ site.data.l10n.t[page.lang].Programm1 }}</p>
+        <p>{{ site.data.l10n.t[page.lang].Programm2 }}</p>
+        <p>{{ site.data.l10n.t[page.lang].Programm3 }}</p>
     </div>
 
     <div class="rule-container">
@@ -18,9 +17,9 @@
                 <span>4</span>
             </div>
             <div class="description">
-                <h4>1й Тур «Skoryk Competition»</h4>
-                <p>Тривалість виступу – до 25 хвилин у першій віковій категорії, до 35 хвилин – у другій віковій категорії</p>
-                <p>Твір, написаний М. Скориком для першого туру конкурсу - є обов'язковим для всіх вікових категорій (ноти будуть розміщені на сайті конкурсу за два місяці до початку його проведення)</p>
+                <h4>{{ site.data.l10n.t[page.lang].Punkt4 }}</h4>
+                <p>{{ site.data.l10n.t[page.lang].Punkt4_1 }}</p>
+                <p>{{ site.data.l10n.t[page.lang].Punkt4_2 }}</p>
 
                 <div class="music-wrap">
                     {% for one in site.categories.one %}
@@ -31,15 +30,15 @@
                             <div class="link">
                                 {% if one.file == false %}
                                     <p style="text-align:left;">
-                                        твір є обов'язковим для всіх вікових категорій
+                                        {{ site.data.l10n.t[page.lang].Explanation1 }}
                                         <br>
-                                        приблизний час виконання 4 ~ 5 хв.
+                                        {{ site.data.l10n.t[page.lang].Explanation2 }}
                                         <br>
-                                        ноти будуть розміщені на сайті конкурсу за два місяці до початку його проведення
+                                        {{ site.data.l10n.t[page.lang].Explanation3 }}
                                     </span>
                                 {% else %}
                                     <p>
-                                        <a href="{{ site.baseurl }}/assets/docs/one{{ one.id }}.pdf" download>Скачати</a>
+                                        <a href="{{ site.baseurl }}/assets/docs/one{{ one.id }}.pdf" download>{{ site.data.l10n.t[page.lang].Download }}</a>
                                     </p>
                                 {% endif %}
                             </div>
@@ -54,10 +53,9 @@
                 <span>5</span>
             </div>
             <div class="description">
-                <h4>2й Тур «Skoryk Competition»</h4>
-                <p>Програма ІІ туру виконується у супроводі симфонічного оркестру</p>
-                <p>До другого туру допускаються 4 конкурсанти у кожній віковій категорії</p>
-                <p>Для фіналістів потрібно скачати та вивчити твір Мирослава Скорика</p>
+                <h4>{{ site.data.l10n.t[page.lang].Punkt5 }}</h4>
+                <p>{{ site.data.l10n.t[page.lang].Punkt5_1 }}</p>
+                <p>{{ site.data.l10n.t[page.lang].Punkt5_2 }}</p>
 
                 <div class="music-wrap">
                     {% for two in site.categories.two %}
@@ -66,7 +64,7 @@
                                 <p>{{ two.title }}</p>
                             </div>
                             <div class="link">
-                                <p><a href="{{ site.baseurl }}/assets/docs/two{{ two.id }}.pdf" download>Скачати</a></p>
+                                <p><a href="{{ site.baseurl }}/assets/docs/two{{ two.id }}.pdf" download>{{ site.data.l10n.t[page.lang].Download }}</a></p>
                             </div>
                         </div>
                     {% endfor %}
