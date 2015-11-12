@@ -21,7 +21,7 @@
                 <p>{{ site.data.l10n.t[page.lang].Punkt4_1 }}</p>
                 <p>{{ site.data.l10n.t[page.lang].Punkt4_2 }}</p>
 
-                <div class="music-wrap">
+                <!-- <div class="music-wrap">
                     {% for one in site.categories.one %}
                         <div class="music-item">
                             <div class="title">
@@ -35,10 +35,36 @@
                                         {{ site.data.l10n.t[page.lang].Explanation2 }}
                                         <br>
                                         {{ site.data.l10n.t[page.lang].Explanation3 }}
-                                    </span>
+                                    </p>
                                 {% else %}
                                     <p>
                                         <a href="{{ site.baseurl }}/assets/docs/one{{ one.id }}.pdf" download>{{ site.data.l10n.t[page.lang].Download }}</a>
+                                    </p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div> -->
+
+                <div class="music-wrap">
+                    {% assign posts=site.posts | where:"lang", page.lang | where:"type", "tvir" | where:"category", "one" %}
+                    {% for post in posts %}
+                        <div class="music-item">
+                            <div class="title">
+                                <p>{{ post.title }}</p>
+                            </div>
+                            <div class="link">
+                                {% if post.file == false %}
+                                    <p style="text-align:left;">
+                                        {{ site.data.l10n.t[page.lang].Explanation1 }}
+                                        <br>
+                                        {{ site.data.l10n.t[page.lang].Explanation2 }}
+                                        <br>
+                                        {{ site.data.l10n.t[page.lang].Explanation3 }}
+                                    </p>
+                                {% else %}
+                                    <p>
+                                        <a href="{{ site.baseurl }}/assets/docs/one{{ post.id }}.pdf" download>{{ site.data.l10n.t[page.lang].Download }}</a>
                                     </p>
                                 {% endif %}
                             </div>
@@ -57,7 +83,7 @@
                 <p>{{ site.data.l10n.t[page.lang].Punkt5_1 }}</p>
                 <p>{{ site.data.l10n.t[page.lang].Punkt5_2 }}</p>
 
-                <div class="music-wrap">
+                <!-- <div class="music-wrap">
                     {% for two in site.categories.two %}
                         <div class="music-item">
                             <div class="title">
@@ -68,7 +94,22 @@
                             </div>
                         </div>
                     {% endfor %}
+                </div> -->
+
+                <div class="music-wrap">
+                    {% assign posts=site.posts | where:"lang", page.lang | where:"type", "tvir" | where:"category", "two" %}
+                    {% for post in posts %}
+                        <div class="music-item">
+                            <div class="title">
+                                <p>{{ post.title }}</p>
+                            </div>
+                            <div class="link">
+                                <p><a href="{{ site.baseurl }}/assets/docs/two{{ two.id }}.pdf" download>{{ site.data.l10n.t[page.lang].Download }}</a></p>
+                            </div>
+                        </div>
+                    {% endfor %}
                 </div>
+
             </div>
         </div>
     </div>

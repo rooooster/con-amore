@@ -3,7 +3,7 @@
     z-index: 1;
     top: 78%;
     left: 46%;
-    @include transform(translate3d(-50%,0,0));
+    // @include transform(translate3d(-50%,0,0));
     @include animation(fade-in 1.2s ease-in-out);
 
     a {
