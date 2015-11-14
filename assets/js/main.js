@@ -170,4 +170,30 @@ $(".js-bank-account-toggle").click(function () {
 
 
 
+/**
+* languageDetection
+* https://github.com/danieledesantis/jquery-language-detection
+*/
+$(function() {
+    $(document).languageDetection({
+        domain: '',
+        languages: [
+            {
+                code : 'ua',
+                path : '/',
+                defaultLanguage : true
+            },
+            {
+                code : 'ru',
+                path : '/ru/'
+            },
+            {
+                code : 'en',
+                path : '/en/'
+            }
+        ]
+    });
+});
+
+
 
