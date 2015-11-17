@@ -21,10 +21,6 @@ nav.lang {
             color: #e6322f;
         }
 
-        // &.en,
-        &.ru {
-            display: none;
-        }
         &.ua:lang(ua),
         &.ru:lang(ru),
         &.en:lang(en) {
