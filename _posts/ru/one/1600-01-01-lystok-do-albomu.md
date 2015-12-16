@@ -1,7 +1,7 @@
 ---
 category: one
 type: tvir
-title: '«Листок до альбому»'
+title: '«Листок к альбому»'
 permalink: /:title/
 ---
 
