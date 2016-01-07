@@ -154,6 +154,9 @@ t:
     ContactName: 'Аліна Хайкіна'
     Powered: 'Розробка сайту:'
 
+    PremierUrl: 'https://www.phnr.com/ua'
+    PremierTitle: 'Перша Національна мережа готелів<br>«Premier Hotels and Resorts»'
+
   en:
     About: 'About'
     Conditions: 'Conditions'
@@ -292,7 +295,7 @@ t:
     OlyinykName: 'Lesya Oliynyk'
     OlyinykAbout: 'Renowned musicologist,  music  critic,  journalist and public figure. Vice-Rector of the National Music Academy of Ukraine named after P. Tchaikovsky, secretary of the National Union of Composers of Ukraine on Foreign Relations, Secretary General of the National Committee of the International Music Council (ICM), a member of the National Committee of Ukraine for UNESCO, General Representative of Ukraine AIDA International art Association (Monaco). Especially puts efforts in the field of international cultural activities. Together with the embassies she organized more than 70 concert presentations of "Musical Dialogues". She is co-founder of Ukrainian Section of the International Society for Contemporary Music (ISCM). Lesya Oliynyk  represented Ukraine at festivals, competitions and conferences in Germany, Switzerland, Poland, Belgium, France, Sweden and the UK. Very popular became the next events,  founded and organized by her: "Kiev seasons";  philharmonic concert series "Musical Culture of Europe" and "The Forgotten Pages".  Lesya Oliynyk is the author of books, chapters of the "History of Ukrainian music" in 6 volumes, she has more than 100 articles in scientific domestic and foreign collections. She is also the author of over 400 publications in the media.  As a music columnist radio "Freedom" she  created more than 700 programs and live broadcasts. She is a participator of live broadcasts about the problems of Ukrainian musical culture on the National Broadcasting Company of Ukraine.  Awarded  Diploma of the Kyiv city state administration, the Order of St. Barbara Ukrainian Orthodox Church.'
 
-    SuhovienkoName: 'Dmitry Sukhovienko'
+    SuhovienkoName: 'Dmytro Sukhovienko'
     SuhovienkoAbout: "World renowned pianist, he graduated from the Kiev State Conservatory named after P.I. Tchaikovsky in the class of professor Vsevolod Vorobyov. He received a Yehudi Menuhin grants to study in Switzerland. Participant of master classes with Paul Badura-Skoda, Barry Douglas, Dmitri Bashkirov,  Philippe Antrim Abdel  Rahman El-Basha and others. Winner of the International piano competitions «Rovere d'Oro» in Italy and «Clara Schumann» in Germany. Recorded 5 albums with pieces of music by Chopin, M. Kolessa, Prokofiev, Liszt, Schubert, Rachmaninov, Schumann, Brahms and M. Mussorgsky. Dmitry Sukhovienko is the Artistic director of the series of concerts in the European Parliament in Brussels and Musical  director of the International Association A.I.D.A."
 
     FedorovName: 'Boris Fedorov'
@@ -308,6 +311,9 @@ t:
     ContactPerson: 'Contact person'
     ContactName: 'Alina Khaikina'
     Powered: 'Powered By'
+
+    PremierUrl: 'https://www.phnr.com/en'
+    PremierTitle: 'The First National chain of hotels<br>«Premier Hotels and Resorts»'
 
   ru:
     About: 'О конкурсе'
@@ -463,6 +469,9 @@ t:
     ContactPerson: 'Контактное лицо'
     ContactName: 'Алина Хайкина'
     Powered: 'Разработка сайта:'
+
+    PremierUrl: 'https://www.phnr.com/ru'
+    PremierTitle: 'Первая Национальная сеть отелей<br>«Premier Hotels and Resorts»'
 
 
 
