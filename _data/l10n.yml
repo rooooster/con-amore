@@ -157,6 +157,8 @@ t:
     PremierUrl: 'https://www.phnr.com/ua'
     PremierTitle: 'Перша Національна мережа готелів<br>«Premier Hotels and Resorts»'
 
+    FolkUkraineUrl: 'http://folkukraine.com'
+
   en:
     About: 'About'
     Conditions: 'Conditions'
@@ -314,6 +316,8 @@ t:
 
     PremierUrl: 'https://www.phnr.com/en'
     PremierTitle: 'The First National chain of hotels<br>«Premier Hotels and Resorts»'
+
+    FolkUkraineUrl: 'http://folkukraine.com/en'
 
   ru:
     About: 'О конкурсе'
@@ -473,5 +477,4 @@ t:
     PremierUrl: 'https://www.phnr.com/ru'
     PremierTitle: 'Первая Национальная сеть отелей<br>«Premier Hotels and Resorts»'
 
-
-
+    FolkUkraineUrl: 'http://folkukraine.com/ru'

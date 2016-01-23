@@ -52,7 +52,6 @@
         display: inline-block;
         width: 100%;
         padding: 40px 20px;
-        // margin: 0 20px;
 
         &.poroshenko { max-width: 612px; }
         &.mincult { max-width: 128px; }
@@ -70,9 +69,10 @@
         padding: 80px 0;
         color: #999;
       }
+
       a.premier {
-        max-width: 340px;
-        display: block;
+        max-width: 300px;
+        display: inline-block;
         margin: 0 auto;
         padding: 20px 0 40px;
 
@@ -93,13 +93,35 @@
           h5 { color: #000; }
         }
       }
+
+      a.folk-ukraine {
+        max-width: 300px;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 40px 60px 40px;
+
+        img {
+          margin: 0 auto 20px;
+          padding: 0;
+          max-width: 235px;
+          opacity: .5;
+          @include transition(opacity .2s ease-in-out);
+        }
+        &:hover {
+          img  { opacity: 1; }
+        }
+      }
+
+      .porto-franko {
+        display: inline-block;
+        max-width: 275px;
+      }
     }
   }
 
   svg.triangle {
     fill: #4B4B4B;
     display: block;
-    // margin-bottom: -2px;
     position: relative;
     z-index: 2;
   }
