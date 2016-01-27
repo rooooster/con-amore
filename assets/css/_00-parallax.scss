@@ -23,7 +23,6 @@
                 width: 55%;
                 @include transform(translate3d(0,-50%,0));
             }
-
         }
     }
 
@@ -54,6 +53,10 @@
 
                 @include media($tablet) {
                     font-size: 48px;
+                }
+
+                @include media($mobile) {
+                    font-size: 28px;
                 }
             }
 
