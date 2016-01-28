@@ -54,13 +54,9 @@
         padding: 40px 20px;
 
         &.poroshenko { max-width: 612px; }
-        &.mincult { max-width: 128px; }
         &.conamore { max-width: 236px; }
         &.conservatory { max-width: 258px; }
         &.union { max-width: 236px; }
-        &.kozlovskogo { max-width: 282px; }
-        &.orchestra { max-width: 242px; }
-        &.tarelka { max-width: 282px; }
         &.metro { max-width: 158px; }
       }
       h5 {
@@ -115,6 +111,76 @@
       .porto-franko {
         display: inline-block;
         max-width: 275px;
+
+        img {
+          padding: 20px 20px;
+        }
+      }
+
+      .kozlovskogo {
+        display: inline-block;
+        max-width: 282px;
+
+        img {
+          padding: 20px 20px;
+        }
+      }
+
+      .orchestra {
+        display: inline-block;
+        max-width: 242px;
+        padding: 0 30px;
+
+        img {
+          padding: 40px 0 0;
+        }
+      }
+
+      .tarelka {
+        display: inline-block;
+        max-width: 282px;
+      }
+
+      .mincult {
+        display: inline-block;
+        max-width: 128px;
+
+        img {
+          padding: 10px;
+        }
+        h6 {
+          font-size: 12px;
+          margin: 0;
+          color: #999;
+        }
+      }
+      
+      .belgium {
+        display: inline-block;
+        max-width: 130px;
+
+        img {
+          padding-bottom: 10px;
+        }
+        h6 {
+          font-size: 12px;
+          margin: 0;
+          color: #999;
+        }
+      }
+      
+      .israel {
+        display: inline-block;
+        max-width: 115px;
+
+        img {
+          padding-bottom: 10px;
+        }
+        h6 {
+          font-size: 12px;
+          margin: 0;
+          color: #999;
+        }
       }
     }
   }

@@ -159,6 +159,9 @@ t:
 
     FolkUkraineUrl: 'http://folkukraine.com'
 
+    MincultTitle: 'Міністерство культури України'
+    BelgiumTitle: 'Посольство<br>Бельгії'
+    IsraelTitle: 'Посольство<br>Ізраїлю'
   en:
     About: 'About'
     Conditions: 'Conditions'
@@ -319,6 +322,10 @@ t:
 
     FolkUkraineUrl: 'http://folkukraine.com/en'
 
+    MincultTitle: 'The Ministry of Culture of Ukraine'
+    BelgiumTitle: 'Embassy of<br>Belgium'
+    IsraelTitle: 'Embassy of<br>Israel'
+
   ru:
     About: 'О конкурсе'
     Conditions: 'Условия конкурса'
@@ -478,3 +485,7 @@ t:
     PremierTitle: 'Первая Национальная сеть отелей<br>«Premier Hotels and Resorts»'
 
     FolkUkraineUrl: 'http://folkukraine.com/ru'
+
+    MincultTitle: 'Министерство культуры Украины'
+    BelgiumTitle: 'Посольство<br>Бельгии'
+    IsraelTitle: 'Посольство<br>Израиля'
