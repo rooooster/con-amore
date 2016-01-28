@@ -1,0 +1,15 @@
+.btn {
+  color: #fff;
+  background: #d02c29;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 10px 18px;
+  @include transition(all .15s ease-in-out);
+  outline: none;
+  // text-transform: uppercase;
+
+  &:hover {
+    color: #fff;
+    opacity: .8;
+  }
+}

@@ -1,0 +1,31 @@
+---
+---
+@import 'vendor/bourbon/bourbon';
+@import 'grid-settings';
+@import 'vendor/neat/neat';
+$path: '../img/fotorama/';
+@import 'vendor/fotorama/fotorama';
+@import 'vendor/magnific-popup';
+
+@import 'base';
+@import 'caption';
+@import '00-nav-main';
+@import '00-nav-lang';
+@import '00-header';
+@import '00-parallax';
+@import '00-last-day';
+@import '01-about';
+@import 'fotorama-custom';
+@import '02-conditions';
+@import '03-programm';
+@import '04-prizes';
+@import '06-jury';
+@import '07-partners';
+@import '08-contacts';
+@import '09-press';
+@import '10-news';
+@import 'scroll-down';
+@import 'to-top';
+@import 'btn';
+
+
