@@ -1,5 +1,6 @@
 t:
   ua:
+    News: 'Новини'
     About: 'Про конкурс'
     Conditions: 'Умови конкурсу'
     Programm: 'Програма'
@@ -163,6 +164,7 @@ t:
     BelgiumTitle: 'Посольство<br>Бельгії'
     IsraelTitle: 'Посольство<br>Ізраїлю'
   en:
+    News: 'News'
     About: 'About'
     Conditions: 'Conditions'
     Programm: 'Programm'
@@ -327,6 +329,7 @@ t:
     IsraelTitle: 'Embassy of<br>Israel'
 
   ru:
+    News: 'Новости'
     About: 'О конкурсе'
     Conditions: 'Условия конкурса'
     Programm: 'Программа'

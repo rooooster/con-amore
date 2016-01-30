@@ -3,10 +3,7 @@ baseurl:
 markdown: kramdown
 permalink: :title
 
-host: 0.0.0.0
-port: 7013
-
-exclude: ['README.md']
+exclude: ['README.md', 'CNAME']
 
 sass:
   sass_dir: assets/css
