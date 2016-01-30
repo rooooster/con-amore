@@ -2,6 +2,17 @@
 layout: default
 ---
 
-<h1>{{ page:title }}</h1>
+<article class="single-news-item">
 
-{{ content }}
+  <img class="single-news-item__image js-lazy"
+    data-original="{{ site.baseurl }}/{{ page.image }}"
+    alt="{{ page.title }}"
+  >
+
+  <h1 class="single-news-item__title">{{ page:title }}</h1>
+
+  <h2 class="single-news-item__description">{{ page:description }}</h2>
+
+  {{ content }}
+
+</article>

@@ -163,6 +163,9 @@ t:
     MincultTitle: 'Міністерство культури України'
     BelgiumTitle: 'Посольство<br>Бельгії'
     IsraelTitle: 'Посольство<br>Ізраїлю'
+
+    ReadMore: 'Читати далі'
+
   en:
     News: 'News'
     About: 'About'
@@ -328,6 +331,8 @@ t:
     BelgiumTitle: 'Embassy of<br>Belgium'
     IsraelTitle: 'Embassy of<br>Israel'
 
+    ReadMore: 'Read more'
+
   ru:
     News: 'Новости'
     About: 'О конкурсе'
@@ -492,3 +497,5 @@ t:
     MincultTitle: 'Министерство культуры Украины'
     BelgiumTitle: 'Посольство<br>Бельгии'
     IsraelTitle: 'Посольство<br>Израиля'
+
+    ReadMore: 'Читать дальше'
