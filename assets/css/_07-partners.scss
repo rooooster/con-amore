@@ -185,6 +185,25 @@
           color: #999;
         }
       }
+      
+      .mau {
+        display: inline-block;
+        max-width: 345px;
+
+        img {
+          padding: 40px 20px 20px;
+        }
+      }
+      
+      .den {
+        display: inline-block;
+        max-width: 205px;
+
+        img {
+          opacity: .7;
+          padding: 40px 20px 30px;
+        }
+      }
     }
   }
 

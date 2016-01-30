@@ -210,14 +210,16 @@ $('.open-popup-link').magnificPopup({
   // focus: '#email',
 });
 
+
+
 /**
 * lazyload.js
 * https://github.com/tuupola/jquery_lazyload
 */
 $(function() {
-    $("img.lazy").lazyload({
-      // threshold : 0,
+    $("img.js-lazy").lazyload({
       effect : "fadeIn",
+      // threshold : 0,
       // placeholder : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
     });
 });

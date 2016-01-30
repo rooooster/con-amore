@@ -1,71 +1,80 @@
 <section id="about" class="about">
 
-    <div class="caption">
-        <h3>{{ site.data.l10n.t[page.lang].About }}</h3>
+  <div class="caption">
+    <h3>{{ site.data.l10n.t[page.lang].About }}</h3>
+  </div>
+
+  <div class="foreword-wrap">
+    <div class="foreword-item">
+      <h4>{{ site.data.l10n.t[page.lang].ForewordTitle }}</h4>
+    </div>
+    <div class="foreword-item">
+      <p>{{ site.data.l10n.t[page.lang].ForewordP1 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].ForewordP2 }}</p>
+    </div>
+    <div class="foreword-item">
+      <p>{{ site.data.l10n.t[page.lang].ForewordP3 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].ForewordP4 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].ForewordP5 }}</p>
+    </div>
+  </div>
+  {% include svg/triangle.svg %}
+
+  <div class="speeches-wrap">
+    <div class="speeches-item">
+      <img class="js-lazy"
+        data-original="{{ site.baseurl }}/assets/img/person/poroshenko.png"
+        alt="Photo Of Poroshenko"
+      >
+      <h4>{{ site.data.l10n.t[page.lang].PoroshenkoGritings }}</h4>
+      <p>{{ site.data.l10n.t[page.lang].PoroshenkoP1 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].PoroshenkoP2 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].PoroshenkoP3 }}</p>
+      <h5>{{ site.data.l10n.t[page.lang].PoroshenkoEnd }}</h5>
     </div>
 
-    <div class="foreword-wrap">
-        <div class="foreword-item">
-            <h4>{{ site.data.l10n.t[page.lang].ForewordTitle }}</h4>
-        </div>
-        <div class="foreword-item">
-            <p>{{ site.data.l10n.t[page.lang].ForewordP1 }}</p>
-            <p>{{ site.data.l10n.t[page.lang].ForewordP2 }}</p>
-        </div>
-        <div class="foreword-item">
-            <p>{{ site.data.l10n.t[page.lang].ForewordP3 }}</p>
-            <p>{{ site.data.l10n.t[page.lang].ForewordP4 }}</p>
-            <p>{{ site.data.l10n.t[page.lang].ForewordP5 }}</p>
-        </div>
+    <div class="speeches-item">
+      <img class="js-lazy"
+        data-original="{{ site.baseurl }}/assets/img/person/skoryk.png"
+        alt="Photo Of Skoryk"
+      >
+      <h4>{{ site.data.l10n.t[page.lang].SkorykGritings }}</h4>
+      <p>{{ site.data.l10n.t[page.lang].SkorykP1 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].SkorykP2 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].SkorykP3 }}</p>
+      <h5>{{ site.data.l10n.t[page.lang].SkorykEnd }}</h5>
     </div>
+
+    <div class="speeches-item">
+      <img class="js-lazy"
+        data-original="{{ site.baseurl }}/assets/img/person/tomasyshyn.png"
+        alt="Photo Of Tomasyshyn"
+      >
+      <h4>{{ site.data.l10n.t[page.lang].TomasyshynGritings }}</h4>
+      <p>{{ site.data.l10n.t[page.lang].TomasyshynP1 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].TomasyshynP2 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].TomasyshynP3 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].TomasyshynP4 }}</p>
+      <h5>{{ site.data.l10n.t[page.lang].TomasyshynEnd }}</h5>
+    </div>
+  </div>
+
+  <h3 class="gallery-title">{{ site.data.l10n.t[page.lang].Gallery1 }}</h3>
+  <p class="gallery-description">{{ site.data.l10n.t[page.lang].Gallery2 }}</p>
+  <div class="gallery">
     {% include svg/triangle.svg %}
-
-    <div class="speeches-wrap">
-        <div class="speeches-item">
-            <img src="{{ site.baseurl }}/assets/img/person/poroshenko.png" alt="Photo Of Poroshenko">
-            <h4>{{ site.data.l10n.t[page.lang].PoroshenkoGritings }}</h4>
-            <p>{{ site.data.l10n.t[page.lang].PoroshenkoP1 }}</p>
-            <p>{{ site.data.l10n.t[page.lang].PoroshenkoP2 }}</p>
-            <p>{{ site.data.l10n.t[page.lang].PoroshenkoP3 }}</p>
-            <h5>{{ site.data.l10n.t[page.lang].PoroshenkoEnd }}</h5>
-        </div>
-
-        <div class="speeches-item">
-            <img src="{{ site.baseurl }}/assets/img/person/skoryk.png" alt="Photo Of Skoryk">
-            <h4>{{ site.data.l10n.t[page.lang].SkorykGritings }}</h4>
-            <p>{{ site.data.l10n.t[page.lang].SkorykP1 }}</p>
-            <p>{{ site.data.l10n.t[page.lang].SkorykP2 }}</p>
-            <p>{{ site.data.l10n.t[page.lang].SkorykP3 }}</p>
-            <h5>{{ site.data.l10n.t[page.lang].SkorykEnd }}</h5>
-        </div>
-
-        <div class="speeches-item">
-            <img src="{{ site.baseurl }}/assets/img/person/tomasyshyn.png" alt="Photo Of Tomasyshyn">
-            <h4>{{ site.data.l10n.t[page.lang].TomasyshynGritings }}</h4>
-            <p>{{ site.data.l10n.t[page.lang].TomasyshynP1 }}</p>
-            <p>{{ site.data.l10n.t[page.lang].TomasyshynP2 }}</p>
-            <p>{{ site.data.l10n.t[page.lang].TomasyshynP3 }}</p>
-            <p>{{ site.data.l10n.t[page.lang].TomasyshynP4 }}</p>
-            <h5>{{ site.data.l10n.t[page.lang].TomasyshynEnd }}</h5>
-        </div>
+    <div class="fotorama">
+      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6374.jpg" alt="Photo Of Con Amore Festum 2015">
+      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6181.jpg" alt="Photo Of Con Amore Festum 2015">
+      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6200.jpg" alt="Photo Of Con Amore Festum 2015">
+      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6215.jpg" alt="Photo Of Con Amore Festum 2015">
+      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6284.jpg" alt="Photo Of Con Amore Festum 2015">
+      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6316.jpg" alt="Photo Of Con Amore Festum 2015">
+      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6329.jpg" alt="Photo Of Con Amore Festum 2015">
+      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6340.jpg" alt="Photo Of Con Amore Festum 2015">
     </div>
+  </div>
 
-    <h3 class="gallery-title">{{ site.data.l10n.t[page.lang].Gallery1 }}</h3>
-    <p class="gallery-description">{{ site.data.l10n.t[page.lang].Gallery2 }}</p>
-    <div class="gallery">
-        {% include svg/triangle.svg %}
-        <div class="fotorama">
-            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6374.jpg" alt="Photo Of Con Amore Festum 2015">
-            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6181.jpg" alt="Photo Of Con Amore Festum 2015">
-            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6200.jpg" alt="Photo Of Con Amore Festum 2015">
-            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6215.jpg" alt="Photo Of Con Amore Festum 2015">
-            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6284.jpg" alt="Photo Of Con Amore Festum 2015">
-            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6316.jpg" alt="Photo Of Con Amore Festum 2015">
-            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6329.jpg" alt="Photo Of Con Amore Festum 2015">
-            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6340.jpg" alt="Photo Of Con Amore Festum 2015">
-        </div>
-    </div>
-
-    {% include svg/triangle.svg %}
+  {% include svg/triangle.svg %}
 </section>
 
