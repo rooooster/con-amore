@@ -1,4 +1,3 @@
-# build settings
 baseurl: 
 markdown: kramdown
 permalink: :title
@@ -9,7 +8,6 @@ sass:
   sass_dir: assets/css
   style: :compressed
 
-# l10n
 defaults:
   -
     scope:

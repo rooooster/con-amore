@@ -1,6 +1,8 @@
 ---
 layout: singleNewsItem
-permalink: /news/lili-dorfman
+permalink: /news/lily-dorfman-interview
+type: news
 category: news
-title: Лілі Дорфам
+title: 'Лілі Дорфман: Ми дуже підтримуємо Київ, Україну й прагнемо вибудувати лінію нашої взаємної співпраці'
+image: assets/img/person/dorfman.png
 ---

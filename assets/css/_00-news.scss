@@ -1,0 +1,39 @@
+.news {
+  padding: 0 10% 80px;
+  text-align: center;
+  display: none;
+
+  .caption {
+    float: none;
+  }
+}
+
+.news-list {
+  display: inline-block;
+
+  &__item {
+    display: block;
+    width: 240px;
+    background: #f3f3f3;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  &__image {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  &__title {
+    text-align: left;
+  }
+
+  &__date {
+    text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    color: #898989;
+    margin-bottom: 10px;
+  }
+}
+
