@@ -197,18 +197,18 @@ $(".js-bank-account-toggle").click(function () {
 
 
 
-$('.open-popup-link').magnificPopup({
-  type: 'inline',
-  removalDelay: 500,
-  callbacks: {
-    beforeOpen: function() {
-       this.st.mainClass = this.st.el.attr('data-effect');
-    }
-  },
-  midClick: true,
-  // closeMarkup: '<span title="%title%" class="mfp-close icon-close"></span>',
-  // focus: '#email',
-});
+// $('.open-popup-link').magnificPopup({
+//   type: 'inline',
+//   removalDelay: 500,
+//   callbacks: {
+//     beforeOpen: function() {
+//        this.st.mainClass = this.st.el.attr('data-effect');
+//     }
+//   },
+//   midClick: true,
+//   // closeMarkup: '<span title="%title%" class="mfp-close icon-close"></span>',
+//   // focus: '#email',
+// });
 
 
 
