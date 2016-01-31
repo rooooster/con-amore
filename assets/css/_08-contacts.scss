@@ -1,74 +1,74 @@
 .contacts {
-    color: #fff;
-    background: #4B4B4B;
+  color: #fff;
+  background: #4B4B4B;
 
-    .contarcts-wrap {
-        @include span-columns(12);
-        padding: 20px 8%;
-        position: relative;
-        z-index: 2;
+  .contarcts-wrap {
+    @include span-columns(12);
+    padding: 20px 8%;
+    position: relative;
+    z-index: 2;
 
-        h3 {
-            margin: 0;
-            font-size: 36px;
-        }
-
-        p {
-            margin: 0;
-
-            span.gray {
-                color: #999;
-            }
-
-            &.email,
-            &.facebook {
-
-                a {
-                    color: #fff;
-                    display: table;
-
-                    &:hover {
-                        // color: #999;
-
-                        svg {
-                            fill: #fff;
-                        }
-                    }
-
-                    svg {
-                        margin-right: 20px;
-                        display: table-cell;
-                        vertical-align: middle;
-                        @include transition(fill .1s ease-in-out);
-                    }
-                    span {
-                        display: table-cell;
-                        vertical-align: middle;
-                    }
-                }
-            }
-        }
-
-        h6.rooster {
-            margin: 0;
-            padding: 280px 0 100px;
-            font-size: 12px;
-            text-align: center;
-
-            a {
-                display: inline-block;
-                padding: 4px 0;
-                font-size: 14px;
-            }
-        }
+    h3 {
+      margin: 0;
+      font-size: 36px;
     }
 
-    svg.logo {
-        position: absolute;
-        z-index: 1;
-        top: 100px;
-        right: 8%;
-        width: 60%;
-        fill: rgba(#D8D8D8, .05);
+    p {
+      margin: 0;
+
+      span.gray {
+        color: #999;
+      }
+
+      &.email,
+      &.facebook {
+
+        a {
+          color: #fff;
+          display: table;
+
+          &:hover {
+            // color: #999;
+
+            svg {
+              fill: #fff;
+            }
+          }
+
+          svg {
+            margin-right: 20px;
+            display: table-cell;
+            vertical-align: middle;
+            @include transition(fill .1s ease-in-out);
+          }
+          span {
+            display: table-cell;
+            vertical-align: middle;
+          }
+        }
+      }
     }
+
+    h6.rooster {
+      margin: 0;
+      padding: 280px 0 100px;
+      font-size: 12px;
+      text-align: center;
+
+      a {
+        display: inline-block;
+        padding: 4px 0;
+        font-size: 14px;
+      }
+    }
+  }
+
+  svg.logo {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    right: 8%;
+    width: 60%;
+    fill: rgba(#D8D8D8, .05);
+  }
 }
