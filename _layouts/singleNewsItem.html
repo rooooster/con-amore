@@ -24,7 +24,7 @@ layout: default
   {% assign posts=site.posts | where:"lang", page.lang | where:"name", "home" %}
   {% for post in posts %}
     <!-- <a href="{{ post.url }}">Home</a> -->
-    <a href="{{ post.url }}#top" class="top">&nbsp;</a>
+    <a href="{{ post.url }}" class="top">&nbsp;</a>
     <a href="{{ post.url }}#news" class="active">{{ site.data.l10n.t[page.lang].News }}</a>
     <a href="{{ post.url }}#about">{{ site.data.l10n.t[page.lang].About }}</a>
     <a href="{{ post.url }}#conditions">{{ site.data.l10n.t[page.lang].Conditions }}</a>
