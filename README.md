@@ -1,6 +1,6 @@
 # Skoryk Competition 2016
 
-Web development of Skoryk Competition site
+Web development of Skoryk Competition 2016 site
 
 Used [jekyll](http://jekyllrb.com), [sass](http://sass-lang.com) with [bourbon](http://bourbon.io)
 
