@@ -1,4 +1,4 @@
-baseurl: 
+baseurl: /skoryk-competition
 markdown: kramdown
 permalink: :title
 
