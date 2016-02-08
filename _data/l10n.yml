@@ -164,6 +164,9 @@ t:
     BelgiumTitle: 'Посольство<br>Бельгії'
     IsraelTitle: 'Посольство<br>Ізраїлю'
 
+    TereshenkoTitle: 'Фонд Терещенко'
+    MauTitle: 'Офіційні Авіалінії Конкурсу'
+
     ReadMore: 'Читати далі'
 
   en:
@@ -331,6 +334,9 @@ t:
     BelgiumTitle: 'Embassy of<br>Belgium'
     IsraelTitle: 'Embassy of<br>Israel'
 
+    TereshenkoTitle: 'Tereshenko Foundation'
+    MauTitle: 'Official Competition Airlines'
+
     ReadMore: 'Read more'
 
   ru:
@@ -497,5 +503,8 @@ t:
     MincultTitle: 'Министерство культуры Украины'
     BelgiumTitle: 'Посольство<br>Бельгии'
     IsraelTitle: 'Посольство<br>Израиля'
+
+    TereshenkoTitle: 'Фонд Терещенко'
+    MauTitle: 'Официальные Авиалини Конкурса'
 
     ReadMore: 'Читать дальше'
