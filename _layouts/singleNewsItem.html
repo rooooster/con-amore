@@ -25,14 +25,14 @@ layout: default
   {% for post in posts %}
     <!-- <a href="{{ post.url }}">Home</a> -->
     <a href="{{ post.url }}" class="top">&nbsp;</a>
-    <a href="{{ post.url }}#news" class="active">{{ site.data.l10n.t[page.lang].News }}</a>
-    <a href="{{ post.url }}#about">{{ site.data.l10n.t[page.lang].About }}</a>
-    <a href="{{ post.url }}#conditions">{{ site.data.l10n.t[page.lang].Conditions }}</a>
-    <a href="{{ post.url }}#programm">{{ site.data.l10n.t[page.lang].Programm }}</a>
-    <a href="{{ post.url }}#prizes">{{ site.data.l10n.t[page.lang].Prizes }}</a>
-    <a href="{{ post.url }}#jury">{{ site.data.l10n.t[page.lang].Jury }}</a>
-    <a href="{{ post.url }}#partners">{{ site.data.l10n.t[page.lang].Partners }}</a>
-    <a href="{{ post.url }}#contacts">{{ site.data.l10n.t[page.lang].Contacts }}</a>
+    <a href="{{ post.url }}#news" class="active">{{ page.News }}</a>
+    <a href="{{ post.url }}#about">{{ page.About }}</a>
+    <a href="{{ post.url }}#conditions">{{ page.Conditions }}</a>
+    <a href="{{ post.url }}#programm">{{ page.Programm }}</a>
+    <a href="{{ post.url }}#prizes">{{ page.Prizes }}</a>
+    <a href="{{ post.url }}#jury">{{ page.Jury }}</a>
+    <a href="{{ post.url }}#partners">{{ page.Partners }}</a>
+    <a href="{{ post.url }}#contacts">{{ page.Contacts }}</a>
   {% endfor %}
   {% include 00-last-day.html %}
 </nav>
