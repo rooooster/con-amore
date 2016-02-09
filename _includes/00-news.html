@@ -9,7 +9,7 @@
     {% for post in posts %}
       <div class="news-list__item">
 
-        <a href="{{ site.baseurl }}/{{ post.url }}" class="news-list__image">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="news-list__image">
           <img class="js-lazy"
             data-original="{{ site.baseurl }}/{{ post.image }}"
             alt="{{ post.title }}"
@@ -18,9 +18,9 @@
 
         <div class="news-list__text-container">
           <div class="news-list__date">{{ post.date | date: '%d.%m.%Y' }}</div>
-          <div class="news-list__title"><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></div>
+          <div class="news-list__title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
           <div class="news-list__description">{{ post.description }}</div>
-          <a class="news-list__read-more" href="{{ site.baseurl }}/{{ post.url }}">{{ page.ReadMore }} {% include svg/arrow-right.svg %}</a>
+          <a class="news-list__read-more" href="{{ site.baseurl }}{{ post.url }}">{{ page.ReadMore }} {% include svg/arrow-right.svg %}</a>
         </div>
 
       </div>
