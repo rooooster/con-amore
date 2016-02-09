@@ -1,45 +1,45 @@
 <section id="prizes" class="prizes">
 
     <div class="caption">
-        <h3>{{ page.Prizes }}</h3>
+        <h3>{{ site.data.l10n.t[page.lang].Prizes }}</h3>
     </div>
 
     <div class="prize-wrap">
         <div class="prize-item prize-item__first">
             {% include svg/star.svg %}
-            <h4>{{ page.PrizeTitle1 }}</h4>
-            <h5>{{ page.PrizeDescr1 }}</h5>
+            <h4>{{ site.data.l10n.t[page.lang].PrizeTitle1 }}</h4>
+            <h5>{{ site.data.l10n.t[page.lang].PrizeDescr1 }}</h5>
         </div>
 
         <div class="prize-item prize-item__second">
             {% include svg/star.svg %}
-            <h4>{{ page.PrizeTitle2 }}</h4>
-            <h5>{{ page.PrizeDescr2 }}</h5>
+            <h4>{{ site.data.l10n.t[page.lang].PrizeTitle2 }}</h4>
+            <h5>{{ site.data.l10n.t[page.lang].PrizeDescr2 }}</h5>
         </div>
 
         <div class="prize-item prize-item__third">
             {% include svg/star.svg %}
-            <h4>{{ page.PrizeTitle3 }}</h4>
-            <h5>{{ page.PrizeDescr3 }}</h5>
+            <h4>{{ site.data.l10n.t[page.lang].PrizeTitle3 }}</h4>
+            <h5>{{ site.data.l10n.t[page.lang].PrizeDescr3 }}</h5>
         </div>
     </div>
 
     <div class="award-wrap">
-        <h3>{{ page.Awards }}</h3>
+        <h3>{{ site.data.l10n.t[page.lang].Awards }}</h3>
         <div class="award-item">
             {% include svg/star.svg %}
-            <h4>{{ page.AwardTitle1 }}</h4>
+            <h4>{{ site.data.l10n.t[page.lang].AwardTitle1 }}</h4>
             <p><a href="https://www.academie-internationale-ete-nice.com/" target="_blank">www.academie-internationale-ete-nice.com</a></p>
         </div>
         <div class="award-item">
             {% include svg/star.svg %}
-            <h4>{{ page.AwardTitle2 }}</h4>
+            <h4>{{ site.data.l10n.t[page.lang].AwardTitle2 }}</h4>
             <p><a href="http://www.isam-masterclasses.de/" target="_blank">www.sam-masterclasses.de</a></p>
         </div>
         <div class="award-item">
             {% include svg/star.svg %}
-            <h4>{{ page.AwardTitle3 }}</h4>
-            <p>{{ page.AwardDescr3 }}</p>
+            <h4>{{ site.data.l10n.t[page.lang].AwardTitle3 }}</h4>
+            <p>{{ site.data.l10n.t[page.lang].AwardDescr3 }}</p>
         </div>
     </div>
 

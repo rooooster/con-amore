@@ -1,21 +1,21 @@
 <section id="about" class="about">
 
   <div class="caption">
-    <h3>{{ page.About }}</h3>
+    <h3>{{ site.data.l10n.t[page.lang].About }}</h3>
   </div>
 
   <div class="foreword-wrap">
     <div class="foreword-item">
-      <h4>{{ page.ForewordTitle }}</h4>
+      <h4>{{ site.data.l10n.t[page.lang].ForewordTitle }}</h4>
     </div>
     <div class="foreword-item">
-      <p>{{ page.ForewordP1 }}</p>
-      <p>{{ page.ForewordP2 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].ForewordP1 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].ForewordP2 }}</p>
     </div>
     <div class="foreword-item">
-      <p>{{ page.ForewordP3 }}</p>
-      <p>{{ page.ForewordP4 }}</p>
-      <p>{{ page.ForewordP5 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].ForewordP3 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].ForewordP4 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].ForewordP5 }}</p>
     </div>
   </div>
   {% include svg/triangle.svg %}
@@ -26,11 +26,11 @@
         data-original="{{ site.baseurl }}/assets/img/person/poroshenko.png"
         alt="Photo Of Poroshenko"
       >
-      <h4>{{ page.PoroshenkoGritings }}</h4>
-      <p>{{ page.PoroshenkoP1 }}</p>
-      <p>{{ page.PoroshenkoP2 }}</p>
-      <p>{{ page.PoroshenkoP3 }}</p>
-      <h5>{{ page.PoroshenkoEnd }}</h5>
+      <h4>{{ site.data.l10n.t[page.lang].PoroshenkoGritings }}</h4>
+      <p>{{ site.data.l10n.t[page.lang].PoroshenkoP1 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].PoroshenkoP2 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].PoroshenkoP3 }}</p>
+      <h5>{{ site.data.l10n.t[page.lang].PoroshenkoEnd }}</h5>
     </div>
 
     <div class="speeches-item">
@@ -38,11 +38,11 @@
         data-original="{{ site.baseurl }}/assets/img/person/skoryk.png"
         alt="Photo Of Skoryk"
       >
-      <h4>{{ page.SkorykGritings }}</h4>
-      <p>{{ page.SkorykP1 }}</p>
-      <p>{{ page.SkorykP2 }}</p>
-      <p>{{ page.SkorykP3 }}</p>
-      <h5>{{ page.SkorykEnd }}</h5>
+      <h4>{{ site.data.l10n.t[page.lang].SkorykGritings }}</h4>
+      <p>{{ site.data.l10n.t[page.lang].SkorykP1 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].SkorykP2 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].SkorykP3 }}</p>
+      <h5>{{ site.data.l10n.t[page.lang].SkorykEnd }}</h5>
     </div>
 
     <div class="speeches-item">
@@ -50,17 +50,17 @@
         data-original="{{ site.baseurl }}/assets/img/person/tomasyshyn.png"
         alt="Photo Of Tomasyshyn"
       >
-      <h4>{{ page.TomasyshynGritings }}</h4>
-      <p>{{ page.TomasyshynP1 }}</p>
-      <p>{{ page.TomasyshynP2 }}</p>
-      <p>{{ page.TomasyshynP3 }}</p>
-      <p>{{ page.TomasyshynP4 }}</p>
-      <h5>{{ page.TomasyshynEnd }}</h5>
+      <h4>{{ site.data.l10n.t[page.lang].TomasyshynGritings }}</h4>
+      <p>{{ site.data.l10n.t[page.lang].TomasyshynP1 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].TomasyshynP2 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].TomasyshynP3 }}</p>
+      <p>{{ site.data.l10n.t[page.lang].TomasyshynP4 }}</p>
+      <h5>{{ site.data.l10n.t[page.lang].TomasyshynEnd }}</h5>
     </div>
   </div>
 
-  <!-- <h3 class="gallery-title">{{ page.Gallery1 }}</h3>
-  <p class="gallery-description">{{ page.Gallery2 }}</p>
+  <!-- <h3 class="gallery-title">{{ site.data.l10n.t[page.lang].Gallery1 }}</h3>
+  <p class="gallery-description">{{ site.data.l10n.t[page.lang].Gallery2 }}</p>
   <div class="gallery">
     {% include svg/triangle.svg %}
     <div class="fotorama">

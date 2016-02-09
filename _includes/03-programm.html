@@ -1,14 +1,14 @@
 <section id="programm" class="programm">
 
     <div class="caption">
-        <h3>{{ page.Programm }}</h3>
+        <h3>{{ site.data.l10n.t[page.lang].Programm }}</h3>
     </div>
 
     <div class="wrap">
-        <h4>{{ page.Pianoforte }}</h4>
-        <p>{{ page.Programm1 }}</p>
-        <p>{{ page.Programm2 }}</p>
-        <p>{{ page.Programm3 }}</p>
+        <h4>{{ site.data.l10n.t[page.lang].Pianoforte }}</h4>
+        <p>{{ site.data.l10n.t[page.lang].Programm1 }}</p>
+        <p>{{ site.data.l10n.t[page.lang].Programm2 }}</p>
+        <p>{{ site.data.l10n.t[page.lang].Programm3 }}</p>
     </div>
 
     <div class="rule-container">
@@ -17,9 +17,9 @@
                 <span>4</span>
             </div>
             <div class="description">
-                <h4>{{ page.Punkt4 }}</h4>
-                <p>{{ page.Punkt4_1 }}</p>
-                <p>{{ page.Punkt4_2 }}</p>
+                <h4>{{ site.data.l10n.t[page.lang].Punkt4 }}</h4>
+                <p>{{ site.data.l10n.t[page.lang].Punkt4_1 }}</p>
+                <p>{{ site.data.l10n.t[page.lang].Punkt4_2 }}</p>
 
                 <!-- <div class="music-wrap">
                     {% for one in site.categories.one %}
@@ -30,15 +30,15 @@
                             <div class="link">
                                 {% if one.file == false %}
                                     <p style="text-align:left;">
-                                        {{ page.Explanation1 }}
+                                        {{ site.data.l10n.t[page.lang].Explanation1 }}
                                         <br>
-                                        {{ page.Explanation2 }}
+                                        {{ site.data.l10n.t[page.lang].Explanation2 }}
                                         <br>
-                                        {{ page.Explanation3 }}
+                                        {{ site.data.l10n.t[page.lang].Explanation3 }}
                                     </p>
                                 {% else %}
                                     <p>
-                                        <a href="{{ site.baseurl }}/assets/docs/one{{ one.id }}.pdf" download>{{ page.Download }}</a>
+                                        <a href="{{ site.baseurl }}/assets/docs/one{{ one.id }}.pdf" download>{{ site.data.l10n.t[page.lang].Download }}</a>
                                     </p>
                                 {% endif %}
                             </div>
@@ -56,15 +56,15 @@
                             <div class="link">
                                 {% if post.file == false %}
                                     <p style="text-align:left;">
-                                        {{ page.Explanation1 }}
+                                        {{ site.data.l10n.t[page.lang].Explanation1 }}
                                         <br>
-                                        {{ page.Explanation2 }}
+                                        {{ site.data.l10n.t[page.lang].Explanation2 }}
                                         <br>
-                                        {{ page.Explanation3 }}
+                                        {{ site.data.l10n.t[page.lang].Explanation3 }}
                                     </p>
                                 {% else %}
                                     <p>
-                                        <a href="{{ site.baseurl }}/assets/docs/one{{ post.id }}.pdf" download>{{ page.Download }}</a>
+                                        <a href="{{ site.baseurl }}/assets/docs/one{{ post.id }}.pdf" download>{{ site.data.l10n.t[page.lang].Download }}</a>
                                     </p>
                                 {% endif %}
                             </div>
@@ -79,9 +79,9 @@
                 <span>5</span>
             </div>
             <div class="description">
-                <h4>{{ page.Punkt5 }}</h4>
-                <p>{{ page.Punkt5_1 }}</p>
-                <p>{{ page.Punkt5_2 }}</p>
+                <h4>{{ site.data.l10n.t[page.lang].Punkt5 }}</h4>
+                <p>{{ site.data.l10n.t[page.lang].Punkt5_1 }}</p>
+                <p>{{ site.data.l10n.t[page.lang].Punkt5_2 }}</p>
 
                 <!-- <div class="music-wrap">
                     {% for two in site.categories.two %}
@@ -90,7 +90,7 @@
                                 <p>{{ two.title }}</p>
                             </div>
                             <div class="link">
-                                <p><a href="{{ site.baseurl }}/assets/docs/two{{ two.id }}.pdf" download>{{ page.Download }}</a></p>
+                                <p><a href="{{ site.baseurl }}/assets/docs/two{{ two.id }}.pdf" download>{{ site.data.l10n.t[page.lang].Download }}</a></p>
                             </div>
                         </div>
                     {% endfor %}
@@ -104,7 +104,7 @@
                                 <p>{{ post.title }}</p>
                             </div>
                             <div class="link">
-                                <p><a href="{{ site.baseurl }}/assets/docs/two{{ post.id }}.pdf" download>{{ page.Download }}</a></p>
+                                <p><a href="{{ site.baseurl }}/assets/docs/two{{ post.id }}.pdf" download>{{ site.data.l10n.t[page.lang].Download }}</a></p>
                             </div>
                         </div>
                     {% endfor %}

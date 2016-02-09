@@ -1,12 +1,12 @@
 <section id="contacts" class="contacts">
 
     <div class="caption">
-        <h3>{{ page.Contacts }}</h3>
+        <h3>{{ site.data.l10n.t[page.lang].Contacts }}</h3>
     </div>
 
     <div class="contarcts-wrap">
-        <!-- <p><span class="gray">{{ page.ContactPerson }}</span></p>
-        <h3>{{ page.ContactName }}</h3>
+        <!-- <p><span class="gray">{{ site.data.l10n.t[page.lang].ContactPerson }}</span></p>
+        <h3>{{ site.data.l10n.t[page.lang].ContactName }}</h3>
 
         <br>
         <br> -->
@@ -38,7 +38,7 @@
             </a>
         </p>
 
-        <h6 class="rooster">{{ page.Powered }}<br><a href="http://rooooster.com/" target="_blank">Rooster Studio</a></h6>
+        <h6 class="rooster">{{ site.data.l10n.t[page.lang].Powered }}<br><a href="http://rooooster.com/" target="_blank">Rooster Studio</a></h6>
     </div>
 
     {% include svg/skoryk-competition-logo.svg %}
