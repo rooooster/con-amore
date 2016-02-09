@@ -1,10 +1,10 @@
 <section id="conditions" class="conditions">
 
     <div class="caption">
-        <h3>{{ site.data.l10n.t[page.lang].Conditions }}</h3>
+        <h3>{{ page.Conditions }}</h3>
     </div>
 
-    <p class="conditions-description">{{ site.data.l10n.t[page.lang].ConditionsDescr }}</p>
+    <p class="conditions-description">{{ page.ConditionsDescr }}</p>
 
     <div class="rule-wrap">
         <div class="rule-item">
@@ -12,10 +12,10 @@
                 <span>1</span>
             </div>
             <div class="description">
-                <h4>{{ site.data.l10n.t[page.lang].Punkt1 }}</h4>
+                <h4>{{ page.Punkt1 }}</h4>
             </div>
             <div class="more">
-                <a class="drop-down js-official-rules-toggle">{{ site.data.l10n.t[page.lang].OfficialContestTerms }} {% include svg/drop-down.svg %}</a>
+                <a class="drop-down js-official-rules-toggle">{{ page.OfficialContestTerms }} {% include svg/drop-down.svg %}</a>
             </div>
         </div>
         {% include official-rules-content.html %}
@@ -25,12 +25,12 @@
                 <span>2</span>
             </div>
             <div class="description">
-                <h4>{{ site.data.l10n.t[page.lang].Punkt2 }}</h4>
-                <p>{{ site.data.l10n.t[page.lang].Punkt2_1 }}</p>
-                <p>{{ site.data.l10n.t[page.lang].Punkt2_2 }} <a href="mailto:mmskoryk@gmail.com?subject='{{ site.data.l10n.t[page.lang].EmailSubject }}'">mmskoryk@gmail.com</a></p>
+                <h4>{{ page.Punkt2 }}</h4>
+                <p>{{ page.Punkt2_1 }}</p>
+                <p>{{ page.Punkt2_2 }} <a href="mailto:mmskoryk@gmail.com?subject='{{ page.EmailSubject }}'">mmskoryk@gmail.com</a></p>
             </div>
             <div class="more">
-                <a class="doc" href="{{ site.baseurl }}/assets/docs/skoryk-competition-form.doc">{% include svg/doc.svg %} {{ site.data.l10n.t[page.lang].DownloadForm }}</a>
+                <a class="doc" href="{{ site.baseurl }}/assets/docs/skoryk-competition-form.doc">{% include svg/doc.svg %} {{ page.DownloadForm }}</a>
             </div>
         </div>
 
@@ -39,10 +39,10 @@
                 <span>3</span>
             </div>
             <div class="description">
-                <h4>{{ site.data.l10n.t[page.lang].Punkt3 }}</h4>
+                <h4>{{ page.Punkt3 }}</h4>
             </div>
             <div class="more">
-                <a class="drop-down js-bank-account-toggle">{{ site.data.l10n.t[page.lang].BankDetails }} {% include svg/drop-down.svg %}</a>
+                <a class="drop-down js-bank-account-toggle">{{ page.BankDetails }} {% include svg/drop-down.svg %}</a>
             </div>
         </div>
         {% include bank-account-content.html %}
