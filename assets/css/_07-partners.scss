@@ -73,8 +73,7 @@
         padding: 20px 0 40px;
 
         img {
-          margin: 0 auto 20px;
-          padding: 0;
+          padding: 60px 10px;
           max-width: 235px;
           opacity: .5;
           @include transition(opacity .2s ease-in-out);
@@ -114,6 +113,15 @@
 
         img {
           padding: 20px 40px;
+        }
+      }
+
+      .kamelia {
+        display: inline-block;
+        max-width: 245px;
+
+        img {
+          padding: 60px 10px;
         }
       }
 
