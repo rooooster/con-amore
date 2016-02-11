@@ -59,18 +59,13 @@
         &.union { max-width: 236px; }
         &.metro { max-width: 158px; }
       }
-      h5 {
-        font-size: 28px;
-        margin: 0;
-        padding: 80px 0;
-        color: #999;
-      }
 
       a.premier {
         max-width: 300px;
         display: inline-block;
         margin: 0 auto;
         padding: 20px 0 40px;
+        color: #999;
 
         img {
           padding: 60px 10px;
@@ -94,6 +89,7 @@
         display: inline-block;
         margin: 0 auto;
         padding: 40px 60px 40px;
+        display: none;
 
         img {
           margin: 0 auto 20px;
@@ -137,6 +133,7 @@
       .kozlovskogo {
         display: inline-block;
         max-width: 282px;
+        display: none;
 
         img {
           padding: 20px 20px;
@@ -239,6 +236,41 @@
           margin: 0;
           color: #999;
           padding: 0 0 20px;
+        }
+      }
+
+      .pik-consulting {
+        display: inline-block;
+        width: 225px;
+        position: relative;
+        top: -75px;
+
+        h5 {
+          font-size: 28px;
+          margin: 0;
+          color: #999;
+        }
+      }
+
+      .taruta {
+        display: inline-block;
+        width: 225px;
+        position: relative;
+        top: -75px;
+
+        h5 {
+          font-size: 28px;
+          margin: 0;
+          color: #999;
+        }
+      }
+
+      .fond-tomasishyn {
+        h5 {
+          font-size: 28px;
+          margin: 0;
+          color: #999;
+          padding: 30px 0;
         }
       }
     }
