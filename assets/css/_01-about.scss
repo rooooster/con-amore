@@ -37,61 +37,6 @@
             }
         }
     }
-    .speeches-wrap {
-        @include span-columns(12);
-        padding: 20px 2.5% 40px;
-        @include linear-gradient(#f3f3f3, #fff);
-
-        .speeches-item {
-            text-align: left;
-            font-size: 18px;
-            color: #9E9E9E;
-            position: relative;
-            padding: 0 2.5% 40px;
-            @include span-columns(4);
-
-            @include media($mobile) {
-                @include span-columns(12);
-            }
-
-            img {
-                float: left;
-                width: 100%;
-                max-width: 424px;
-                margin-bottom: 40px;
-                margin-right: 40px;
-
-                @include media($mobile) {
-                    max-width: 224px;
-                }
-            }
-            h4 {
-                margin: 0 0 20px;
-                color: #585858;
-                font-size: 36px;
-
-                // @include media($tablet) {
-                //     font-size: 18px;
-                // }
-            }
-            p {
-                font-size: 18px;
-
-                // @include media($tablet) {
-                //     font-size: 14px;
-                // }
-            }
-            h5 {
-                margin: 0;
-                color: #585858;
-                font-size: 24px;
-
-                // @include media($tablet) {
-                //     font-size: 16px;
-                // }
-            }
-        }
-    }
 
     .gallery-title {
         @include span-columns(12);
@@ -143,4 +88,74 @@
     }
 }
 
+.speaker {
+    @include span-columns(12);
+    padding: 20px 1.5% 40px;
+    @include linear-gradient(#f3f3f3, #fff);
+
+    .poroshenko,
+    .skoryk,
+    .tomasyshyn,
+    .kyrylenko,
+    .rozhok {
+        @include span-columns(4);
+
+        @include media($mobile) {
+            @include span-columns(12);
+        }
+    }
+
+    .poroshenko {
+    }
+    .skoryk {
+    }
+    .tomasyshyn {
+        @include omega();
+    }
+    .kyrylenko {
+        @include shift(2);
+    }
+    .rozhok {
+        @include omega();
+    }
+
+    &__row {
+        @include span-columns(12);
+    }
+    &__item {
+        text-align: left;
+        font-size: 18px;
+        color: #9E9E9E;
+        position: relative;
+        padding: 0 2.5% 40px;
+
+        img {
+            display: block;
+
+            @include media($mobile) {
+                max-width: 224px;
+            }
+        }
+        h4 {
+            margin: 0 0 20px;
+            color: #585858;
+            font-size: 26px;
+        }
+        p {
+            font-size: 18px;
+        }
+        h5 {
+            margin: 0;
+            color: #585858;
+            font-size: 20px;
+        }
+    }
+
+    &__image {
+        overflow: hidden;
+        border-radius: 50%;
+        max-width: 250px;
+        margin-bottom: 40px;
+    }
+}
 

@@ -1,80 +1,119 @@
 <section id="about" class="about">
 
-  <div class="caption">
-    <h3>{{ site.data.l10n.t[page.lang].About }}</h3>
-  </div>
-
-  <div class="foreword-wrap">
-    <div class="foreword-item">
-      <h4>{{ site.data.l10n.t[page.lang].ForewordTitle }}</h4>
-    </div>
-    <div class="foreword-item">
-      <p>{{ site.data.l10n.t[page.lang].ForewordP1 }}</p>
-      <p>{{ site.data.l10n.t[page.lang].ForewordP2 }}</p>
-    </div>
-    <div class="foreword-item">
-      <p>{{ site.data.l10n.t[page.lang].ForewordP3 }}</p>
-      <p>{{ site.data.l10n.t[page.lang].ForewordP4 }}</p>
-      <p>{{ site.data.l10n.t[page.lang].ForewordP5 }}</p>
-    </div>
-  </div>
-  {% include svg/triangle.svg %}
-
-  <div class="speeches-wrap">
-    <div class="speeches-item">
-      <img class="js-lazy"
-        data-original="{{ site.baseurl }}/assets/img/person/poroshenko.png"
-        alt="Photo Of Poroshenko"
-      >
-      <h4>{{ site.data.l10n.t[page.lang].PoroshenkoGritings }}</h4>
-      <p>{{ site.data.l10n.t[page.lang].PoroshenkoP1 }}</p>
-      <p>{{ site.data.l10n.t[page.lang].PoroshenkoP2 }}</p>
-      <p>{{ site.data.l10n.t[page.lang].PoroshenkoP3 }}</p>
-      <h5>{{ site.data.l10n.t[page.lang].PoroshenkoEnd }}</h5>
+    <div class="caption">
+        <h3>{{ site.data.l10n.t[page.lang].About }}</h3>
     </div>
 
-    <div class="speeches-item">
-      <img class="js-lazy"
-        data-original="{{ site.baseurl }}/assets/img/person/skoryk.png"
-        alt="Photo Of Skoryk"
-      >
-      <h4>{{ site.data.l10n.t[page.lang].SkorykGritings }}</h4>
-      <p>{{ site.data.l10n.t[page.lang].SkorykP1 }}</p>
-      <p>{{ site.data.l10n.t[page.lang].SkorykP2 }}</p>
-      <p>{{ site.data.l10n.t[page.lang].SkorykP3 }}</p>
-      <h5>{{ site.data.l10n.t[page.lang].SkorykEnd }}</h5>
+    <div class="foreword-wrap">
+        <div class="foreword-item">
+            <h4>{{ site.data.l10n.t[page.lang].ForewordTitle }}</h4>
+        </div>
+        <div class="foreword-item">
+            <p>{{ site.data.l10n.t[page.lang].ForewordP1 }}</p>
+            <p>{{ site.data.l10n.t[page.lang].ForewordP2 }}</p>
+        </div>
+        <div class="foreword-item">
+            <p>{{ site.data.l10n.t[page.lang].ForewordP3 }}</p>
+            <p>{{ site.data.l10n.t[page.lang].ForewordP4 }}</p>
+            <p>{{ site.data.l10n.t[page.lang].ForewordP5 }}</p>
+        </div>
     </div>
-
-    <div class="speeches-item">
-      <img class="js-lazy"
-        data-original="{{ site.baseurl }}/assets/img/person/tomasyshyn.png"
-        alt="Photo Of Tomasyshyn"
-      >
-      <h4>{{ site.data.l10n.t[page.lang].TomasyshynGritings }}</h4>
-      <p>{{ site.data.l10n.t[page.lang].TomasyshynP1 }}</p>
-      <p>{{ site.data.l10n.t[page.lang].TomasyshynP2 }}</p>
-      <p>{{ site.data.l10n.t[page.lang].TomasyshynP3 }}</p>
-      <p>{{ site.data.l10n.t[page.lang].TomasyshynP4 }}</p>
-      <h5>{{ site.data.l10n.t[page.lang].TomasyshynEnd }}</h5>
-    </div>
-  </div>
-
-  <!-- <h3 class="gallery-title">{{ site.data.l10n.t[page.lang].Gallery1 }}</h3>
-  <p class="gallery-description">{{ site.data.l10n.t[page.lang].Gallery2 }}</p>
-  <div class="gallery">
     {% include svg/triangle.svg %}
-    <div class="fotorama">
-      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6374.jpg" alt="Photo Of Con Amore Festum 2015">
-      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6181.jpg" alt="Photo Of Con Amore Festum 2015">
-      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6200.jpg" alt="Photo Of Con Amore Festum 2015">
-      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6215.jpg" alt="Photo Of Con Amore Festum 2015">
-      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6284.jpg" alt="Photo Of Con Amore Festum 2015">
-      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6316.jpg" alt="Photo Of Con Amore Festum 2015">
-      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6329.jpg" alt="Photo Of Con Amore Festum 2015">
-      <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6340.jpg" alt="Photo Of Con Amore Festum 2015">
-    </div>
-  </div> -->
 
-  {% include svg/triangle.svg %}
+    <div class="speaker">
+        <div class="speaker__row">
+            <div class="speaker__item poroshenko">
+                <div class="speaker__image">
+                    <img src="{{ site.baseurl }}/assets/img/person/poroshenko.png" alt="Photo Of Poroshenko">
+                </div>
+                <h4>{{ site.data.l10n.t[page.lang].PoroshenkoGritings }}</h4>
+                <p>{{ site.data.l10n.t[page.lang].PoroshenkoP1 }}</p>
+                <p>{{ site.data.l10n.t[page.lang].PoroshenkoP2 }}</p>
+                <p>{{ site.data.l10n.t[page.lang].PoroshenkoP3 }}</p>
+                <h5>{{ site.data.l10n.t[page.lang].PoroshenkoEnd }}</h5>
+            </div>
+
+            <div class="speaker__item skoryk">
+                <div class="speaker__image">
+                    <img src="{{ site.baseurl }}/assets/img/person/skoryk.png" alt="Photo Of Skoryk">
+                </div>
+                <h4>{{ site.data.l10n.t[page.lang].SkorykGritings }}</h4>
+                <p>{{ site.data.l10n.t[page.lang].SkorykP1 }}</p>
+                <p>{{ site.data.l10n.t[page.lang].SkorykP2 }}</p>
+                <p>{{ site.data.l10n.t[page.lang].SkorykP3 }}</p>
+                <h5>{{ site.data.l10n.t[page.lang].SkorykEnd }}</h5>
+            </div>
+
+            <div class="speaker__item tomasyshyn">
+                <div class="speaker__image">
+                    <img src="{{ site.baseurl }}/assets/img/person/tomasyshyn.png" alt="Photo Of Tomasyshyn">
+                </div>
+                <h4>{{ site.data.l10n.t[page.lang].TomasyshynGritings }}</h4>
+                <p>{{ site.data.l10n.t[page.lang].TomasyshynP1 }}</p>
+                <p>{{ site.data.l10n.t[page.lang].TomasyshynP2 }}</p>
+                <p>{{ site.data.l10n.t[page.lang].TomasyshynP3 }}</p>
+                <p>{{ site.data.l10n.t[page.lang].TomasyshynP4 }}</p>
+                <h5>{{ site.data.l10n.t[page.lang].TomasyshynEnd }}</h5>
+            </div>
+        </div>
+
+        <div class="speaker__row">
+            <div class="speaker__item kyrylenko">
+                <div class="speaker__image">
+                    <img src="{{ site.baseurl }}/assets/img/person/kyrylenko.jpg" alt="Photo Of Kyrylenko">
+                </div>
+                <h4>Організаторам, учасникам та гостям Першого Всеукраїнського відкритого музичного конкурсу Мирослава Скорика</h4>
+                <h4>Дорогі друзі!</h4>
+                <p>Сердечно вітаю всіх із започаткуванням нової мистецької акції в Україні – Першого Всеукраїнського відкритого музичного конкурсу  Мирослава Скорика.</p>
+                <p>Названий іменем всесвітньо відомого українського композитора, Героя України, народного артиста України, лауреата Національної премії України імені Тараса Шевченка Мирослава Михайловича Скорика, конкурс є унікальним проектом, адже він єдиний в Україні, у рамках якого виконуватиметься виключно музика нашого славетного земляка.</p>
+                <p>Переконаний, що це яскраве музичне змагання дасть життя багатьом творчим починанням, відкриє нові імена талановитих музикантів, подарує добру нагоду реалізувати свій творчий потенціал і стане успішним етапом  на шляху їх професійного зростання.</p>
+                <p>Бажаю всім учасникам конкурсу натхнення, високої майстерності,  вдалих виступів і творчих перемог, а самому конкурсу – успіху та довголіття.</p>
+                <h5>
+                    З повагою<br>
+                    Віце-прем’єр-міністр України –<br>
+                    Міністр культури України<br>
+                    В. А. Кириленко
+                </h5>
+            </div>
+
+
+            <div class="speaker__item rozhok">
+                <div class="speaker__image">
+                    <img src="{{ site.baseurl }}/assets/img/person/rozhok.jpg" alt="Photo Of Rozhok">
+                </div>
+                <h4>Учасникам і гостям Всеукраїнського відкритого музичного конкурсу Мирослава Скорика</h4>
+                <h4>Шановні учасники конкурсу та поважні члени журі!</h4>
+                <p>Дозвольте сердечно привітати Вас з відкриттям Всеукраїнського відкритого музичного конкурсу  Мирослава Скорика.</p>
+                <p>Проведення цієї важливої мистецької акції, співорганізатором якої є  Національна музична академія України імені П. І. Чайковського, не тільки сприятиме виявленню та розвитку молодих талантів, на які завжди була багата українська земля, а й популяризує творчість Мирослава Скорика, унікальної постаті, неперевершеного, талановитого композитора і педагога, диригента і музикознавця, громадського діяча.</p>
+                <p>Сподіваюсь, що протягом конкурсних днів відбуватиметься обмін досвідом талановитих музикантів. До того ж, маю надію, що для декого з них київський конкурс стане стартовим майданчиком до всесвітнього визнання.</p>
+                <p>Бажаю всім миру, здоров’я, наполегливості і творчого натхнення.</p>
+                <h5>
+                    Ректор НМАУ ім. П. І. Чайковського,<br>
+                    Доктор мистецтвознавства, професор,<br>
+                    Народний артист України,<br>
+                    член-кореспондент НАМУ,<br>
+                    В. І. Рожок
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- <h3 class="gallery-title">{{ site.data.l10n.t[page.lang].Gallery1 }}</h3>
+    <p class="gallery-description">{{ site.data.l10n.t[page.lang].Gallery2 }}</p>
+    <div class="gallery">
+        {% include svg/triangle.svg %}
+        <div class="fotorama">
+            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6374.jpg" alt="Photo Of Con Amore Festum 2015">
+            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6181.jpg" alt="Photo Of Con Amore Festum 2015">
+            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6200.jpg" alt="Photo Of Con Amore Festum 2015">
+            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6215.jpg" alt="Photo Of Con Amore Festum 2015">
+            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6284.jpg" alt="Photo Of Con Amore Festum 2015">
+            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6316.jpg" alt="Photo Of Con Amore Festum 2015">
+            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6329.jpg" alt="Photo Of Con Amore Festum 2015">
+            <img src="{{ site.baseurl }}/assets/img/gallery/IMG_6340.jpg" alt="Photo Of Con Amore Festum 2015">
+        </div>
+    </div> -->
+
+    {% include svg/triangle.svg %}
 </section>
 
