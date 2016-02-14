@@ -114,6 +114,10 @@
     }
     .kyrylenko {
         @include shift(2);
+
+        @include media($mobile) {
+            @include shift(0);
+        }
     }
     .rozhok {
         @include omega();
@@ -131,10 +135,6 @@
 
         img {
             display: block;
-
-            @include media($mobile) {
-                max-width: 224px;
-            }
         }
         h4 {
             margin: 0 0 20px;
