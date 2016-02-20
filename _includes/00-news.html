@@ -1,30 +1,30 @@
 <section id="news" class="news">
 
-  <div class="caption">
-    <h3>{{ site.data.l10n.t[page.lang].News }}</h3>
-  </div>
+    <div class="caption">
+        <h3>{{ site.data.l10n.t[page.lang].News }}</h3>
+    </div>
 
-  <div class="news-list">
-    {% assign posts=site.posts | where:"lang", page.lang | where:"type", "news" %}
-    {% for post in posts %}
-      <div class="news-list__item">
+    <div class="news-list">
+        {% assign posts=site.posts | where:"lang", page.lang | where:"type", "news" %}
+        {% for post in posts %}
+            <div class="news-list__item">
 
-        <a href="{{ site.baseurl }}{{ post.url }}" class="news-list__image">
-          <img class="js-lazy"
-            data-original="{{ site.baseurl }}/{{ post.image }}"
-            alt="{{ post.title }}"
-          >
-        </a>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="news-list__image">
+                    <img class="js-lazy"
+                        data-original="{{ site.baseurl }}/{{ post.image }}"
+                        alt="{{ post.title }}"
+                    >
+                </a>
 
-        <div class="news-list__text-container">
-          <div class="news-list__date">{{ post.date | date: '%d.%m.%Y' }}</div>
-          <div class="news-list__title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
-          <div class="news-list__description">{{ post.description }}</div>
-          <a class="news-list__read-more" href="{{ site.baseurl }}{{ post.url }}">{{ site.data.l10n.t[page.lang].ReadMore }} {% include svg/arrow-right.svg %}</a>
-        </div>
+                <div class="news-list__text-container">
+                    <div class="news-list__date">{{ post.date | date: '%d.%m.%Y' }}</div>
+                    <div class="news-list__title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+                    <div class="news-list__description">{{ post.description }}</div>
+                    <a class="news-list__read-more" href="{{ site.baseurl }}{{ post.url }}">{{ site.data.l10n.t[page.lang].ReadMore }} {% include svg/arrow-right.svg %}</a>
+                </div>
 
-      </div>
-    {% endfor %}
-  </div>
+            </div>
+        {% endfor %}
+    </div>
 
 </section>
