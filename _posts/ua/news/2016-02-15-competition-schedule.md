@@ -1,6 +1,6 @@
 ---
 layout: singleNewsItem
-permalink: /news/competition-schedule
+permalink: /news/:title/
 type: news
 category: news
 name: competition-schedule

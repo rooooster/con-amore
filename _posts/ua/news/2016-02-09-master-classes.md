@@ -1,6 +1,6 @@
 ---
 layout: singleNewsItem
-permalink: /news/master-classes
+permalink: /news/:title/
 type: news
 category: news
 name: master-classes

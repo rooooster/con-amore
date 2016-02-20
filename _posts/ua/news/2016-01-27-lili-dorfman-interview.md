@@ -1,6 +1,6 @@
 ---
 layout: singleNewsItem
-permalink: /news/lily-dorfman-interview
+permalink: /news/:title/
 type: news
 category: news
 name: lily-dorfman-interview

@@ -1,6 +1,6 @@
 ---
 layout: singleNewsItem
-permalink: /news/anatoly-molotay-interview
+permalink: /news/:title/
 type: news
 category: news
 name: anatoly-molotay-interview
