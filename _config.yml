@@ -1,6 +1,6 @@
 baseurl: /skoryk-competition
 markdown: kramdown
-permalink: :title
+permalink: /:title/
 
 exclude: ['README.md', 'CNAME']
 

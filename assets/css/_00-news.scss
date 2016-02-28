@@ -117,12 +117,14 @@
     @include linear-gradient(#eee, #fff);
 
     &__container {
-        padding: 150px 2%;
+        padding: 150px 20px 40px;
         max-width: 880px;
         margin: 0 auto;
     }
 
     &__header {
+        border-bottom: 1px solid rgba(#000, .1);
+        margin-bottom: 40px;
         @include clearfix;
     }
 
@@ -134,16 +136,32 @@
 
     &__title {
         color: #e6322f;
+        margin-bottom: 20px;
     }
 
     &__description {
         color: #9e9e9e;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         font-size: 22px;
+    }
+
+    &__date {
+        color: #666;
+        font-style: italic;
+        margin-bottom: 40px;
     }
 
     &__content {
         color: #666;
+        border-bottom: 1px solid rgba(#000, .1);
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        @include clearfix;
+    }
+
+    &__footer {
+        color: #666;
+        text-align: right;
     }
 }
 
