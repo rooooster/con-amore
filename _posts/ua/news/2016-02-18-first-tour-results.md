@@ -22,13 +22,13 @@ og-image: http://rooooster.com/content/skoryk/news/og-first-tour-results.jpg
 
 <div class="gallery">
     <div class="fotorama">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/01.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/02.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/03.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/04.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/05.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/06.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/07.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/08.jpg" alt="Con Amore Festum 2015 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/first-tour-results/01.jpg" alt="Con Amore Festum 2015 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/first-tour-results/02.jpg" alt="Con Amore Festum 2015 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/first-tour-results/03.jpg" alt="Con Amore Festum 2015 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/first-tour-results/04.jpg" alt="Con Amore Festum 2015 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/first-tour-results/05.jpg" alt="Con Amore Festum 2015 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/first-tour-results/06.jpg" alt="Con Amore Festum 2015 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/first-tour-results/07.jpg" alt="Con Amore Festum 2015 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/first-tour-results/08.jpg" alt="Con Amore Festum 2015 Photo">
     </div>
 </div>

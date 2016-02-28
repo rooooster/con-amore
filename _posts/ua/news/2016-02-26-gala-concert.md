@@ -4,26 +4,51 @@ permalink: /news/:title/
 type: news
 category: news
 name: gala-concert
+mainNews: true
 
 image: assets/img/news/gala-concert.jpg
-title: "Гала-концерт"
-description: "Гала-концерт"
+title: "Гала-концерт та церемонія нагородження переможців (фото, відео)"
+description: "20 лютого у Великій залі Національної музичної академії України імені П.І. Чайковського відбувався гала-концерт та церемонія нагородження переможців Першого всеукраїнського відкритого музичного конкурсу Мирослава Скорика"
 
-og-image: http://rooooster.com/content/skoryk/news/og-gala-concert.jpg
+og-image: http://rooooster.com/content/skoryk/news/gala-concert.jpg
 ---
 
-20 лютого у Великій залі Національної музичної академії України імені П. І. Чайковського відбувався гала-концерт та церемонія нагородження переможців Першого всеукраїнського відкритого музичного конкурсу Мирослава Скорика. Музичне змагання юних піаністів проходило під патронатом Дружини Президента України Марини Порошенко.
+20 лютого у Великій залі Національної музичної академії України імені П.І. Чайковського відбувався гала-концерт та церемонія нагородження переможців Першого всеукраїнського відкритого музичного конкурсу Мирослава Скорика. Музичне змагання юних піаністів проходило під патронатом Дружини Президента України Марини Порошенко.
 
 <div class="gallery">
     <div class="fotorama">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/01.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/02.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/03.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/04.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/05.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/06.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/07.jpg" alt="Con Amore Festum 2015 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/2016-02-18-first-tour-results/08.jpg" alt="Con Amore Festum 2015 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/01.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/02.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/03.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/04.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/05.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/06.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/07.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/08.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/09.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/10.jpg" alt="Skoryk Competition 2016 Photo">
+
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/11.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/12.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/13.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/14.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/15.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/16.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/17.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/18.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/19.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/20.jpg" alt="Skoryk Competition 2016 Photo">
+
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/21.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/22.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/23.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/24.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/25.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/26.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/27.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/28.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/29.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/30.jpg" alt="Skoryk Competition 2016 Photo">
     </div>
 </div>
 
@@ -48,3 +73,8 @@ og-image: http://rooooster.com/content/skoryk/news/og-gala-concert.jpg
 
 Концерт завершився виконанням Рондо-капріччіозо «Лють з приводу загубленого гроша» Людвіга ван Бетховена у перекладенні для симфонічного оркестру Мирослава Скорика під його орудою.
 
+<div class="video-content">
+    <div class="video-content__ratio">
+        <iframe class="video-content__iframe" src="https://www.youtube.com/embed/MEYOo3N1c-c"></iframe>
+    </div>
+</div>

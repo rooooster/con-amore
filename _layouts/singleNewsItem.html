@@ -36,29 +36,29 @@ layout: default
     {% include 00-last-day.html %}
 </nav>
 
-<article class="single-news-item">
-    <div class="single-news-item__container">
+<article class="singleNewsItem">
+    <div class="singleNewsItem__container">
 
-        <div class="single-news-item__header">
+        <div class="singleNewsItem__header">
 
-            <img class="single-news-item__image js-lazy"
+            <img class="singleNewsItem__image  {% if page.mainNews == true %}singleNewsItem__image--main{% endif %} js-lazy"
                 data-original="{{ site.baseurl }}/{{ page.image }}"
                 alt="{{ page.title }}"
             >
 
-            <h1 class="single-news-item__title">{{ page:title }}</h1>
+            <h1 class="singleNewsItem__title">{{ page:title }}</h1>
 
-            <h2 class="single-news-item__description">{{ page:description }}</h2>
+            <h2 class="singleNewsItem__description">{{ page:description }}</h2>
 
-            <div class="single-news-item__date">{{ page:date | date: '%d.%m.%Y' }}</div>
+            <div class="singleNewsItem__date">{{ page:date | date: '%d.%m.%Y' }}</div>
         </div>
 
-        <div class="single-news-item__content">
+        <div class="singleNewsItem__content">
 
             {{ content }}
         </div>
 
-        <footer class="single-news-item__footer">
+        <footer class="singleNewsItem__footer">
             {{ site.data.l10n.t[page.lang].Powered }}
             <br>
             <a href="http://rooooster.com" target="_blank">Rooster Studio</a></div>
