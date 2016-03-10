@@ -1,6 +1,7 @@
 ---
 layout: singleNewsItem
 permalink: /ru/news/:title/
+lang: ru
 type: news
 category: news
 name: lily-dorfman-interview
@@ -9,7 +10,7 @@ image: assets/img/news/lily-dorfman-interview.png
 title: "Лили Дорфман: Мы очень поддерживаем Киев, Украину, и надеемся на долгое и плодотворное сотрудничество"
 description: "Предлагаем Вашему вниманию краткое интервью с уважаемым членом жюри конкурса, известной пианисткой и педагогом, госпожой Лили Дорфман (Израиль)"
 
-og-image: http://rooooster.com/content/skoryk/news/og-lily-dorfman-interview.png
+og-image: http://rooooster.com/content/skoryk/news/lily-dorfman-interview.png
 ---
 
 **— Госпожа Дорфман, вы будете отбирать среди участников Всеукраинского открытого музыкального конкурса имени Мирослава Скорика тех, кто посетит мастер-классы в Германии…**

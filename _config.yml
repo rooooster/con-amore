@@ -1,29 +1,3 @@
+# baseurl: 
 baseurl: /skoryk-competition
-markdown: kramdown
-permalink: /:title/
-
-exclude: ['README.md', 'CNAME']
-
-sass:
-  sass_dir: assets/css
-  style: :compressed
-
-defaults:
-  -
-    scope:
-      path: _posts/en
-    values:
-      layout: default
-      lang: en
-  -
-    scope:
-      path: _posts/ua
-    values:
-      layout: default
-      lang: ua
-  -
-    scope:
-      path: _posts/ru
-    values:
-      layout: default
-      lang: ru
+exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json', 'CNAME']

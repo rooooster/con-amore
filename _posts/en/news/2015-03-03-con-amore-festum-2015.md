@@ -1,6 +1,7 @@
 ---
 layout: singleNewsItem
 permalink: /en/news/:title/
+lang: en
 type: news
 category: news
 name: con-amore-festum-photos
@@ -9,7 +10,7 @@ image: assets/img/news/con-amore-festum-2015.png
 title: "Gala-concert «Con Amore Festum» 2015"
 description: "Project initiated «Skoryk Competition» 2016"
 
-og-image: http://rooooster.com/content/skoryk/news/og-con-amore-festum-2015.jpg
+og-image: http://rooooster.com/content/skoryk/news/con-amore-festum-2015.jpg
 ---
 
 <div class="gallery">

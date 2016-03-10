@@ -1,6 +1,7 @@
 ---
 layout: singleNewsItem
 permalink: /news/:title/
+lang: ua
 type: news
 category: news
 name: gala-concert
@@ -17,38 +18,38 @@ og-image: http://rooooster.com/content/skoryk/news/gala-concert.jpg
 
 <div class="gallery">
     <div class="fotorama">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/01.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/02.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/03.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/04.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/05.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/06.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/07.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/08.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/09.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/10.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/01.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/02.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/03.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/04.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/05.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/06.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/07.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/08.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/09.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/10.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
 
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/11.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/12.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/13.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/14.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/15.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/16.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/17.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/18.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/19.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/20.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/11.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/12.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/13.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/14.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/15.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/16.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/17.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/18.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/19.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/20.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
 
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/21.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/22.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/23.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/24.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/25.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/26.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/27.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/28.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/29.jpg" alt="Skoryk Competition 2016 Photo">
-        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/30.jpg" alt="Skoryk Competition 2016 Photo">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/21.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/22.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/23.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/24.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/25.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/26.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/27.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/28.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/29.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
+        <img src="{{ site.baseurl }}/assets/img/news/gala-concert/30.jpg" alt="Skoryk Competition 2016 Photo Gala Concert">
     </div>
 </div>
 
