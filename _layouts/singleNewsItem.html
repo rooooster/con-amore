@@ -5,33 +5,33 @@ layout: default
 <nav class="lang">
     {% assign posts=site.posts | where:"type", "news" | where:"lang", "ua" | where:"name", page.name %}
     {% for post in posts %}
-        <a href="{{ post.url }}" class="ua">{{ post.lang }}</a>
+        <a class="ua" href="{{ post.id }}">{{ post.lang }}</a>
     {% endfor %}
 
     {% assign posts=site.posts | where:"type", "news" | where:"lang", "en" | where:"name", page.name %}
     {% for post in posts %}
-        <a href="{{ post.url }}" class="en">{{ post.lang }}</a>
+        <a class="en" href="{{ post.id }}">{{ post.lang }}</a>
     {% endfor %}
 
     {% assign posts=site.posts | where:"type", "news" | where:"lang", "ru" | where:"name", page.name %}
     {% for post in posts %}
-        <a href="{{ post.url }}" class="ru">{{ post.lang }}</a>
+        <a class="ru" href="{{ post.id }}">{{ post.lang }}</a>
     {% endfor %}
 </nav>
 
 <nav class="nav-main--news-stick nav-main--news">
     {% assign posts=site.posts | where:"lang", page.lang | where:"name", "home" %}
     {% for post in posts %}
-        <!-- <a href="{{ post.url }}">Home</a> -->
-        <a href="{{ post.url }}" class="top">&nbsp;</a>
-        <a href="{{ post.url }}#news" class="active">{{ site.data.l10n.t[page.lang].News }}</a>
-        <a href="{{ post.url }}#about">{{ site.data.l10n.t[page.lang].About }}</a>
-        <a href="{{ post.url }}#conditions">{{ site.data.l10n.t[page.lang].Conditions }}</a>
-        <a href="{{ post.url }}#programm">{{ site.data.l10n.t[page.lang].Programm }}</a>
-        <a href="{{ post.url }}#prizes">{{ site.data.l10n.t[page.lang].Prizes }}</a>
-        <a href="{{ post.url }}#jury">{{ site.data.l10n.t[page.lang].Jury }}</a>
-        <a href="{{ post.url }}#partners">{{ site.data.l10n.t[page.lang].Partners }}</a>
-        <a href="{{ post.url }}#contacts">{{ site.data.l10n.t[page.lang].Contacts }}</a>
+        <!-- <a href="{{ site.baseurl }}/">Home</a> -->
+        <a href="{{ site.baseurl }}/" class="top">&nbsp;</a>
+        <a href="{{ site.baseurl }}/#news" class="active">{{ site.data.l10n.t[page.lang].News }}</a>
+        <a href="{{ site.baseurl }}/#about">{{ site.data.l10n.t[page.lang].About }}</a>
+        <a href="{{ site.baseurl }}/#conditions">{{ site.data.l10n.t[page.lang].Conditions }}</a>
+        <a href="{{ site.baseurl }}/#programm">{{ site.data.l10n.t[page.lang].Programm }}</a>
+        <a href="{{ site.baseurl }}/#prizes">{{ site.data.l10n.t[page.lang].Prizes }}</a>
+        <a href="{{ site.baseurl }}/#jury">{{ site.data.l10n.t[page.lang].Jury }}</a>
+        <a href="{{ site.baseurl }}/#partners">{{ site.data.l10n.t[page.lang].Partners }}</a>
+        <a href="{{ site.baseurl }}/#contacts">{{ site.data.l10n.t[page.lang].Contacts }}</a>
     {% endfor %}
     {% include 00-last-day.html %}
 </nav>
