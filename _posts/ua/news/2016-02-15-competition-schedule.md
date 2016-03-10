@@ -1,6 +1,6 @@
 ---
-layout: singleNewsItem
-permalink: /news/:title/
+layout: single-news
+permalink: /news/competition-schedule/
 lang: ua
 type: news
 category: news

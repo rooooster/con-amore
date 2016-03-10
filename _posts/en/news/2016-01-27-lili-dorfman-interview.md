@@ -1,6 +1,6 @@
 ---
-layout: singleNewsItem
-permalink: /en/news/:title/
+layout: single-news
+permalink: /en/news/lily-dorfman-interview/
 lang: en
 type: news
 category: news

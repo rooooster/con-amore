@@ -1,6 +1,6 @@
 ---
-layout: singleNewsItem
-permalink: /news/:title/
+layout: single-news
+permalink: /news/con-amore-festum-photos/
 lang: ua
 type: news
 category: news

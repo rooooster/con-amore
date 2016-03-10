@@ -1,6 +1,6 @@
 ---
-layout: singleNewsItem
-permalink: /news/:title/
+layout: single-news
+permalink: /news/anatoly-molotay-interview/
 lang: ua
 type: news
 category: news

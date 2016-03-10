@@ -1,5 +1,16 @@
 <nav class="lang">
-    <a class="ua" href="{{ site.baseurl }}/">ua</a>
-    <a class="en" href="{{ site.baseurl }}/en/">en</a>
-    <a class="ru" href="{{ site.baseurl }}/ru/">ru</a>
+    {% assign posts=site.posts | where: "lang", "ua" | where: "name", page.name %}
+    {% for post in posts %}
+        <a class="ua" href="{{ site.baseurl }}{{ post.permalink }}">{{ post.lang }}</a>
+    {% endfor %}
+
+    {% assign posts=site.posts | where: "lang", "en" | where: "name", page.name %}
+    {% for post in posts %}
+        <a class="en" href="{{ site.baseurl }}{{ post.permalink }}">{{ post.lang }}</a>
+    {% endfor %}
+
+    {% assign posts=site.posts | where: "lang", "ru" | where: "name", page.name %}
+    {% for post in posts %}
+        <a class="ru" href="{{ site.baseurl }}{{ post.permalink }}">{{ post.lang }}</a>
+    {% endfor %}
 </nav>
