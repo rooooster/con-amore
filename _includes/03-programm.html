@@ -54,7 +54,7 @@
                                 <p>{{ i.title[page.lang] }}</p>
                             </div>
                             <div class="link">
-                                <p><a href="{{ site.baseurl }}/assets/docs/two/{{ i.file }}" download>{{ site.data.l10n.t[page.lang].Download }}</a></p>
+                                <p><a href="{{ site.baseurl }}/assets/docs/{{ i.file }}" download>{{ site.data.l10n.t[page.lang].Download }}</a></p>
                             </div>
                         </div>
                     {% endfor %}
@@ -72,20 +72,6 @@
                 <p>{{ site.data.l10n.t[page.lang].Punkt5_1 }}</p>
                 <p>{{ site.data.l10n.t[page.lang].Punkt5_2 }}</p>
 
-                <!-- <div class="music-wrap">
-                    {% assign posts=site.posts | where: "lang", page.lang | where: "type", "tvir" | where: "category", "two" %}
-                    {% for post in posts %}
-                        <div class="music-item">
-                            <div class="title">
-                                <p>{{ post.title }}</p>
-                            </div>
-                            <div class="link">
-                                <p><a href="{{ site.baseurl }}/assets/docs/two{{ post.id }}.pdf" download>{{ site.data.l10n.t[page.lang].Download }}</a></p>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div> -->
-
                 <div class="music-wrap">
                     {% for i in site.data.compositions-round-2 %}
                         <div class="music-item">
@@ -93,7 +79,7 @@
                                 <p>{{ i.title[page.lang] }}</p>
                             </div>
                             <div class="link">
-                                <p><a href="{{ site.baseurl }}/assets/docs/two/{{ i.file }}" download>{{ site.data.l10n.t[page.lang].Download }}</a></p>
+                                <p><a href="{{ site.baseurl }}/assets/docs/{{ i.file }}" download>{{ site.data.l10n.t[page.lang].Download }}</a></p>
                             </div>
                         </div>
                     {% endfor %}

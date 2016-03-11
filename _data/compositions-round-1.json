@@ -1,10 +1,186 @@
 [
     {
         "title": {
-            "en": "XXXXXXXXXXXXXX",
-            "ua": "XXXXXXXXXXXXXX",
-            "ru": "XXXXXXXXXXXXXX",
+            "en": "Prelude and Fugue from the «Preludes and Fugues» (optional)",
+            "ru": "Прелюдия и фуга из цикла «Прелюдии и фуги» (на выбор)",
+            "ua": "Прелюдія і фуга з циклу «Прелюдії та фуги» (за вибором)",
         },
-        "file": "XXXXXXXXXXXXXX.pdf",
+        "file": "preludii-ta-fugy.pdf",
+    },
+    {
+        "title": {
+            "en": "«Toccata»",
+            "ru": "«Токката»",
+            "ua": "«Токата»",
+        },
+        "file": "tokata.pdf",
+    },
+    {
+        "title": {
+            "en": "«Burleska»",
+            "ru": "«Бурлеска»",
+            "ua": "«Бурлеска»",
+        },
+        "file": "burleska.pdf",
+    },
+    {
+        "title": {
+            "en": "Piano cycle «The Carpathians», «Boyko Song»",
+            "ru": "Фортепианный цикл «В Карпатах»: «Песня бойка»",
+            "ua": "Фортепіанний цикл «В Карпатах»: «Пісня бойка»",
+        },
+        "file": "pisnya-boyka.pdf",
+    },
+    {
+        "title": {
+            "en": "Piano cycle «The Carpathians»: «In the forest»",
+            "ru": "Фортепианный цикл «В Карпатах»: «В лесу»",
+            "ua": "Фортепіанний цикл «В Карпатах»: «У лісі»",
+        },
+        "file": "u-lisi.pdf",
+    },
+    {
+        "title": {
+            "en": "Piano cycle «The Carpathians»: «Singing in the mountains»",
+            "ru": "Фортепианный цикл «В Карпатах»: «Пение в горах»",
+            "ua": "Фортепіанний цикл «В Карпатах»: «Спів у горах»",
+        },
+        "file": "spiv-u-gorah.pdf",
+    },
+    {
+        "title": {
+            "en": "Piano cycle «The Carpathians»: «Kolomyika»",
+            "ru": "Фортепианный цикл «В Карпатах»: «Коломыйка»",
+            "ua": "Фортепіанний цикл «В Карпатах»: «Коломийка»",
+        },
+        "file": "kolomyika.pdf",
+    },
+    {
+        "title": {
+            "en": "«A piece of paper to the album»",
+            "ru": "«Листок к альбому»",
+            "ua": "«Листок до альбому»",
+        },
+        "file": "lystok-do-albomu.pdf",
+    },
+    {
+        "title": {
+            "en": "The play «Lirnyk» with «Children's Album»",
+            "ru": "Пьеса «Лирнык» из «Десткого альбома»",
+            "ua": "П’єса «Лірник» з «Дитячого альбому»",
+        },
+        "file": "lirnyk.pdf",
+    },
+    {
+        "title": {
+            "en": "«Melody»",
+            "ru": "«Мелодия»",
+            "ua": "«Мелодія»",
+        },
+        "file": "melodia.pdf",
+    },
+    {
+        "title": {
+            "en": "«Blues»",
+            "ru": "«Блюз»",
+            "ua": "«Блюз»",
+        },
+        "file": "blues.pdf",
+    },
+    {
+        "title": {
+            "en": "Piano cycle of «Six jazz pieces»: «A pleasant walk»",
+            "ru": "Фортепианный цикл «Шесть джазовых пьес»: «Приятная прогулка»",
+            "ua": "Фортепіанний цикл «Шість джазових п’єс»: «Приємна прогулянка»",
+        },
+        "file": "pryemna-progulanka.pdf",
+    },
+    {
+        "title": {
+            "en": "Piano cycle of «Six jazz pieces»: «A haunting melody»",
+            "ru": "Фортепианный цикл «Шесть джазовых пьес»: «Навязчивый мотив»",
+            "ua": "Фортепіанний цикл «Шість джазових п’єс»: «Нав’язливий мотив»",
+        },
+        "file": "navyazlyvyi-motyv.pdf",
+    },
+    {
+        "title": {
+            "en": "Piano cycle of «Six jazz pieces»: «Patterns»",
+            "ru": "Фортепианный цикл «Шесть джазовых пьес»: «Узоры»",
+            "ua": "Фортепіанний цикл «Шість джазових п’єс»: «Візерунки»",
+        },
+        "file": "vizerunky.pdf",
+    },
+    {
+        "title": {
+            "en": "Piano cycle of «Six jazz pieces»: «In the old jazz style»",
+            "ru": "Фортепианный цикл «Шесть джазовых пьес»: «В старом джазовом стиле»",
+            "ua": "Фортепіанний цикл «Шість джазових п’єс»: «В старому джазовому стилі»",
+        },
+        "file": "v-staromu-jazovomu-styli.pdf",
+    },
+    {
+        "title": {
+            "en": "Piano cycle of «Six jazz pieces»: «In folk style»",
+            "ru": "Фортепианный цикл «Шесть джазовых пьес»: «В народном стиле»",
+            "ua": "Фортепіанний цикл «Шість джазових п’єс»: «В народному стилі»",
+        },
+        "file": "v-narodnomu-styli.pdf",
+    },
+    {
+        "title": {
+            "en": "Piano cycle of «Six jazz pieces»: «Caprice»",
+            "ru": "Фортепианный цикл «Шесть джазовых пьес»: «Каприз»",
+            "ua": "Фортепіанний цикл «Шість джазових п’єс»: «Каприз»",
+        },
+        "file": "kapryz.pdf",
+    },
+    {
+        "title": {
+            "en": "Partita number 5: «Prelude»",
+            "ru": "Партита № 5: «Прелюдия»",
+            "ua": "Партита № 5: «Прелюдія»",
+        },
+        "file": "preludia.pdf",
+    },
+    {
+        "title": {
+            "en": "Partita number 5: «Waltz»",
+            "ru": "Партита № 5: «Вальс»",
+            "ua": "Партита № 5: «Вальс»",
+        },
+        "file": "vals.pdf",
+    },
+    {
+        "title": {
+            "en": "Partita number 5: «Chorus»",
+            "ru": "Партита № 5: «Хор»",
+            "ua": "Партита № 5: «Хор»",
+        },
+        "file": "hor.pdf",
+    },
+    {
+        "title": {
+            "en": "Partita number 5: «Aria»",
+            "ru": "Партита № 5: «Ария»",
+            "ua": "Партита № 5: «Арія»",
+        },
+        "file": "aria.pdf",
+    },
+    {
+        "title": {
+            "en": "Partita number 5: «Finale»",
+            "ru": "Партита № 5: «Финал»",
+            "ua": "Партита № 5: «Фінал»",
+        },
+        "file": "final.pdf",
+    },
+    {
+        "title": {
+            "en": "«Memory» - the work, written M.Skoryk for the first round of the competition",
+            "ru": "«Воспоминание» - произведение, написанное М.Скориком для первого тура конкурса",
+            "ua": "«Спогад» - твір, написаний М.Скориком для першого туру конкурсу",
+        },
+        "file": "memory.pdf",
     },
 ]
