@@ -1,11 +1,11 @@
-nav.lang {
+.lang {
   position: fixed;
   top: 35px;
   left: 0;
   z-index: 300;
   padding: 0 12px;
 
-  a {
+  &__link {
     text-transform: uppercase;
     color: #000;
     font-size: 12px;
@@ -14,15 +14,15 @@ nav.lang {
     box-sizing: border-box;
     text-align: center;
     display: inline-block;
-    @include transition(color .2s ease-in-out);
+    transition: color .2s ease-in-out;
 
     &:hover {
       color: #e6322f;
     }
 
-    &.ua:lang(ua),
-    &.ru:lang(ru),
-    &.en:lang(en) {
+    &--ua:lang(ua),
+    &--ru:lang(ru),
+    &--en:lang(en) {
       color: #e6322f;
       border: 1px solid #e6322f;
       border-radius: 20px;

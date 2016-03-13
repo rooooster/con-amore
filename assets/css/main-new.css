@@ -536,6 +536,39 @@ img {
   text-align: right;
 }
 
+.lang {
+  position: fixed;
+  top: 35px;
+  left: 0;
+  z-index: 300;
+  padding: 0 12px;
+}
+
+.lang__link {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 12px;
+  width: 30px;
+  line-height: 28px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+}
+
+.lang__link:hover {
+  color: #e6322f;
+}
+
+.lang__link--ua:lang(ua), .lang__link--ru:lang(ru), .lang__link--en:lang(en) {
+  color: #e6322f;
+  border: 1px solid #e6322f;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+}
+
 .compositions__row {
   padding: 20px;
   background: rgba(0, 0, 0, 0.025);

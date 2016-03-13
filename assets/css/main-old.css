@@ -1458,39 +1458,6 @@ nav.nav-main-stick a.active {
   border-color: #e6322f;
 }
 
-nav.lang {
-  position: fixed;
-  top: 35px;
-  left: 0;
-  z-index: 300;
-  padding: 0 12px;
-}
-
-nav.lang a {
-  text-transform: uppercase;
-  color: #000;
-  font-size: 12px;
-  width: 30px;
-  line-height: 28px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-align: center;
-  display: inline-block;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-
-nav.lang a:hover {
-  color: #e6322f;
-}
-
-nav.lang a.ua:lang(ua), nav.lang a.ru:lang(ru), nav.lang a.en:lang(en) {
-  color: #e6322f;
-  border: 1px solid #e6322f;
-  -webkit-border-radius: 20px;
-          border-radius: 20px;
-}
-
 header {
   position: relative;
   z-index: 3;
