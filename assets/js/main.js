@@ -28,7 +28,9 @@ fotoramaDefaults = {
     hash: true
 }
 
-// toTop
+/**
+* totop
+*/
 $(function() {
     $(window).scroll(function() {
         if($(this).scrollTop() != 0) {
