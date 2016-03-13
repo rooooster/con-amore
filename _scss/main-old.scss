@@ -1,6 +1,7 @@
 @import 'old/vendor/bourbon/bourbon';
-@import 'old/grid-settings';
+@import 'old/vendor/grid-settings';
 @import 'old/vendor/neat/neat';
+
 $path: '../img/fotorama/';
 @import 'old/vendor/fotorama/fotorama';
 @import 'old/vendor/magnific-popup';
@@ -23,5 +24,4 @@ $path: '../img/fotorama/';
 @import 'old/08-contacts';
 @import 'old/09-press';
 @import 'old/scroll-down';
-@import 'old/to-top';
 @import 'old/btn';

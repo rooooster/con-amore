@@ -1,7 +1,7 @@
-.to-top {
+.totop {
     width: 50px;
     height: 50px;
-    background: #E6322F;
+    background: #e6322f;
     position: fixed;
     z-index: 6;
     bottom: 10px;
@@ -11,7 +11,8 @@
     border-radius: 25px;
     border: 3px solid transparent;
     box-sizing: border-box;
-    @include transition(border .2s ease-in-out, background .2s ease-in-out);
+    transition: border .2s ease-in-out,
+                background .2s ease-in-out;
 
     svg {
         width: 18px;
@@ -19,20 +20,20 @@
         display: block;
         position: relative;
         top: 50%;
-        @include transform(translate3d(0,-50%,0));
+        transform: translate3d(0,-50%,0);
 
         polygon {
             fill: #fff;
-            @include transition(fill .2s ease-in-out);
+            transition: fill .2s ease-in-out;
         }
     }
 
     &:hover {
-        border-color: #E6322F;
+        border-color: #e6322f;
         background: transparent;
 
         svg polygon {
-            fill: #E6322F;
+            fill: #e6322f;
         }
     }
 }

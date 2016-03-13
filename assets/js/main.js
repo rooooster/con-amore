@@ -32,12 +32,12 @@ fotoramaDefaults = {
 $(function() {
     $(window).scroll(function() {
         if($(this).scrollTop() != 0) {
-            $('.to-top').fadeIn();
+            $('.totop').fadeIn();
         } else {
-            $('.to-top').fadeOut();
+            $('.totop').fadeOut();
         }
     });
-    $('.to-top').click(function() {
+    $('.totop').click(function() {
         $('body,html').animate({scrollTop:0},800);
     });
 });
