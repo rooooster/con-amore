@@ -1,0 +1,25 @@
+.compositions {
+    // margin-bottom: 30px;
+
+    &__row {
+        padding: 20px;
+        background: rgba(#000,.025);
+        @include clearfix;
+
+        &:nth-child(2n-1) {
+            background: rgba(#000,.075);
+        }
+    }
+
+    &__title {
+        float: left;
+        width: 65%;
+        color: #999;
+    }
+
+    &__link {
+        float: right;
+        width: 35%;
+        text-align: right;
+    }
+}

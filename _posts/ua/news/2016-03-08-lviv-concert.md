@@ -13,7 +13,7 @@ description: "28 лютого Львів"
 og-image: http://rooooster.com/content/skoryk/news/lviv-concert.jpg
 ---
 
-28 лютого у Львівській обласній філармонії виступали переможці Конкурсу.
+28 лютого у Львівській обласній філармонії відбувся Гала-концерт переможців конкурсу Скорика.
 
 <div class="gallery">
     <div class="fotorama">

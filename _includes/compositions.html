@@ -1,0 +1,10 @@
+<div class="compositions">
+    {% for i in compositions %}
+    <div class="compositions__row">
+        <div class="compositions__title">{{ i.title[page.lang] }}</div>
+        <div class="compositions__link">
+            <a href="{{ site.baseurl }}/assets/docs/{{ i.file }}" download>{{ site.data.l10n.t[page.lang].Download }}</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>

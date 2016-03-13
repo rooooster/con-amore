@@ -45,7 +45,8 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
  */
 gulp.task('sass', function () {
     return gulp.src([
-            '_scss/main.scss'
+            '_scss/main-old.scss',
+            '_scss/main-new.scss'
         ])
         .pipe(sass({
             includePaths: ['scss'],

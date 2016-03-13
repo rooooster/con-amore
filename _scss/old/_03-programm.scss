@@ -50,6 +50,7 @@
                     margin-bottom: -20px;
                 }
             }
+
             .description {
                 @include span-columns(10);
 
@@ -63,23 +64,23 @@
                     margin: 0 0 25px;
                 }
 
-                .music-wrap {
-                    padding-top: 50px;
+                // .music-wrap {
+                //     padding-top: 50px;
 
-                    .music-item {
-                        @include span-columns(12);
-                        padding: 25px 0 0;
+                //     .music-item {
+                //         @include span-columns(12);
+                //         padding: 25px 0 0;
 
-                        .title {
-                            @include span-columns(7);
-                        }
-                        .link {
-                            @include span-columns(5);
-                            @include omega;
-                            text-align: center;
-                        }
-                    }
-                }
+                //         .title {
+                //             @include span-columns(7);
+                //         }
+                //         .link {
+                //             @include span-columns(5);
+                //             @include omega;
+                //             text-align: center;
+                //         }
+                //     }
+                // }
             }
         }
     }

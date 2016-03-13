@@ -21,44 +21,8 @@
                 <p>{{ site.data.l10n.t[page.lang].Punkt4_1 }}</p>
                 <p>{{ site.data.l10n.t[page.lang].Punkt4_2 }}</p>
 
-                <!-- <div class="music-wrap">
-                    {% assign posts=site.posts | where: "lang", page.lang | where: "type", "tvir" | where: "category", "one" %}
-                    {% for post in posts %}
-                        <div class="music-item">
-                            <div class="title">
-                                <p>{{ post.title }}</p>
-                            </div>
-                            <div class="link">
-                                {% if post.file == false %}
-                                    <p style="text-align:left;">
-                                        {{ site.data.l10n.t[page.lang].Explanation1 }}
-                                        <br>
-                                        {{ site.data.l10n.t[page.lang].Explanation2 }}
-                                        <br>
-                                        {{ site.data.l10n.t[page.lang].Explanation3 }}
-                                    </p>
-                                {% else %}
-                                    <p>
-                                        <a href="{{ site.baseurl }}/assets/docs/one{{ post.id }}.pdf" download>{{ site.data.l10n.t[page.lang].Download }}</a>
-                                    </p>
-                                {% endif %}
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div> -->
-
-                <div class="music-wrap">
-                    {% for i in site.data.compositions-round-1 %}
-                        <div class="music-item">
-                            <div class="title">
-                                <p>{{ i.title[page.lang] }}</p>
-                            </div>
-                            <div class="link">
-                                <p><a href="{{ site.baseurl }}/assets/docs/{{ i.file }}" download>{{ site.data.l10n.t[page.lang].Download }}</a></p>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
+                {% assign compositions = site.data.compositions.round-1 %}
+                {% include compositions.html %}
 
             </div>
         </div>
@@ -72,18 +36,8 @@
                 <p>{{ site.data.l10n.t[page.lang].Punkt5_1 }}</p>
                 <p>{{ site.data.l10n.t[page.lang].Punkt5_2 }}</p>
 
-                <div class="music-wrap">
-                    {% for i in site.data.compositions-round-2 %}
-                        <div class="music-item">
-                            <div class="title">
-                                <p>{{ i.title[page.lang] }}</p>
-                            </div>
-                            <div class="link">
-                                <p><a href="{{ site.baseurl }}/assets/docs/{{ i.file }}" download>{{ site.data.l10n.t[page.lang].Download }}</a></p>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
+                {% assign compositions = site.data.compositions.round-2 %}
+                {% include compositions.html %}
 
             </div>
         </div>
