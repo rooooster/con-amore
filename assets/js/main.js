@@ -1,14 +1,26 @@
-/**
-* single-page-nav
-* https://github.com/ChrisWojcik/single-page-nav
-*/
+// menu
 $('.js-anhor-nav').singlePageNav({
-    easing: 'easeInOutExpo',
-    speed: 1250,
-    currentClass: 'active',
     offset: 110,
-    updateHash: true
+    // filter: ':not(.is-external)',
+    currentClass: 'active',
+    updateHash: true,
+    easing: 'easeInOutExpo',
+    speed: 0,
+    // beforeStart: function() {
+    //     console.log('begin scrolling');
+    // },
+    // onComplete: function() {
+    //     console.log('done scrolling');
+    // }
 });
+
+
+// history
+$(document).on('click', '.nav-main a', function(){
+    // console.log(window.location.hash);
+    var hash = window.location.hash;
+    history.replaceState(undefined, undefined, hash)
+})
 
 /**
 * fotorama

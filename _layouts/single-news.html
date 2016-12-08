@@ -28,11 +28,11 @@ layout: default
                 alt="{{ page.title }}"
             >
 
-            <h1 class="singleNewsItem__title">{{ page:title }}</h1>
+            <h1 class="singleNewsItem__title">{{ page.title }}</h1>
 
-            <h2 class="singleNewsItem__description">{{ page:description }}</h2>
+            <h2 class="singleNewsItem__description">{{ page.description }}</h2>
 
-            <div class="singleNewsItem__date">{{ page:date | date: '%d.%m.%Y' }}</div>
+            <div class="singleNewsItem__date">{{ page.date | date: '%d.%m.%Y' }}</div>
         </div>
 
         <div class="singleNewsItem__content">
