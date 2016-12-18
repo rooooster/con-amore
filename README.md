@@ -1,17 +1,21 @@
-# Skoryk Competition 2016
+# skoryk-competition.github.io
 
-Web development of Skoryk Competition 2016 site ([skoryk-competition.com](http://skoryk-competition.com))
+_Web development of Skoryk Competition 2016 site_
+
+### Used
+
+[Jekyll](https://jekyllrb.com) - static site generator based on [Ruby](https://www.ruby-lang.org)
+
+[Gulp](http://gulpjs.com) - build system based on [NodeJS](https://nodejs.org)
+
+[Coriolan UI](https://coriolan-ui.github.io) - [Sass](http://sass-lang.com) mixins pack
+
+[GitHub Pages](https://pages.github.com) - free hosting
 
 ### Run
 
 `npm i`
 
-`npm start` or `gulp`
+`gulp watch`
 
-### Authors
-
-Design by [Anton Pivniuk](https://www.behance.net/antonpivniuk) (Lead UI/UX Engineer at [Lucky Labs](http://lucky-labs.com) & [Rooster Studio](http://rooooster.com) Owner)
-
-Front-end by [Ihor Orlovskyi](http://ihororlovskyi.com) (Lead Front-end Engineer at [Lucky Labs](http://lucky-labs.com) & [Rooster Studio](http://rooooster.com) Owner)
-
-Proudly hosted by [GitHub Pages](https://pages.github.com)
+#### Have fun! :)
