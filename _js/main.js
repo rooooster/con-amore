@@ -5,7 +5,7 @@ $('.js-anhor-nav').singlePageNav({
     currentClass: 'active',
     updateHash: true,
     easing: 'easeInOutExpo',
-    speed: 0,
+    speed: 800,
     // beforeStart: function() {
     //     console.log('begin scrolling');
     // },
