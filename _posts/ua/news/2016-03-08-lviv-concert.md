@@ -10,7 +10,7 @@ image: assets/img/news/lviv-concert.jpg
 title: "Гала-концерт Львів (фото)"
 description: "28 лютого Львів"
 
-og-image: http://rooooster.com/content/skoryk/news/lviv-concert.jpg
+og-image: http://rooooster.com/skoryk/assets/img/og-images/news/lviv-concert.jpg
 ---
 
 28 лютого у Львівській обласній філармонії відбувся Гала-концерт переможців конкурсу Скорика.

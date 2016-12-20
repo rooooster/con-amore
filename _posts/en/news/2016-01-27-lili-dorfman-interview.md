@@ -10,7 +10,7 @@ image: assets/img/news/lily-dorfman-interview.png
 title: "Lily Dorfman: We strongly support Kyiv, Ukraine and strive to build a line of our mutual cooperation"
 description: "We’ve recently made a short interview with a respected member of the jury, the famous pianist and pedagogue, Mrs. Lily Dorfman (Israel)"
 
-og-image: http://rooooster.com/content/skoryk/news/lily-dorfman-interview.jpg
+og-image: http://rooooster.com/skoryk/assets/img/og-images/news/lily-dorfman-interview.jpg
 ---
 
 **— Mrs. Dorfman, you will select participants of Myroslav Skoryk Competition for master classes in Germany ...**

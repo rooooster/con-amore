@@ -10,7 +10,7 @@ image: assets/img/news/first-tour-results.jpg
 title: "Результати І туру конкурсу (фото)"
 description: "17 лютого минув І тур конкурсного відбору"
 
-og-image: http://rooooster.com/content/skoryk/news/first-tour-results.jpg
+og-image: http://rooooster.com/skoryk/assets/img/og-images/news/first-tour-results.jpg
 ---
 
 17 лютого минув І тур конкурсного відбору.

@@ -10,7 +10,7 @@ image: assets/img/news/lily-dorfman-interview.png
 title: "Лілі Дорфман: Ми дуже підтримуємо Київ, Україну й прагнемо вибудувати лінію нашої взаємної співпраці"
 description: "Пропонуємо вашій увазі коротке інтерв'ю з поважним членом журі конкурсу, відомою піаністкою й педагогом пані Лілі Дорфман (Ізраїль)"
 
-og-image: http://rooooster.com/content/skoryk/news/lily-dorfman-interview.jpg
+og-image: http://rooooster.com/skoryk/assets/img/og-images/news/lily-dorfman-interview.jpg
 ---
 
 **— Пані Дорфман, ви відбиратимете учасників Конкурсу Мирослава Скорика для майстер-класів у Німеччині...**

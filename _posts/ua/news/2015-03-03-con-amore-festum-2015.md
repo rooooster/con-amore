@@ -10,7 +10,7 @@ image: assets/img/news/con-amore-festum-2015.png
 title: "Гала-концерт «Con Amore Festum» 2015 (фото)"
 description: "Проект, що ініціював «Конкурс Мирослава Скорика» 2016"
 
-og-image: http://rooooster.com/content/skoryk/news/con-amore-festum-2015.jpg
+og-image: http://rooooster.com/skoryk/assets/img/og-images/news/con-amore-festum-2015.jpg
 ---
 
 <div class="gallery">

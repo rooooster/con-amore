@@ -10,7 +10,7 @@ image: assets/img/news/anatoly-molotay-interview.jpg
 title: "Анатолій Молотай: Усе геніальне – просте!"
 description: "Анатолій Михайлович Молотай – диригент Президентського оркестру, розповів, чому варто проводити Перший Всеукраїнський відкритий музичний конкурс Мирослава Скорика та які є світові імена в українській музиці"
 
-og-image: http://rooooster.com/content/skoryk/news/anatoly-molotay-interview.jpg
+og-image: http://rooooster.com/skoryk/assets/img/og-images/news/anatoly-molotay-interview.jpg
 ---
 
 **— Анатолію Михайловичу, Ви самі – диригент, людина з неймовірним досвідом у музиці. А як Ви оцінюєте приз – зіграти з Мирославом Михайловичем та оркестром?**

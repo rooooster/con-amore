@@ -7,5 +7,5 @@ name: home
 title: "Skoryk Competition 2016"
 description: "Skoryk Competition 2016 - Всеукраинский открытый музыкальный конкурс Мирослава Скорика"
 
-og-image: http://rooooster.com/content/skoryk/home.png
+og-image: http://rooooster.com/skoryk/assets/img/og-images/home.png
 ---

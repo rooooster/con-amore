@@ -10,7 +10,7 @@ image: assets/img/news/competition-schedule.jpg
 title: "Розклад конкурсу"
 description: Розклад Всеукраїнського відкритого музичного конкурсу Мирослава Скорика
 
-og-image: http://rooooster.com/content/skoryk/news/competition-schedule.jpg
+og-image: http://rooooster.com/skoryk/assets/img/og-images/news/competition-schedule.jpg
 ---
 
 ## НМАУ ім. П. І. Чайковського
